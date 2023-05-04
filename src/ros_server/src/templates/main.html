@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Example</title>
+    <style>
+        .button-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .button-group button {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .button-group button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+    
+      
+</head>
+<body>
+    <div class="button-group">
+    <a href="{%url 'wheel'%}">Wheels</a>
+    <br>
+    <a href="{%url 'servo'%}">Servo</a>
+    <br>
+    <br>
+    <!-- HTML code for displaying the camera data -->
+<div>
+    <canvas id="canvas"></canvas>
+</div>
+
+<!-- HTML code for playing the mic data -->
+<div>
+    <audio id="audio"></audio>
+</div>
+
+<script>
+    // JavaScript code for receiving camera and mic data from Django view
+    var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
+    var cameraSocket = new WebSocket(ws_scheme + "://" + window.location.host + "/camera/");
+    var micSocket = new WebSocket(ws_scheme + "://" + window.location.host + "/mic/");
+
+    cameraSocket.onmessage = function(event) {
+        // display the camera data on the webpage
+    };
+
+    micSocket.onmessage = function(event) {
+        // play the mic data on the webpage
+    };
+</script>
+
+    <!-- <button onclick="location.href='index.html'">Button 4</button> -->
+    </div>
+</body>
+</html>

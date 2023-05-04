@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Control</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Robot Control</h1>
+
+    <!-- <form method="post"> -->
+        <!-- {%csrf_token%} -->
+        <label for="command">Enter a command:</label>
+        <input type="text" id="command" name="command">
+        <button type="submit">Send</button>
+    <!-- </form> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script>  
+        $(document).ready(function(){  
+        $("button").click(function(){  
+            $.ajax({
+                url: "control/", 
+                data:{
+                    command:$("#command").val()
+                },
+                success: function(response) {
+                // code to handle the response goes here
+                    console.log("Its success")
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    alert("Got an error")
+                }
+                });  
+        });  
+        });  
+    </script> 
+</body>
+</html>
