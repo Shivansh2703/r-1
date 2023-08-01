@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target compressed_image_transport[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o[0m

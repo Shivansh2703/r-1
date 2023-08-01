@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.002975] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.004745] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.008227] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.008819] (camera) JobStarted: {'identifier': 'camera'}
+[0.098780] (-) TimerEvent: {}
+[0.108861] (control) JobStarted: {'identifier': 'control'}
+[0.153090] (voice) JobStarted: {'identifier': 'voice'}
+[0.199087] (-) TimerEvent: {}
+[0.319509] (-) TimerEvent: {}
+[0.421712] (-) TimerEvent: {}
+[0.522533] (-) TimerEvent: {}
+[0.623869] (-) TimerEvent: {}
+[0.724974] (-) TimerEvent: {}
+[0.825860] (-) TimerEvent: {}
+[0.927391] (-) TimerEvent: {}
+[1.028189] (-) TimerEvent: {}
+[1.128883] (-) TimerEvent: {}
+[1.229629] (-) TimerEvent: {}
+[1.330510] (-) TimerEvent: {}
+[1.432150] (-) TimerEvent: {}
+[1.533117] (-) TimerEvent: {}
+[1.634087] (-) TimerEvent: {}
+[1.736434] (-) TimerEvent: {}
+[1.837558] (-) TimerEvent: {}
+[1.939303] (-) TimerEvent: {}
+[2.040259] (-) TimerEvent: {}
+[2.141307] (-) TimerEvent: {}
+[2.242968] (-) TimerEvent: {}
+[2.344125] (-) TimerEvent: {}
+[2.446002] (-) TimerEvent: {}
+[2.546839] (-) TimerEvent: {}
+[2.648213] (-) TimerEvent: {}
+[2.749809] (-) TimerEvent: {}
+[2.851528] (-) TimerEvent: {}
+[2.952995] (-) TimerEvent: {}
+[3.053828] (-) TimerEvent: {}
+[3.156057] (-) TimerEvent: {}
+[3.258353] (-) TimerEvent: {}
+[3.362353] (-) TimerEvent: {}
+[3.466725] (-) TimerEvent: {}
+[3.567607] (-) TimerEvent: {}
+[3.669584] (-) TimerEvent: {}
+[3.771500] (-) TimerEvent: {}
+[3.872640] (-) TimerEvent: {}
+[3.973775] (-) TimerEvent: {}
+[4.075054] (-) TimerEvent: {}
+[4.176100] (-) TimerEvent: {}
+[4.278626] (-) TimerEvent: {}
+[4.381855] (-) TimerEvent: {}
+[4.484168] (-) TimerEvent: {}
+[4.585624] (-) TimerEvent: {}
+[4.687489] (-) TimerEvent: {}
+[4.788703] (-) TimerEvent: {}
+[4.889943] (-) TimerEvent: {}
+[4.991348] (-) TimerEvent: {}
+[5.113347] (-) TimerEvent: {}
+[5.214773] (-) TimerEvent: {}
+[5.318619] (-) TimerEvent: {}
+[5.419884] (-) TimerEvent: {}
+[5.522427] (-) TimerEvent: {}
+[5.623190] (-) TimerEvent: {}
+[5.724199] (-) TimerEvent: {}
+[5.825234] (-) TimerEvent: {}
+[5.926196] (-) TimerEvent: {}
+[6.027920] (-) TimerEvent: {}
+[6.130708] (-) TimerEvent: {}
+[6.231514] (-) TimerEvent: {}
+[6.332402] (-) TimerEvent: {}
+[6.433955] (-) TimerEvent: {}
+[6.534758] (-) TimerEvent: {}
+[6.635527] (-) TimerEvent: {}
+[6.737608] (-) TimerEvent: {}
+[6.840003] (-) TimerEvent: {}
+[6.940848] (-) TimerEvent: {}
+[7.041711] (-) TimerEvent: {}
+[7.142938] (-) TimerEvent: {}
+[7.243710] (-) TimerEvent: {}
+[7.345162] (-) TimerEvent: {}
+[7.446570] (-) TimerEvent: {}
+[7.548852] (-) TimerEvent: {}
+[7.628402] (camera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera', 'build', '--build-base', '/home/r1/r1_ws/build/camera/build', 'install', '--record', '/home/r1/r1_ws/build/camera/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.0.118 60481 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'TERM_PROGRAM_VERSION': '1.79.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-93436c28-20e9-48b3-8048-67d49a1c6d12.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2cb52e48fe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/r1/r1_ws/build/camera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.118 60481 192.168.0.127 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[7.649053] (-) TimerEvent: {}
+[7.750692] (-) TimerEvent: {}
+[7.851622] (-) TimerEvent: {}
+[7.952430] (-) TimerEvent: {}
+[8.054270] (-) TimerEvent: {}
+[8.155162] (-) TimerEvent: {}
+[8.256004] (-) TimerEvent: {}
+[8.356986] (-) TimerEvent: {}
+[8.458320] (-) TimerEvent: {}
+[8.515771] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/r1/r1_ws/build/control/build', 'install', '--record', '/home/r1/r1_ws/build/control/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.0.118 60481 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'TERM_PROGRAM_VERSION': '1.79.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-93436c28-20e9-48b3-8048-67d49a1c6d12.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2cb52e48fe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/r1/r1_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.118 60481 192.168.0.127 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[8.558509] (-) TimerEvent: {}
+[8.659671] (-) TimerEvent: {}
+[8.761922] (-) TimerEvent: {}
+[8.863326] (-) TimerEvent: {}
+[8.966116] (-) TimerEvent: {}
+[9.070072] (-) TimerEvent: {}
+[9.118936] (voice) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/voice', 'build', '--build-base', '/home/r1/r1_ws/build/voice/build', 'install', '--record', '/home/r1/r1_ws/build/voice/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/voice', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.0.118 60481 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'TERM_PROGRAM_VERSION': '1.79.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-93436c28-20e9-48b3-8048-67d49a1c6d12.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2cb52e48fe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/r1/r1_ws/build/voice', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.118 60481 192.168.0.127 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[9.170330] (-) TimerEvent: {}
+[9.274531] (-) TimerEvent: {}
+[9.376410] (-) TimerEvent: {}
+[9.477239] (-) TimerEvent: {}
+[9.579595] (-) TimerEvent: {}
+[9.681870] (-) TimerEvent: {}
+[9.784387] (-) TimerEvent: {}
+[9.885313] (-) TimerEvent: {}
+[9.913773] (camera) StdoutLine: {'line': b'running egg_info\n'}
+[9.918232] (camera) StdoutLine: {'line': b'writing ../../build/camera/camera.egg-info/PKG-INFO\n'}
+[9.919942] (camera) StdoutLine: {'line': b'writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt\n'}
+[9.925960] (camera) StdoutLine: {'line': b'writing entry points to ../../build/camera/camera.egg-info/entry_points.txt\n'}
+[9.926832] (camera) StdoutLine: {'line': b'writing requirements to ../../build/camera/camera.egg-info/requires.txt\n'}
+[9.927540] (camera) StdoutLine: {'line': b'writing top-level names to ../../build/camera/camera.egg-info/top_level.txt\n'}
+[9.933961] (camera) StdoutLine: {'line': b"reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'\n"}
+[9.939467] (camera) StdoutLine: {'line': b"writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'\n"}
+[9.940685] (camera) StdoutLine: {'line': b'running build\n'}
+[9.941197] (camera) StdoutLine: {'line': b'running build_py\n'}
+[9.943777] (camera) StdoutLine: {'line': b'running install\n'}
+[9.944414] (camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.945126] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.945709] (camera) StdoutLine: {'line': b'running install_lib\n'}
+[9.953819] (camera) StdoutLine: {'line': b'running install_data\n'}
+[9.958522] (camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.965248] (camera) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.969962] (camera) StdoutLine: {'line': b'Copying ../../build/camera/camera.egg-info to /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info\n'}
+[9.974624] (camera) StdoutLine: {'line': b'running install_scripts\n'}
+[9.985522] (-) TimerEvent: {}
+[10.086534] (-) TimerEvent: {}
+[10.089818] (camera) StdoutLine: {'line': b'Installing frames_sub script to /home/r1/r1_ws/install/camera/lib/camera\n'}
+[10.092339] (camera) StdoutLine: {'line': b'Installing img_pub script to /home/r1/r1_ws/install/camera/lib/camera\n'}
+[10.095182] (camera) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/camera/install.log'\n"}
+[10.186683] (-) TimerEvent: {}
+[10.287880] (-) TimerEvent: {}
+[10.354489] (camera) CommandEnded: {'returncode': 0}
+[10.388723] (-) TimerEvent: {}
+[10.490809] (-) TimerEvent: {}
+[10.571138] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[10.590997] (-) TimerEvent: {}
+[10.692393] (-) TimerEvent: {}
+[10.794747] (-) TimerEvent: {}
+[10.895565] (-) TimerEvent: {}
+[10.998261] (-) TimerEvent: {}
+[11.094168] (control) StdoutLine: {'line': b'running egg_info\n'}
+[11.098400] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[11.099032] (-) TimerEvent: {}
+[11.101160] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[11.102850] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[11.105200] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[11.105843] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[11.117921] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[11.123121] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[11.125291] (control) StdoutLine: {'line': b'running build\n'}
+[11.126431] (control) StdoutLine: {'line': b'running build_py\n'}
+[11.129435] (control) StdoutLine: {'line': b'running install\n'}
+[11.131155] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.133184] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.133872] (control) StdoutLine: {'line': b'running install_lib\n'}
+[11.150952] (control) StdoutLine: {'line': b'running install_data\n'}
+[11.169716] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.170388] (control) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.170918] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[11.174490] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[11.199231] (-) TimerEvent: {}
+[11.281916] (voice) StdoutLine: {'line': b'running egg_info\n'}
+[11.286781] (voice) StdoutLine: {'line': b'writing ../../build/voice/voice.egg-info/PKG-INFO\n'}
+[11.288014] (voice) StdoutLine: {'line': b'writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt\n'}
+[11.288825] (control) StdoutLine: {'line': b'Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[11.289603] (voice) StdoutLine: {'line': b'writing entry points to ../../build/voice/voice.egg-info/entry_points.txt\n'}
+[11.290813] (control) StdoutLine: {'line': b'Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[11.291512] (voice) StdoutLine: {'line': b'writing requirements to ../../build/voice/voice.egg-info/requires.txt\n'}
+[11.298424] (voice) StdoutLine: {'line': b'writing top-level names to ../../build/voice/voice.egg-info/top_level.txt\n'}
+[11.299097] (control) StdoutLine: {'line': b'Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[11.299897] (-) TimerEvent: {}
+[11.301038] (control) StdoutLine: {'line': b'Installing us_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[11.310520] (control) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/control/install.log'\n"}
+[11.313750] (voice) StdoutLine: {'line': b"reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'\n"}
+[11.314935] (voice) StdoutLine: {'line': b"writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'\n"}
+[11.316316] (voice) StdoutLine: {'line': b'running build\n'}
+[11.340382] (voice) StdoutLine: {'line': b'running build_py\n'}
+[11.341456] (voice) StdoutLine: {'line': b'copying voice/detection_subscriber.py -> /home/r1/r1_ws/build/voice/build/lib/voice\n'}
+[11.348520] (voice) StdoutLine: {'line': b'running install\n'}
+[11.350093] (voice) StdoutLine: {'line': b'running install_lib\n'}
+[11.364824] (voice) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/voice/build/lib/voice/detection_subscriber.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice\n'}
+[11.365499] (voice) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/detection_subscriber.py to detection_subscriber.cpython-310.pyc\n'}
+[11.378798] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.380082] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.381061] (voice) StdoutLine: {'line': b'running install_data\n'}
+[11.398073] (voice) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.398849] (voice) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.399296] (voice) StdoutLine: {'line': b'Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info\n'}
+[11.399818] (voice) StdoutLine: {'line': b'running install_scripts\n'}
+[11.400253] (-) TimerEvent: {}
+[11.507644] (-) TimerEvent: {}
+[11.522462] (control) CommandEnded: {'returncode': 0}
+[11.526271] (voice) StdoutLine: {'line': b'Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice\n'}
+[11.527869] (voice) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'\n"}
+[11.613344] (-) TimerEvent: {}
+[11.665197] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[11.698505] (voice) CommandEnded: {'returncode': 0}
+[11.714404] (-) TimerEvent: {}
+[11.744663] (voice) JobEnded: {'identifier': 'voice', 'rc': 0}
+[11.749018] (-) EventReactorShutdown: {}

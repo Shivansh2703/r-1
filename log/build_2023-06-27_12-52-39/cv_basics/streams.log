@@ -1,0 +1,43 @@
+[8.147s] Invoking command in '/home/r1/r1_ws/src/cv_basics': PYTHONPATH=/home/r1/r1_ws/build/cv_basics/prefix_override:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_basics build --build-base /home/r1/r1_ws/build/cv_basics/build install --record /home/r1/r1_ws/build/cv_basics/install.log --single-version-externally-managed
+[10.068s] running egg_info
+[10.071s] creating ../../build/cv_basics/cv_basics.egg-info
+[10.073s] writing ../../build/cv_basics/cv_basics.egg-info/PKG-INFO
+[10.075s] writing dependency_links to ../../build/cv_basics/cv_basics.egg-info/dependency_links.txt
+[10.077s] writing entry points to ../../build/cv_basics/cv_basics.egg-info/entry_points.txt
+[10.078s] writing requirements to ../../build/cv_basics/cv_basics.egg-info/requires.txt
+[10.079s] writing top-level names to ../../build/cv_basics/cv_basics.egg-info/top_level.txt
+[10.081s] writing manifest file '../../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[10.094s] reading manifest file '../../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[10.099s] writing manifest file '../../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[10.100s] running build
+[10.101s] running build_py
+[10.102s] creating /home/r1/r1_ws/build/cv_basics/build
+[10.103s] creating /home/r1/r1_ws/build/cv_basics/build/lib
+[10.104s] creating /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics
+[10.105s] copying cv_basics/__init__.py -> /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics
+[10.106s] copying cv_basics/webcam_sub.py -> /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics
+[10.107s] copying cv_basics/webcam_pub.py -> /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics
+[10.108s] running install
+[10.110s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.111s]   warnings.warn(
+[10.112s] running install_lib
+[10.116s] creating /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics
+[10.117s] copying /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics/__init__.py -> /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics
+[10.119s] copying /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics/webcam_sub.py -> /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics
+[10.120s] copying /home/r1/r1_ws/build/cv_basics/build/lib/cv_basics/webcam_pub.py -> /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics
+[10.123s] byte-compiling /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics/__init__.py to __init__.cpython-310.pyc
+[10.125s] byte-compiling /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics/webcam_sub.py to webcam_sub.cpython-310.pyc
+[10.128s] byte-compiling /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics/webcam_pub.py to webcam_pub.cpython-310.pyc
+[10.130s] running install_data
+[10.134s] creating /home/r1/r1_ws/install/cv_basics/share/ament_index
+[10.135s] creating /home/r1/r1_ws/install/cv_basics/share/ament_index/resource_index
+[10.136s] creating /home/r1/r1_ws/install/cv_basics/share/ament_index/resource_index/packages
+[10.137s] copying resource/cv_basics -> /home/r1/r1_ws/install/cv_basics/share/ament_index/resource_index/packages
+[10.137s] copying package.xml -> /home/r1/r1_ws/install/cv_basics/share/cv_basics
+[10.138s] running install_egg_info
+[10.147s] Copying ../../build/cv_basics/cv_basics.egg-info to /home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages/cv_basics-0.0.0-py3.10.egg-info
+[10.157s] running install_scripts
+[10.275s] Installing img_pub script to /home/r1/r1_ws/install/cv_basics/lib/cv_basics
+[10.276s] Installing img_sub script to /home/r1/r1_ws/install/cv_basics/lib/cv_basics
+[10.278s] writing list of installed files to '/home/r1/r1_ws/build/cv_basics/install.log'
+[10.466s] Invoked command in '/home/r1/r1_ws/src/cv_basics' returned '0': PYTHONPATH=/home/r1/r1_ws/build/cv_basics/prefix_override:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_basics build --build-base /home/r1/r1_ws/build/cv_basics/build install --record /home/r1/r1_ws/build/cv_basics/install.log --single-version-externally-managed

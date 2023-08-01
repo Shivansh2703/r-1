@@ -1,0 +1,74 @@
+[0.070s] Invoking command in '/home/r1/r1_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/r1/r1_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera_info_manager
+[0.550s] -- The C compiler identification is GNU 11.3.0
+[0.972s] -- The CXX compiler identification is GNU 11.3.0
+[1.013s] -- Detecting C compiler ABI info
+[1.470s] -- Detecting C compiler ABI info - done
+[1.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.506s] -- Detecting C compile features
+[1.508s] -- Detecting C compile features - done
+[1.523s] -- Detecting CXX compiler ABI info
+[2.036s] -- Detecting CXX compiler ABI info - done
+[2.069s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.070s] -- Detecting CXX compile features
+[2.073s] -- Detecting CXX compile features - done
+[2.102s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.626s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.487s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[4.493s] -- Found camera_calibration_parsers: 4.3.0 (/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)
+[5.014s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.080s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.167s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.013s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.049s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.820s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.107s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.708s] -- Looking for pthread.h
+[8.198s] -- Looking for pthread.h - found
+[8.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.688s] -- Found Threads: TRUE  
+[10.367s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.712s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[10.741s] -- Found ament_cmake_lint_cmake: 0.12.6 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[10.771s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[11.316s] -- Configuring done
+[11.421s] -- Generating done
+[11.436s] -- Build files have been written to: /home/r1/r1_ws/build/camera_info_manager
+[11.509s] Invoked command in '/home/r1/r1_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/r1/r1_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera_info_manager
+[11.513s] Invoking command in '/home/r1/r1_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/r1/r1_ws/build/camera_info_manager -- -j4 -l4
+[11.800s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o[0m
+[28.906s] [100%] [32m[1mLinking CXX shared library libcamera_info_manager.so[0m
+[30.044s] [100%] Built target camera_info_manager
+[30.111s] Invoked command in '/home/r1/r1_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/r1/r1_ws/build/camera_info_manager -- -j4 -l4
+[30.270s] Invoking command in '/home/r1/r1_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/r1/r1_ws/build/camera_info_manager
+[30.312s] -- Install configuration: ""
+[30.318s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+[30.329s] -- Set runtime path of "/home/r1/r1_ws/install/camera_info_manager/lib/libcamera_info_manager.so" to ""
+[30.330s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager
+[30.331s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager
+[30.332s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp
+[30.333s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.h
+[30.335s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/visibility_control.h
+[30.337s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager
+[30.339s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager
+[30.341s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh
+[30.343s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv
+[30.345s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh
+[30.347s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv
+[30.354s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash
+[30.354s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh
+[30.356s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh
+[30.357s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv
+[30.358s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.dsv
+[30.359s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager
+[30.361s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport.cmake
+[30.363s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport-noconfig.cmake
+[30.365s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.367s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_targets-extras.cmake
+[30.369s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+[30.370s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+[30.371s] -- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.xml
+[30.398s] Invoked command in '/home/r1/r1_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/r1/r1_ws/build/camera_info_manager

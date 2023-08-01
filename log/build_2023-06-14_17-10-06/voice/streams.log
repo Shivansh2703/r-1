@@ -1,0 +1,23 @@
+[9.217s] Invoking command in '/home/r1/r1_ws/src/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed
+[12.089s] running egg_info
+[12.096s] writing ../../build/voice/voice.egg-info/PKG-INFO
+[12.103s] writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt
+[12.107s] writing entry points to ../../build/voice/voice.egg-info/entry_points.txt
+[12.111s] writing requirements to ../../build/voice/voice.egg-info/requires.txt
+[12.116s] writing top-level names to ../../build/voice/voice.egg-info/top_level.txt
+[12.130s] reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[12.137s] writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[12.141s] running build
+[12.147s] running build_py
+[12.152s] running install
+[12.157s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.158s]   warnings.warn(
+[12.162s] running install_lib
+[12.173s] running install_data
+[12.179s] running install_egg_info
+[12.190s] removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)
+[12.214s] Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info
+[12.227s] running install_scripts
+[12.517s] Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice
+[12.524s] writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'
+[13.007s] Invoked command in '/home/r1/r1_ws/src/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed

@@ -1,0 +1,32 @@
+[0.000000] (-) TimerEvent: {}
+[0.001107] (-) JobUnselected: {'identifier': 'camera'}
+[0.001338] (-) JobUnselected: {'identifier': 'control'}
+[0.001599] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.002562] (voice) JobStarted: {'identifier': 'voice'}
+[0.099190] (-) TimerEvent: {}
+[0.199980] (-) TimerEvent: {}
+[0.300787] (-) TimerEvent: {}
+[0.401625] (-) TimerEvent: {}
+[0.502342] (-) TimerEvent: {}
+[0.603057] (-) TimerEvent: {}
+[0.703754] (-) TimerEvent: {}
+[0.804462] (-) TimerEvent: {}
+[0.905101] (-) TimerEvent: {}
+[1.005871] (-) TimerEvent: {}
+[1.106583] (-) TimerEvent: {}
+[1.207250] (-) TimerEvent: {}
+[1.308091] (-) TimerEvent: {}
+[1.410968] (-) TimerEvent: {}
+[1.519854] (-) TimerEvent: {}
+[1.621028] (-) TimerEvent: {}
+[1.721777] (-) TimerEvent: {}
+[1.822458] (-) TimerEvent: {}
+[1.923133] (-) TimerEvent: {}
+[2.023908] (-) TimerEvent: {}
+[2.124645] (-) TimerEvent: {}
+[2.225317] (-) TimerEvent: {}
+[2.325997] (-) TimerEvent: {}
+[2.426801] (-) TimerEvent: {}
+[2.491269] (voice) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 105, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 81, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 171, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/r1/r1_ws/src/voice/setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n    def _initialize_master_working_set():\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n    f(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set\n    list(map(working_set.add_entry, sys.path))\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n    for dist in find_distributions(entry, True):\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path\n    path_item_entries = _by_version_descending(filtered)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending\n    return sorted(names, key=_by_version, reverse=True)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version\n    return [try_parse(part) for part in parts]\nKeyboardInterrupt\n\n'}
+[2.493665] (voice) JobEnded: {'identifier': 'voice', 'rc': 'SIGINT'}
+[2.502980] (-) EventReactorShutdown: {}

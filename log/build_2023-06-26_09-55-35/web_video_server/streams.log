@@ -1,0 +1,41 @@
+[4.311s] Invoking command in '/home/r1/r1_ws/build/web_video_server': /usr/bin/cmake /home/r1/r1_ws/src/web_video_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/web_video_server
+[4.353s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[4.353s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[4.354s]   CMake.
+[4.355s] 
+[4.355s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[4.355s]   CMake that the project does not need compatibility with older versions.
+[4.356s] 
+[4.357s] [0m
+[4.654s] -- The C compiler identification is GNU 11.3.0
+[4.990s] -- The CXX compiler identification is GNU 11.3.0
+[5.030s] -- Detecting C compiler ABI info
+[5.412s] -- Detecting C compiler ABI info - done
+[5.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.451s] -- Detecting C compile features
+[5.454s] -- Detecting C compile features - done
+[5.471s] -- Detecting CXX compiler ABI info
+[5.871s] -- Detecting CXX compiler ABI info - done
+[5.907s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.909s] -- Detecting CXX compile features
+[5.913s] -- Detecting CXX compile features - done
+[6.071s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[6.071s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[6.072s]   asked CMake to find a package configuration file provided by "catkin", but
+[6.072s]   CMake did not find one.
+[6.073s] 
+[6.074s]   Could not find a package configuration file provided by "catkin" with any
+[6.074s]   of the following names:
+[6.075s] 
+[6.076s]     catkinConfig.cmake
+[6.077s]     catkin-config.cmake
+[6.078s] 
+[6.079s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[6.079s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[6.080s]   provides a separate development package or SDK, be sure it has been
+[6.081s]   installed.
+[6.082s] 
+[6.082s] [0m
+[6.090s] -- Configuring incomplete, errors occurred!
+[6.091s] See also "/home/r1/r1_ws/build/web_video_server/CMakeFiles/CMakeOutput.log".
+[6.091s] Invoked command in '/home/r1/r1_ws/build/web_video_server' returned '1': /usr/bin/cmake /home/r1/r1_ws/src/web_video_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/web_video_server

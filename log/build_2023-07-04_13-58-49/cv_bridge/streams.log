@@ -1,0 +1,5 @@
+[0.199s] Invoking command in '/home/r1/r1_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/cv_bridge -- -j4 -l4
+[0.901s] [0mCMake Error: The source directory "/home/r1/r1_ws/src/vision_opencv/cv_bridge" does not exist.
+[0.901s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.942s] gmake: *** [Makefile:324: cmake_check_build_system] Error 1
+[2.047s] Invoked command in '/home/r1/r1_ws/build/cv_bridge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/cv_bridge -- -j4 -l4

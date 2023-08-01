@@ -1,0 +1,29 @@
+[6.487s] Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[8.063s] running egg_info
+[8.071s] writing ../../build/control/control.egg-info/PKG-INFO
+[8.075s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[8.075s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[8.076s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[8.077s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[8.083s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[8.089s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[8.107s] running build
+[8.107s] running build_py
+[8.108s] copying control/ultrasonic.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.116s] running install
+[8.120s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.121s]   warnings.warn(
+[8.122s] running install_lib
+[8.126s] copying /home/r1/r1_ws/build/control/build/lib/control/ultrasonic.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.127s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/ultrasonic.py to ultrasonic.cpython-310.pyc
+[8.127s] running install_data
+[8.138s] running install_egg_info
+[8.143s] removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[8.144s] Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[8.160s] running install_scripts
+[8.266s] Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control
+[8.271s] Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control
+[8.276s] Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control
+[8.281s] Installing us_pub script to /home/r1/r1_ws/install/control/lib/control
+[8.286s] writing list of installed files to '/home/r1/r1_ws/build/control/install.log'
+[8.634s] Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed

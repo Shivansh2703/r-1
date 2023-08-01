@@ -1,0 +1,99 @@
+[0.089s] Invoking command in '/home/r1/r1_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera_calibration_parsers
+[1.992s] -- The C compiler identification is GNU 11.3.0
+[4.287s] -- The CXX compiler identification is GNU 11.3.0
+[4.341s] -- Detecting C compiler ABI info
+[4.925s] -- Detecting C compiler ABI info - done
+[4.953s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.954s] -- Detecting C compile features
+[4.956s] -- Detecting C compile features - done
+[4.970s] -- Detecting CXX compiler ABI info
+[5.487s] -- Detecting CXX compiler ABI info - done
+[5.514s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.516s] -- Detecting CXX compile features
+[5.517s] -- Detecting CXX compile features - done
+[5.539s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.070s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[7.932s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[8.430s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.488s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.584s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.765s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.800s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.664s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.933s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.470s] -- Looking for pthread.h
+[11.945s] -- Looking for pthread.h - found
+[11.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.364s] -- Found Threads: TRUE  
+[13.196s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.832s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[13.896s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[13.920s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[13.947s] -- Found ament_cmake_lint_cmake: 0.12.6 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[13.976s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[14.014s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.513s] -- Configuring done
+[14.674s] -- Generating done
+[14.686s] -- Build files have been written to: /home/r1/r1_ws/build/camera_calibration_parsers
+[14.749s] Invoked command in '/home/r1/r1_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera_calibration_parsers
+[14.766s] Invoking command in '/home/r1/r1_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/camera_calibration_parsers -- -j4 -l4
+[15.047s] [  7%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[15.060s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.061s] [ 21%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[15.090s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[39.949s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[42.112s] [ 35%] Built target gtest_main
+[61.139s] [ 42%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[64.885s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[65.636s] [ 50%] Built target gtest
+[73.321s] [ 57%] [32m[1mLinking CXX shared library libcamera_calibration_parsers.so[0m
+[74.449s] [ 57%] Built target camera_calibration_parsers
+[74.565s] [ 64%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[79.842s] [ 71%] [32m[1mLinking CXX executable convert[0m
+[80.742s] [ 71%] Built target convert
+[80.863s] [ 78%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o[0m
+[91.129s] [ 85%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_yml[0m
+[92.121s] [ 85%] Built target camera_calibration_parsers-parse_yml
+[92.227s] [ 92%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o[0m
+[101.312s] [100%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_ini[0m
+[102.368s] [100%] Built target camera_calibration_parsers-parse_ini
+[102.429s] Invoked command in '/home/r1/r1_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/camera_calibration_parsers -- -j4 -l4
+[102.797s] Invoking command in '/home/r1/r1_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/camera_calibration_parsers
+[102.852s] -- Install configuration: ""
+[102.854s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[102.865s] -- Set runtime path of "/home/r1/r1_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""
+[102.867s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[102.872s] -- Set runtime path of "/home/r1/r1_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert" to ""
+[102.874s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers
+[102.876s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers
+[102.880s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp
+[102.886s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h
+[102.889s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp
+[102.891s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h
+[102.893s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp
+[102.896s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h
+[102.898s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp
+[102.900s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[102.904s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[102.907s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[102.911s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[102.917s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[102.921s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[102.927s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[102.930s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[102.932s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[102.935s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[102.938s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[102.942s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[102.944s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake
+[102.952s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake
+[102.961s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake
+[102.975s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.977s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[102.978s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[102.980s] -- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[103.001s] Invoked command in '/home/r1/r1_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/camera_calibration_parsers

@@ -1,0 +1,4 @@
+[console_scripts]
+img_pub = cv_basics.webcam_pub:main
+img_sub = cv_basics.webcam_sub:main
+

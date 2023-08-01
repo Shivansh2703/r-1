@@ -1,0 +1,32 @@
+[4.669s] Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[5.991s] running egg_info
+[5.994s] writing ../../build/control/control.egg-info/PKG-INFO
+[5.995s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[5.996s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[5.997s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[5.998s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[6.008s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.012s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.013s] running build
+[6.013s] running build_py
+[6.015s] copying control/infrared_right.py -> /home/r1/r1_ws/build/control/build/lib/control
+[6.017s] copying control/infrared_left.py -> /home/r1/r1_ws/build/control/build/lib/control
+[6.020s] running install
+[6.021s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.022s]   warnings.warn(
+[6.023s] running install_lib
+[6.026s] copying /home/r1/r1_ws/build/control/build/lib/control/infrared_right.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[6.027s] copying /home/r1/r1_ws/build/control/build/lib/control/infrared_left.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[6.031s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/infrared_right.py to infrared_right.cpython-310.pyc
+[6.037s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/infrared_left.py to infrared_left.cpython-310.pyc
+[6.040s] running install_data
+[6.042s] running install_egg_info
+[6.049s] removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.051s] Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[6.057s] running install_scripts
+[6.182s] Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control
+[6.184s] Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control
+[6.186s] Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control
+[6.187s] Installing us_pub script to /home/r1/r1_ws/install/control/lib/control
+[6.192s] writing list of installed files to '/home/r1/r1_ws/build/control/install.log'
+[6.401s] Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed

@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/PKG-INFO
+writing dependency_links to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/dependency_links.txt
+writing requirements to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/requires.txt
+writing top-level names to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/top_level.txt
+reading manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_egg_info
+removing '/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685-1.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info to /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685-1.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/r1/r1_ws/build/Adafruit_PCA9685/install.log'

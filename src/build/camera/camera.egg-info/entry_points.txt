@@ -1,0 +1,5 @@
+[console_scripts]
+detection_sub = camera.detection_subscriber:main
+frames_sub = camera.frame_subscriber:main
+img_pub = camera.camera_publisher:main
+

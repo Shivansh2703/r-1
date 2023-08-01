@@ -1,0 +1,44 @@
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:37[m[K:
+[01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:37[m[K:
+[01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h:60:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid compressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   60 |   void [01;31m[KadvertiseImpl[m[K(
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_subscriber.h:59:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid compressed_image_transport::CompressedSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   59 |   void [01;31m[KsubscribeImpl[m[K(
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/manifest.cpp:36[m[K:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h:60:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid compressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   60 |   void [01;31m[KadvertiseImpl[m[K(
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/manifest.cpp:37[m[K:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_subscriber.h:59:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid compressed_image_transport::CompressedSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   59 |   void [01;31m[KsubscribeImpl[m[K(
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:[m[K In member function ‘[01m[Kvoid compressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:67:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcompressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)[m[K’
+   67 |   [01;31m[KBase::advertiseImpl(node, base_topic, custom_qos)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h:39[m[K,
+                 from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = sensor_msgs::msg::CompressedImage_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >][m[K’
+  101 |   void [01;36m[KadvertiseImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:[m[K In member function ‘[01m[Kvirtual void compressed_image_transport::CompressedSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:78:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsubscribeImplWithOptions[m[K’ is not a member of ‘[01m[KBase[m[K’ {aka ‘[01m[Kimage_transport::SimpleSubscriberPlugin<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >[m[K’}
+   78 |     Base::[01;31m[KsubscribeImplWithOptions[m[K(node, base_topic, callback, custom_qos, options);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:76: CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:104: CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:90: CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/compressed_image_transport.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

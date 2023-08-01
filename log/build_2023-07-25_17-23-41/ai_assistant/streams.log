@@ -1,0 +1,22 @@
+[11.154s] Invoking command in '/home/r1/r1_ws/src/ai_assistant': PYTHONPATH=/home/r1/r1_ws/build/ai_assistant/prefix_override:/home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ai_assistant build --build-base /home/r1/r1_ws/build/ai_assistant/build install --record /home/r1/r1_ws/build/ai_assistant/install.log --single-version-externally-managed
+[13.219s] running egg_info
+[13.223s] writing ../../build/ai_assistant/ai_assistant.egg-info/PKG-INFO
+[13.226s] writing dependency_links to ../../build/ai_assistant/ai_assistant.egg-info/dependency_links.txt
+[13.228s] writing entry points to ../../build/ai_assistant/ai_assistant.egg-info/entry_points.txt
+[13.229s] writing requirements to ../../build/ai_assistant/ai_assistant.egg-info/requires.txt
+[13.230s] writing top-level names to ../../build/ai_assistant/ai_assistant.egg-info/top_level.txt
+[13.243s] reading manifest file '../../build/ai_assistant/ai_assistant.egg-info/SOURCES.txt'
+[13.248s] writing manifest file '../../build/ai_assistant/ai_assistant.egg-info/SOURCES.txt'
+[13.249s] running build
+[13.250s] running build_py
+[13.253s] running install
+[13.254s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.255s]   warnings.warn(
+[13.256s] running install_lib
+[13.265s] running install_data
+[13.269s] running install_egg_info
+[13.278s] removing '/home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant-0.0.0-py3.10.egg-info' (and everything under it)
+[13.283s] Copying ../../build/ai_assistant/ai_assistant.egg-info to /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant-0.0.0-py3.10.egg-info
+[13.293s] running install_scripts
+[13.426s] writing list of installed files to '/home/r1/r1_ws/build/ai_assistant/install.log'
+[13.613s] Invoked command in '/home/r1/r1_ws/src/ai_assistant' returned '0': PYTHONPATH=/home/r1/r1_ws/build/ai_assistant/prefix_override:/home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ai_assistant build --build-base /home/r1/r1_ws/build/ai_assistant/build install --record /home/r1/r1_ws/build/ai_assistant/install.log --single-version-externally-managed

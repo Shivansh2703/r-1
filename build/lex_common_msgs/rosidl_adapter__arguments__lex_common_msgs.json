@@ -1,0 +1,7 @@
+{
+  "package_name": "lex_common_msgs",
+  "non_idl_tuples": [
+    "/home/r1/r1_ws/src/lex-ros2/lex_common_msgs:msg/KeyValue.msg",
+    "/home/r1/r1_ws/src/lex-ros2/lex_common_msgs:srv/AudioTextConversation.srv"
+  ]
+}

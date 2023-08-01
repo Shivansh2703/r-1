@@ -1,0 +1,6 @@
+msg/KeyValue.idl
+msg/KeyValue.msg
+srv/AudioTextConversation.idl
+srv/AudioTextConversation.srv
+srv/AudioTextConversation_Request.msg
+srv/AudioTextConversation_Response.msg

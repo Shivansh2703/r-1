@@ -1,0 +1,10 @@
+[0.174s] Invoking command in '/home/r1/r1_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_geometry -- -j4 -l4
+[1.952s] [ 33%] Built target image_geometry
+[1.953s] [ 55%] Built target gtest_main
+[1.953s] [ 77%] Built target gtest
+[1.953s] failed to create symbolic link '/home/r1/r1_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory
+[1.954s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1
+[1.954s] gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2
+[1.955s] gmake[1]: *** Waiting for unfinished jobs....
+[1.955s] gmake: *** [Makefile:146: all] Error 2
+[1.958s] Invoked command in '/home/r1/r1_ws/build/image_geometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_geometry -- -j4 -l4

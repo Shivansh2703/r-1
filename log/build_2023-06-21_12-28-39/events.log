@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.001777] (-) JobUnselected: {'identifier': 'camera'}
+[0.002434] (-) JobUnselected: {'identifier': 'voice'}
+[0.004700] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.004927] (control) JobStarted: {'identifier': 'control'}
+[0.099043] (-) TimerEvent: {}
+[0.199758] (-) TimerEvent: {}
+[0.302097] (-) TimerEvent: {}
+[0.402800] (-) TimerEvent: {}
+[0.503566] (-) TimerEvent: {}
+[0.604296] (-) TimerEvent: {}
+[0.705017] (-) TimerEvent: {}
+[0.805867] (-) TimerEvent: {}
+[0.906532] (-) TimerEvent: {}
+[1.007331] (-) TimerEvent: {}
+[1.108042] (-) TimerEvent: {}
+[1.208758] (-) TimerEvent: {}
+[1.309548] (-) TimerEvent: {}
+[1.410924] (-) TimerEvent: {}
+[1.511856] (-) TimerEvent: {}
+[1.613086] (-) TimerEvent: {}
+[1.714208] (-) TimerEvent: {}
+[1.815253] (-) TimerEvent: {}
+[1.916510] (-) TimerEvent: {}
+[2.017215] (-) TimerEvent: {}
+[2.117940] (-) TimerEvent: {}
+[2.218621] (-) TimerEvent: {}
+[2.319309] (-) TimerEvent: {}
+[2.419974] (-) TimerEvent: {}
+[2.520653] (-) TimerEvent: {}
+[2.621457] (-) TimerEvent: {}
+[2.722191] (-) TimerEvent: {}
+[2.822975] (-) TimerEvent: {}
+[2.923834] (-) TimerEvent: {}
+[3.025129] (-) TimerEvent: {}
+[3.056371] (control) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 105, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 81, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 171, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/r1/r1_ws/src/control/setup.py", line 5, in <module>\n    setup(\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 153, in setup\n    return distutils.core.setup(**attrs)\n  File "/usr/lib/python3.10/distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/usr/lib/python3.10/distutils/dist.py", line 480, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1126, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/usr/lib/python3.10/distutils/dist.py", line 683, in handle_display_options\n    self.print_commands()\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 902, in print_commands\n    cmdclass = ep.resolve()\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2471, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "/usr/lib/python3/dist-packages/nose/__init__.py", line 1, in <module>\n    from nose.core import collector, main, run, run_exit, runmodule\n  File "/usr/lib/python3/dist-packages/nose/core.py", line 11, in <module>\n    from nose.config import Config, all_config_files\n  File "/usr/lib/python3/dist-packages/nose/config.py", line 9, in <module>\n    from nose.plugins.manager import NoPlugins\n  File "/usr/lib/python3/dist-packages/nose/plugins/__init__.py", line 185, in <module>\n    from nose.plugins.manager import *\n  File "/usr/lib/python3/dist-packages/nose/plugins/manager.py", line 187, in <module>\n    class NoPlugins(object):\nKeyboardInterrupt\n\n'}
+[3.058988] (control) JobEnded: {'identifier': 'control', 'rc': 'SIGINT'}
+[3.068072] (-) EventReactorShutdown: {}

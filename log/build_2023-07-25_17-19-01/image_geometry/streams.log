@@ -1,0 +1,5 @@
+[0.191s] Invoking command in '/home/r1/r1_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_geometry -- -j4 -l4
+[0.954s] [0mCMake Error: The source directory "/home/r1/r1_ws/src/vision_opencv/image_geometry" does not exist.
+[0.954s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.995s] gmake: *** [Makefile:391: cmake_check_build_system] Error 1
+[2.445s] Invoked command in '/home/r1/r1_ws/build/image_geometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_geometry -- -j4 -l4

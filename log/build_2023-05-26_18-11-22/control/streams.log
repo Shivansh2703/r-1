@@ -1,0 +1,22 @@
+[4.902s] Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[6.278s] running egg_info
+[6.282s] writing ../../build/control/control.egg-info/PKG-INFO
+[6.286s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[6.293s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[6.298s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[6.304s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[6.315s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.319s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.320s] running build
+[6.321s] running build_py
+[6.323s] running install
+[6.324s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.325s]   warnings.warn(
+[6.327s] running install_lib
+[6.334s] running install_data
+[6.339s] running install_egg_info
+[6.345s] removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.348s] Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[6.356s] running install_scripts
+[6.456s] writing list of installed files to '/home/r1/r1_ws/build/control/install.log'
+[6.681s] Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed

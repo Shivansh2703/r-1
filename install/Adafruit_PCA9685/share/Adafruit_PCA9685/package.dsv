@@ -1,0 +1,3 @@
+source;share/Adafruit_PCA9685/hook/pythonpath.ps1
+source;share/Adafruit_PCA9685/hook/pythonpath.dsv
+source;share/Adafruit_PCA9685/hook/pythonpath.sh

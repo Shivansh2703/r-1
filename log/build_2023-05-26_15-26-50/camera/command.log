@@ -1,0 +1,2 @@
+Invoking command in '/home/r1/r1_ws/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/camera -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera
+Invoked command in '/home/r1/r1_ws/build/camera' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/camera -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera

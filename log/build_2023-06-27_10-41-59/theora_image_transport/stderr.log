@@ -1,0 +1,34 @@
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:39[m[K,
+                 from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_subscriber.cpp:37[m[K:
+[01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_subscriber.cpp:[m[K In member function ‘[01m[Kvirtual void theora_image_transport::TheoraSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, uint32_t, rmw_qos_profile_t)[m[K’:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_subscriber.cpp:85:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktheora_image_transport::TheoraSubscriber::subscribeImpl(rclcpp::Node*&, const string&, const Callback&, rmw_qos_profile_t&)[m[K’
+   85 |   [01;31m[KBase::subscribeImpl(node, base_topic, callback, custom_qos)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_subscriber.h:35[m[K,
+                 from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_subscriber.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.hpp:111:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::SimpleSubscriberPlugin<M>::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = theora_image_transport::msg::Packet_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; image_transport::SubscriberPlugin::Callback = std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  111 |   void [01;36m[KsubscribeImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.hpp:111:8:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 4 provided
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void theora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*, const string&, uint32_t, rmw_qos_profile_t)[m[K’:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:90:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktheora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)[m[K’
+   90 |   [01;31m[KBase::advertiseImpl(node, base_topic, custom_qos)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:38[m[K,
+                 from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = theora_image_transport::msg::Packet_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >][m[K’
+  101 |   void [01;36m[KadvertiseImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:76: CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:90: CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/theora_image_transport_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

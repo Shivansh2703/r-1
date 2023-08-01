@@ -1,0 +1,19 @@
+{
+    "intents":[
+        {
+            "tag":"open",
+            "patterns":["open","launch","start","visit"
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"walk",
+            "patterns":["walk","run","move","go","come"
+            ],
+            "responses":["walk"
+            ]
+        }
+
+    ]
+}

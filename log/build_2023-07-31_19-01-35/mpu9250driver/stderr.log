@@ -1,0 +1,8 @@
+[01m[K/home/r1/r1_ws/src/mpu9250_driver/lib/i2c/src/LinuxI2cCommunicator.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+    6 | #include [01;31m[K<i2c/smbus.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [lib/i2c/CMakeFiles/linux_i2c_communicator.dir/build.make:76: lib/i2c/CMakeFiles/linux_i2c_communicator.dir/src/LinuxI2cCommunicator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:214: lib/i2c/CMakeFiles/linux_i2c_communicator.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

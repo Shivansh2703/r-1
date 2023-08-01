@@ -1,0 +1,37 @@
+[8.757s] Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[12.090s] running egg_info
+[12.096s] writing ../../build/control/control.egg-info/PKG-INFO
+[12.109s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[12.111s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[12.112s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[12.114s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[12.127s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[12.132s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[12.132s] running build
+[12.133s] running build_py
+[12.134s] copying control/sensors.py -> /home/r1/r1_ws/build/control/build/lib/control
+[12.141s] copying control/base.py -> /home/r1/r1_ws/build/control/build/lib/control
+[12.143s] running install
+[12.143s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.144s]   warnings.warn(
+[12.149s] running install_lib
+[12.149s] copying /home/r1/r1_ws/build/control/build/lib/control/sensors.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[12.155s] copying /home/r1/r1_ws/build/control/build/lib/control/base.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[12.155s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/sensors.py to sensors.cpython-310.pyc
+[12.161s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/base.py to base.cpython-310.pyc
+[12.162s]   File "/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/base.py", line 26
+[12.163s]     'sensors_pub'
+[12.163s]     ^^^^^^^^^^^^^
+[12.164s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[12.164s] 
+[12.171s] running install_data
+[12.197s] running install_egg_info
+[12.197s] removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[12.198s] Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[12.199s] running install_scripts
+[12.312s] Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control
+[12.313s] Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control
+[12.314s] Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control
+[12.315s] Installing us_pub script to /home/r1/r1_ws/install/control/lib/control
+[12.318s] writing list of installed files to '/home/r1/r1_ws/build/control/install.log'
+[12.512s] Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed

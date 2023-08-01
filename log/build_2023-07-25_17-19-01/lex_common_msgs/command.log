@@ -1,0 +1,1 @@
+Invoking command in '/home/r1/r1_ws/build/lex_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/lex_common_msgs -- -j4 -l4

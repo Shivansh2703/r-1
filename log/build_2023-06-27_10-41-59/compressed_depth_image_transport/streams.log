@@ -1,0 +1,68 @@
+[0.150s] Invoking command in '/home/r1/r1_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/compressed_depth_image_transport
+[0.509s] -- The C compiler identification is GNU 11.3.0
+[0.873s] -- The CXX compiler identification is GNU 11.3.0
+[0.953s] -- Detecting C compiler ABI info
+[1.524s] -- Detecting C compiler ABI info - done
+[1.550s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.552s] -- Detecting C compile features
+[1.555s] -- Detecting C compile features - done
+[1.580s] -- Detecting CXX compiler ABI info
+[2.163s] -- Detecting CXX compiler ABI info - done
+[2.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.197s] -- Detecting CXX compile features
+[2.201s] -- Detecting CXX compile features - done
+[2.238s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.675s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.476s] -- Found image_transport: 4.3.0 (/home/r1/r1_ws/install/image_transport/share/image_transport/cmake)
+[4.943s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.998s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.070s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.771s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.801s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.452s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.697s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.117s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.222s] -- Looking for pthread.h
+[7.680s] -- Looking for pthread.h - found
+[7.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.114s] -- Found Threads: TRUE  
+[9.888s] -- Found cv_bridge: 3.4.0 (/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake)
+[10.039s] -- Found OpenCV: /usr (found version "4.5.4") 
+[10.517s] -- Configuring done
+[10.631s] -- Generating done
+[10.642s] -- Build files have been written to: /home/r1/r1_ws/build/compressed_depth_image_transport
+[10.701s] Invoked command in '/home/r1/r1_ws/build/compressed_depth_image_transport' returned '0': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/compressed_depth_image_transport
+[10.711s] Invoking command in '/home/r1/r1_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/r1/r1_ws/build/compressed_depth_image_transport -- -j4 -l4
+[11.045s] [ 20%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o[0m
+[11.081s] [ 40%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o[0m
+[11.092s] [ 60%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_subscriber.cpp.o[0m
+[13.517s] In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:36[m[K:
+[13.517s] [01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[13.518s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[13.518s]       |  [01;35m[K^~~~~~~[m[K
+[28.983s] In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:35[m[K:
+[28.985s] [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h:53:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void compressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[28.987s]    53 |   virtual void [01;31m[KadvertiseImpl[m[K(
+[28.996s]       |                [01;31m[K^~~~~~~~~~~~~[m[K
+[31.360s] In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/manifest.cpp:36[m[K:
+[31.361s] [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h:53:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void compressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[31.362s]    53 |   virtual void [01;31m[KadvertiseImpl[m[K(
+[31.364s]       |                [01;31m[K^~~~~~~~~~~~~[m[K
+[49.403s] [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void compressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’:
+[49.404s] [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:66:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcompressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)[m[K’
+[49.405s]    66 |   [01;31m[KBase::advertiseImpl(node, base_topic, custom_qos)[m[K;
+[49.412s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[49.413s] In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h:37[m[K,
+[49.414s]                  from [01m[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:35[m[K:
+[49.414s] [01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = sensor_msgs::msg::CompressedImage_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >][m[K’
+[49.415s]   101 |   void [01;36m[KadvertiseImpl[m[K(
+[49.416s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[49.417s] [01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[62.907s] gmake[2]: *** [CMakeFiles/compressed_depth_image_transport.dir/build.make:104: CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o] Error 1
+[62.908s] gmake[2]: *** Waiting for unfinished jobs....
+[63.251s] gmake[2]: *** [CMakeFiles/compressed_depth_image_transport.dir/build.make:76: CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o] Error 1
+[87.814s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/compressed_depth_image_transport.dir/all] Error 2
+[87.815s] gmake: *** [Makefile:146: all] Error 2

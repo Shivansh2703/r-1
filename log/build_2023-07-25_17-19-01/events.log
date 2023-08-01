@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.001794] (Adafruit_PCA9685) JobQueued: {'identifier': 'Adafruit_PCA9685', 'dependencies': OrderedDict()}
+[0.002337] (ai_assistant) JobQueued: {'identifier': 'ai_assistant', 'dependencies': OrderedDict()}
+[0.002426] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.004893] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.005111] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.005387] (lex_common_msgs) JobQueued: {'identifier': 'lex_common_msgs', 'dependencies': OrderedDict()}
+[0.005541] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.005623] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.005711] (cv_basics) JobQueued: {'identifier': 'cv_basics', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.005791] (lex_node) JobQueued: {'identifier': 'lex_node', 'dependencies': OrderedDict([('lex_common_msgs', '/home/r1/r1_ws/install/lex_common_msgs')])}
+[0.005870] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.005949] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_geometry', '/home/r1/r1_ws/install/image_geometry')])}
+[0.006036] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.081633] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.100311] (-) TimerEvent: {}
+[0.122860] (lex_common_msgs) JobStarted: {'identifier': 'lex_common_msgs'}
+[0.161850] (Adafruit_PCA9685) JobStarted: {'identifier': 'Adafruit_PCA9685'}
+[0.201349] (-) TimerEvent: {}
+[0.208702] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.214311] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[0.217310] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/cv_bridge', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.13 52052 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.13 52052 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.238154] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'cmake'}
+[0.259583] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'build'}
+[0.261306] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/image_geometry', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.13 52052 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.13 52052 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.274016] (lex_common_msgs) JobProgress: {'identifier': 'lex_common_msgs', 'progress': 'cmake'}
+[0.301657] (-) TimerEvent: {}
+[0.309245] (lex_common_msgs) JobProgress: {'identifier': 'lex_common_msgs', 'progress': 'build'}
+[0.310679] (lex_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/lex_common_msgs', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/lex_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.13 52052 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/lex_common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.13 52052 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.401808] (-) TimerEvent: {}
+[0.502595] (-) TimerEvent: {}
+[0.603472] (-) TimerEvent: {}
+[0.704309] (-) TimerEvent: {}
+[0.805130] (-) TimerEvent: {}
+[0.905822] (-) TimerEvent: {}
+[1.006574] (-) TimerEvent: {}
+[1.035396] (image_geometry) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/r1/r1_ws/src/vision_opencv/image_geometry" does not exist.\n'}
+[1.036066] (image_geometry) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[1.066912] (cv_bridge) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/r1/r1_ws/src/vision_opencv/cv_bridge" does not exist.\n'}
+[1.067760] (cv_bridge) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[1.076156] (cv_bridge) StderrLine: {'line': b'gmake: *** [Makefile:324: cmake_check_build_system] Error 1\n'}
+[1.076809] (image_geometry) StderrLine: {'line': b'gmake: *** [Makefile:391: cmake_check_build_system] Error 1\n'}
+[1.106742] (-) TimerEvent: {}
+[1.207533] (-) TimerEvent: {}
+[1.272891] (lex_common_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.307727] (-) TimerEvent: {}
+[1.364654] (lex_common_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.406167] (lex_common_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_lex_common_msgs\n'}
+[1.408029] (-) TimerEvent: {}
+[1.509146] (-) TimerEvent: {}
+[1.610765] (-) TimerEvent: {}
+[1.711647] (-) TimerEvent: {}
+[1.812514] (-) TimerEvent: {}
+[1.913521] (-) TimerEvent: {}
+[2.014953] (-) TimerEvent: {}
+[2.115930] (-) TimerEvent: {}
+[2.218122] (-) TimerEvent: {}
+[2.320418] (-) TimerEvent: {}
+[2.422359] (-) TimerEvent: {}
+[2.526110] (image_geometry) CommandEnded: {'returncode': 2}
+[2.527557] (-) TimerEvent: {}
+[2.548794] (cv_bridge) CommandEnded: {'returncode': 2}
+[2.627780] (-) TimerEvent: {}
+[2.766075] (-) TimerEvent: {}
+[2.867260] (-) TimerEvent: {}
+[2.968032] (-) TimerEvent: {}
+[3.069342] (-) TimerEvent: {}
+[3.170225] (-) TimerEvent: {}
+[3.277014] (-) TimerEvent: {}
+[3.372264] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 2}
+[3.380081] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 'SIGINT'}
+[3.382250] (-) TimerEvent: {}
+[3.483496] (-) TimerEvent: {}
+[3.585044] (-) TimerEvent: {}
+[3.686934] (-) TimerEvent: {}
+[3.788005] (-) TimerEvent: {}
+[3.889229] (-) TimerEvent: {}
+[3.990523] (-) TimerEvent: {}
+[4.050171] (lex_common_msgs) StdoutLine: {'line': b'[  5%] Built target lex_common_msgs__cpp\n'}
+[4.089465] (lex_common_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.090603] (-) TimerEvent: {}
+[4.092399] (lex_common_msgs) StdoutLine: {'line': b'creating lex_common_msgs.egg-info\n'}
+[4.093743] (lex_common_msgs) StdoutLine: {'line': b'writing lex_common_msgs.egg-info/PKG-INFO\n'}
+[4.094981] (lex_common_msgs) StdoutLine: {'line': b'writing dependency_links to lex_common_msgs.egg-info/dependency_links.txt\n'}
+[4.095876] (lex_common_msgs) StdoutLine: {'line': b'writing top-level names to lex_common_msgs.egg-info/top_level.txt\n'}
+[4.097201] (lex_common_msgs) StdoutLine: {'line': b"writing manifest file 'lex_common_msgs.egg-info/SOURCES.txt'\n"}
+[4.127660] (lex_common_msgs) StdoutLine: {'line': b"reading manifest file 'lex_common_msgs.egg-info/SOURCES.txt'\n"}
+[4.135501] (lex_common_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/lex_common_msgs/msg/detail/key_value__functions.c.o\x1b[0m\n'}
+[4.137224] (lex_common_msgs) StdoutLine: {'line': b"writing manifest file 'lex_common_msgs.egg-info/SOURCES.txt'\n"}
+[4.149437] (lex_common_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.164156] (lex_common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.190972] (-) TimerEvent: {}
+[4.294058] (-) TimerEvent: {}
+[4.369978] (lex_common_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_lex_common_msgs_egg\n'}
+[4.394231] (-) TimerEvent: {}
+[4.495299] (-) TimerEvent: {}
+[4.588318] (lex_common_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.595528] (-) TimerEvent: {}
+[4.696426] (-) TimerEvent: {}
+[4.797456] (-) TimerEvent: {}
+[4.898305] (-) TimerEvent: {}
+[5.000156] (-) TimerEvent: {}
+[5.101987] (-) TimerEvent: {}
+[5.203442] (-) TimerEvent: {}
+[5.304253] (-) TimerEvent: {}
+[5.406163] (-) TimerEvent: {}
+[5.508161] (-) TimerEvent: {}
+[5.609964] (-) TimerEvent: {}
+[5.712406] (-) TimerEvent: {}
+[5.813353] (-) TimerEvent: {}
+[5.916145] (-) TimerEvent: {}
+[6.016949] (-) TimerEvent: {}
+[6.098209] (lex_common_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lex_common_msgs/msg/key_value__type_support.cpp.o\x1b[0m\n'}
+[6.117178] (-) TimerEvent: {}
+[6.218211] (-) TimerEvent: {}
+[6.319080] (-) TimerEvent: {}
+[6.419848] (-) TimerEvent: {}
+[6.475759] (lex_common_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lex_common_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o\x1b[0m\n'}
+[6.520054] (-) TimerEvent: {}
+[6.620820] (-) TimerEvent: {}
+[6.721620] (-) TimerEvent: {}
+[6.822435] (-) TimerEvent: {}
+[6.838823] (lex_common_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lex_common_msgs/msg/detail/key_value__type_support.cpp.o\x1b[0m\n'}
+[6.922641] (-) TimerEvent: {}
+[7.023591] (-) TimerEvent: {}
+[7.124699] (-) TimerEvent: {}
+[7.225758] (-) TimerEvent: {}
+[7.237681] (lex_common_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/lex_common_msgs/srv/detail/audio_text_conversation__functions.c.o\x1b[0m\n'}
+[7.325967] (-) TimerEvent: {}
+[7.426790] (-) TimerEvent: {}
+[7.527540] (-) TimerEvent: {}
+[7.568589] (lex_common_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library liblex_common_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.627765] (-) TimerEvent: {}
+[7.761986] (-) TimerEvent: {}
+[7.862877] (-) TimerEvent: {}
+[7.963640] (-) TimerEvent: {}
+[8.064591] (-) TimerEvent: {}
+[8.165609] (-) TimerEvent: {}
+[8.266647] (-) TimerEvent: {}
+[8.367553] (-) TimerEvent: {}
+[8.468448] (-) TimerEvent: {}
+[8.569553] (-) TimerEvent: {}
+[8.670902] (-) TimerEvent: {}
+[8.772641] (-) TimerEvent: {}
+[8.873742] (-) TimerEvent: {}
+[8.874800] (lex_common_msgs) StdoutLine: {'line': b'[ 28%] Built target lex_common_msgs__rosidl_generator_c\n'}
+[8.917392] (lex_common_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lex_common_msgs/srv/detail/dds_fastrtps/audio_text_conversation__type_support.cpp.o\x1b[0m\n'}
+[8.974006] (-) TimerEvent: {}
+[9.075778] (-) TimerEvent: {}
+[9.177199] (-) TimerEvent: {}
+[9.278405] (-) TimerEvent: {}
+[9.380270] (-) TimerEvent: {}
+[9.481924] (-) TimerEvent: {}
+[9.583559] (-) TimerEvent: {}
+[9.666268] (Adafruit_PCA9685) JobEnded: {'identifier': 'Adafruit_PCA9685', 'rc': 'SIGINT'}
+[9.683752] (-) TimerEvent: {}
+[9.784615] (-) TimerEvent: {}
+[9.885356] (-) TimerEvent: {}
+[9.986264] (-) TimerEvent: {}
+[10.087442] (-) TimerEvent: {}
+[10.188385] (-) TimerEvent: {}
+[10.289510] (-) TimerEvent: {}
+[10.390353] (-) TimerEvent: {}
+[10.491357] (-) TimerEvent: {}
+[10.592100] (-) TimerEvent: {}
+[10.693229] (-) TimerEvent: {}
+[10.794492] (-) TimerEvent: {}
+[10.895472] (-) TimerEvent: {}
+[10.996728] (-) TimerEvent: {}
+[11.097639] (-) TimerEvent: {}
+[11.198703] (-) TimerEvent: {}
+[11.300051] (-) TimerEvent: {}
+[11.401121] (-) TimerEvent: {}
+[11.502334] (-) TimerEvent: {}
+[11.603427] (-) TimerEvent: {}
+[11.704390] (-) TimerEvent: {}
+[11.805412] (-) TimerEvent: {}
+[11.873588] (lex_common_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lex_common_msgs/srv/audio_text_conversation__type_support.cpp.o\x1b[0m\n'}
+[11.905761] (-) TimerEvent: {}
+[12.007100] (-) TimerEvent: {}
+[12.108983] (-) TimerEvent: {}
+[12.210059] (-) TimerEvent: {}
+[12.311356] (-) TimerEvent: {}
+[12.412444] (-) TimerEvent: {}
+[12.513209] (-) TimerEvent: {}
+[12.614158] (-) TimerEvent: {}
+[12.617014] (lex_common_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lex_common_msgs/srv/detail/audio_text_conversation__type_support.cpp.o\x1b[0m\n'}
+[12.650056] (lex_common_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.714387] (-) TimerEvent: {}
+[12.816039] (-) TimerEvent: {}
+[12.917533] (-) TimerEvent: {}
+[13.019088] (-) TimerEvent: {}
+[13.058251] (lex_common_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.119353] (-) TimerEvent: {}
+[13.221180] (-) TimerEvent: {}
+[13.322857] (-) TimerEvent: {}
+[13.423847] (-) TimerEvent: {}
+[13.482243] (lex_common_msgs) StdoutLine: {'line': b'[ 41%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[13.524122] (-) TimerEvent: {}
+[13.552858] (lex_common_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.616666] (lex_common_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.624322] (-) TimerEvent: {}
+[13.725979] (-) TimerEvent: {}
+[13.827355] (-) TimerEvent: {}
+[13.849045] (lex_common_msgs) StdoutLine: {'line': b'[ 46%] Built target lex_common_msgs__rosidl_typesupport_cpp\n'}
+[13.917374] (lex_common_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.927617] (-) TimerEvent: {}
+[14.029258] (-) TimerEvent: {}
+[14.130736] (-) TimerEvent: {}
+[14.232285] (-) TimerEvent: {}
+[14.333874] (-) TimerEvent: {}
+[14.435281] (-) TimerEvent: {}
+[14.536872] (-) TimerEvent: {}
+[14.639393] (-) TimerEvent: {}
+[14.741243] (-) TimerEvent: {}
+[14.842764] (-) TimerEvent: {}
+[14.850063] (lex_common_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lex_common_msgs/msg/detail/key_value__type_support_c.cpp.o\x1b[0m\n'}
+[14.943021] (-) TimerEvent: {}
+[15.044387] (-) TimerEvent: {}
+[15.145796] (-) TimerEvent: {}
+[15.248051] (-) TimerEvent: {}
+[15.349769] (-) TimerEvent: {}
+[15.451464] (-) TimerEvent: {}
+[15.554366] (-) TimerEvent: {}
+[15.656138] (-) TimerEvent: {}
+[15.657766] (lex_common_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/msg/detail/key_value__type_support.c.o\x1b[0m\n'}
+[15.680370] (lex_common_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lex_common_msgs/msg/key_value__type_support.cpp.o\x1b[0m\n'}
+[15.739586] (lex_common_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.756358] (-) TimerEvent: {}
+[15.857896] (-) TimerEvent: {}
+[15.868255] (lex_common_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lex_common_msgs/srv/audio_text_conversation__type_support.cpp.o\x1b[0m\n'}
+[15.880230] (lex_common_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c.o\x1b[0m\n'}
+[15.958087] (-) TimerEvent: {}
+[16.059302] (-) TimerEvent: {}
+[16.089488] (lex_common_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.156017] (lex_common_msgs) StdoutLine: {'line': b'[ 66%] Built target lex_common_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.159532] (-) TimerEvent: {}
+[16.206393] (lex_common_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support_c.cpp.o\x1b[0m\n'}
+[16.221675] (lex_common_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library liblex_common_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.259889] (-) TimerEvent: {}
+[16.324557] (lex_common_msgs) StdoutLine: {'line': b'[ 71%] Built target lex_common_msgs__rosidl_typesupport_c\n'}
+[16.360103] (-) TimerEvent: {}
+[16.393708] (lex_common_msgs) StdoutLine: {'line': b'[ 71%] Built target lex_common_msgs__rosidl_typesupport_introspection_c\n'}
+[16.460325] (-) TimerEvent: {}
+[16.561979] (-) TimerEvent: {}
+[16.663631] (-) TimerEvent: {}
+[16.765372] (-) TimerEvent: {}
+[16.867671] (-) TimerEvent: {}
+[16.968425] (-) TimerEvent: {}
+[17.069286] (-) TimerEvent: {}
+[17.170035] (-) TimerEvent: {}
+[17.270858] (-) TimerEvent: {}
+[17.371681] (-) TimerEvent: {}
+[17.472386] (-) TimerEvent: {}
+[17.573147] (-) TimerEvent: {}
+[17.673871] (-) TimerEvent: {}
+[17.774649] (-) TimerEvent: {}
+[17.828655] (lex_common_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.874856] (-) TimerEvent: {}
+[17.975707] (-) TimerEvent: {}
+[18.076556] (-) TimerEvent: {}
+[18.152278] (lex_common_msgs) StdoutLine: {'line': b'[ 74%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.176761] (-) TimerEvent: {}
+[18.256290] (lex_common_msgs) StdoutLine: {'line': b'[ 74%] Built target lex_common_msgs\n'}
+[18.276948] (-) TimerEvent: {}
+[18.360003] (lex_common_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.377151] (-) TimerEvent: {}
+[18.478010] (-) TimerEvent: {}
+[18.578659] (-) TimerEvent: {}
+[18.679380] (-) TimerEvent: {}
+[18.780017] (-) TimerEvent: {}
+[18.880679] (-) TimerEvent: {}
+[18.981362] (-) TimerEvent: {}
+[19.081997] (-) TimerEvent: {}
+[19.182727] (-) TimerEvent: {}
+[19.283308] (-) TimerEvent: {}
+[19.383923] (-) TimerEvent: {}
+[19.484561] (-) TimerEvent: {}
+[19.585199] (-) TimerEvent: {}
+[19.685788] (-) TimerEvent: {}
+[19.786427] (-) TimerEvent: {}
+[19.887086] (-) TimerEvent: {}
+[19.987682] (-) TimerEvent: {}
+[20.088357] (-) TimerEvent: {}
+[20.188988] (-) TimerEvent: {}
+[20.289588] (-) TimerEvent: {}
+[20.390393] (-) TimerEvent: {}
+[20.491628] (-) TimerEvent: {}
+[20.532743] (lex_common_msgs) StdoutLine: {'line': b'[ 76%] Built target lex_common_msgs__py\n'}
+[20.591816] (-) TimerEvent: {}
+[20.643865] (lex_common_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/lex_common_msgs/msg/_key_value_s.c.o\x1b[0m\n'}
+[20.646043] (lex_common_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/lex_common_msgs/srv/_audio_text_conversation_s.c.o\x1b[0m\n'}
+[20.692013] (-) TimerEvent: {}
+[20.792788] (-) TimerEvent: {}
+[20.893566] (-) TimerEvent: {}
+[20.994397] (-) TimerEvent: {}
+[21.095326] (-) TimerEvent: {}
+[21.196124] (-) TimerEvent: {}
+[21.297072] (-) TimerEvent: {}
+[21.397853] (-) TimerEvent: {}
+[21.498627] (-) TimerEvent: {}
+[21.528643] (lex_common_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lex_common_msgs/liblex_common_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[21.598842] (-) TimerEvent: {}
+[21.699650] (-) TimerEvent: {}
+[21.725831] (lex_common_msgs) StdoutLine: {'line': b'[ 84%] Built target lex_common_msgs__rosidl_generator_py\n'}
+[21.799849] (-) TimerEvent: {}
+[21.835875] (lex_common_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.838099] (lex_common_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.842894] (lex_common_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.900050] (-) TimerEvent: {}
+[22.001529] (-) TimerEvent: {}
+[22.103468] (-) TimerEvent: {}
+[22.205147] (-) TimerEvent: {}
+[22.306902] (-) TimerEvent: {}
+[22.326863] (lex_common_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.343771] (lex_common_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.384920] (lex_common_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.407184] (-) TimerEvent: {}
+[22.509588] (-) TimerEvent: {}
+[22.515479] (lex_common_msgs) StdoutLine: {'line': b'[100%] Built target lex_common_msgs__rosidl_typesupport_c__pyext\n'}
+[22.539020] (lex_common_msgs) StdoutLine: {'line': b'[100%] Built target lex_common_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[22.580007] (lex_common_msgs) StdoutLine: {'line': b'[100%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.609778] (-) TimerEvent: {}
+[22.625483] (lex_common_msgs) JobEnded: {'identifier': 'lex_common_msgs', 'rc': 'SIGINT'}
+[22.638033] (ai_assistant) JobSkipped: {'identifier': 'ai_assistant'}
+[22.638358] (control) JobSkipped: {'identifier': 'control'}
+[22.638563] (voice) JobSkipped: {'identifier': 'voice'}
+[22.638678] (camera) JobSkipped: {'identifier': 'camera'}
+[22.638779] (cv_basics) JobSkipped: {'identifier': 'cv_basics'}
+[22.638879] (lex_node) JobSkipped: {'identifier': 'lex_node'}
+[22.638978] (opencv_tests) JobSkipped: {'identifier': 'opencv_tests'}
+[22.639076] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[22.639174] (-) EventReactorShutdown: {}

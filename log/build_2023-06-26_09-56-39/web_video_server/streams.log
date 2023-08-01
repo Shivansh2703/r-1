@@ -1,0 +1,29 @@
+[4.426s] Invoking command in '/home/r1/r1_ws/build/web_video_server': /usr/bin/cmake /home/r1/r1_ws/src/web_video_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/web_video_server
+[4.474s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[4.475s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[4.476s]   CMake.
+[4.476s] 
+[4.477s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[4.478s]   CMake that the project does not need compatibility with older versions.
+[4.478s] 
+[4.480s] [0m
+[4.656s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[4.657s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.658s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.659s] -- Configuring incomplete, errors occurred!
+[4.660s] See also "/home/r1/r1_ws/build/web_video_server/CMakeFiles/CMakeOutput.log".
+[4.661s]   CMake did not find one.
+[4.662s] 
+[4.662s]   Could not find a package configuration file provided by "catkin" with any
+[4.671s]   of the following names:
+[4.672s] 
+[4.673s]     catkinConfig.cmake
+[4.673s]     catkin-config.cmake
+[4.674s] 
+[4.675s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.675s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.676s]   provides a separate development package or SDK, be sure it has been
+[4.677s]   installed.
+[4.677s] 
+[4.678s] [0m
+[4.679s] Invoked command in '/home/r1/r1_ws/build/web_video_server' returned '1': /usr/bin/cmake /home/r1/r1_ws/src/web_video_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/web_video_server

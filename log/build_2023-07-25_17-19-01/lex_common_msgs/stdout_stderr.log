@@ -1,0 +1,63 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_lex_common_msgs
+[  5%] Built target lex_common_msgs__cpp
+running egg_info
+creating lex_common_msgs.egg-info
+writing lex_common_msgs.egg-info/PKG-INFO
+writing dependency_links to lex_common_msgs.egg-info/dependency_links.txt
+writing top-level names to lex_common_msgs.egg-info/top_level.txt
+writing manifest file 'lex_common_msgs.egg-info/SOURCES.txt'
+reading manifest file 'lex_common_msgs.egg-info/SOURCES.txt'
+[  7%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/lex_common_msgs/msg/detail/key_value__functions.c.o[0m
+writing manifest file 'lex_common_msgs.egg-info/SOURCES.txt'
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] Built target ament_cmake_python_build_lex_common_msgs_egg
+[ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lex_common_msgs/msg/key_value__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lex_common_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lex_common_msgs/msg/detail/key_value__type_support.cpp.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/lex_common_msgs/srv/detail/audio_text_conversation__functions.c.o[0m
+[ 28%] [32m[1mLinking C shared library liblex_common_msgs__rosidl_generator_c.so[0m
+[ 28%] Built target lex_common_msgs__rosidl_generator_c
+[ 30%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lex_common_msgs/srv/detail/dds_fastrtps/audio_text_conversation__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lex_common_msgs/srv/audio_text_conversation__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lex_common_msgs/srv/detail/audio_text_conversation__type_support.cpp.o[0m
+[ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 41%] [32m[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 41%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_cpp
+[ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 46%] [32m[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_cpp.so[0m
+[ 46%] Built target lex_common_msgs__rosidl_typesupport_cpp
+[ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lex_common_msgs/msg/detail/key_value__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/msg/detail/key_value__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lex_common_msgs/msg/key_value__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lex_common_msgs/srv/audio_text_conversation__type_support.cpp.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c.o[0m
+[ 66%] [32m[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_c.so[0m
+[ 66%] Built target lex_common_msgs__rosidl_typesupport_introspection_cpp
+[ 69%] [32mBuilding CXX object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support_c.cpp.o[0m
+[ 71%] [32m[1mLinking C shared library liblex_common_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 71%] Built target lex_common_msgs__rosidl_typesupport_c
+[ 71%] Built target lex_common_msgs__rosidl_typesupport_introspection_c
+[ 74%] [32m[1mLinking CXX shared library liblex_common_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target lex_common_msgs
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target lex_common_msgs__py
+[ 79%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/lex_common_msgs/msg/_key_value_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/lex_common_msgs/srv/_audio_text_conversation_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/lex_common_msgs/liblex_common_msgs__rosidl_generator_py.so[0m
+[ 84%] Built target lex_common_msgs__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/lex_common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target lex_common_msgs__rosidl_typesupport_c__pyext
+[100%] Built target lex_common_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext

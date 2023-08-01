@@ -1,0 +1,24 @@
+[9.131s] Invoking command in '/home/r1/r1_ws/src/camera': PYTHONPATH=/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera build --build-base /home/r1/r1_ws/build/camera/build install --record /home/r1/r1_ws/build/camera/install.log --single-version-externally-managed
+[11.503s] running egg_info
+[11.509s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[11.512s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[11.517s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[11.521s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[11.523s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[11.535s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[11.540s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[11.543s] running build
+[11.543s] running build_py
+[11.547s] running install
+[11.549s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.549s]   warnings.warn(
+[11.552s] running install_lib
+[11.571s] running install_data
+[11.579s] running install_egg_info
+[11.587s] removing '/home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[11.609s] Copying ../../build/camera/camera.egg-info to /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[11.633s] running install_scripts
+[11.905s] Installing frames_sub script to /home/r1/r1_ws/install/camera/lib/camera
+[11.908s] Installing img_pub script to /home/r1/r1_ws/install/camera/lib/camera
+[11.911s] writing list of installed files to '/home/r1/r1_ws/build/camera/install.log'
+[12.124s] Invoked command in '/home/r1/r1_ws/src/camera' returned '0': PYTHONPATH=/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera build --build-base /home/r1/r1_ws/build/camera/build install --record /home/r1/r1_ws/build/camera/install.log --single-version-externally-managed

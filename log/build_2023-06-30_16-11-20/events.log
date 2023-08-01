@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001018] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.001263] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.001448] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.001606] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.001699] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.001802] (cv_basics) JobQueued: {'identifier': 'cv_basics', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.001896] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.003139] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.003962] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_geometry', '/home/r1/r1_ws/install/image_geometry')])}
+[0.006537] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.053883] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.088792] (control) JobStarted: {'identifier': 'control'}
+[0.099137] (-) TimerEvent: {}
+[0.137482] (voice) JobStarted: {'identifier': 'voice'}
+[0.191935] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.195049] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[0.197845] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/cv_bridge', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.109 53379 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fb681b39-5a29-4deb-a7d8-24f7a1bc9faa.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2cb52e48fe.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/r1/r1_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 53379 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.202107] (-) TimerEvent: {}
+[0.213430] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'cmake'}
+[0.216486] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'build'}
+[0.217922] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/image_geometry', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.109 53379 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fb681b39-5a29-4deb-a7d8-24f7a1bc9faa.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2cb52e48fe.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/r1/r1_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 53379 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.302384] (-) TimerEvent: {}
+[0.403371] (-) TimerEvent: {}
+[0.505856] (-) TimerEvent: {}
+[0.608906] (-) TimerEvent: {}
+[0.709991] (-) TimerEvent: {}
+[0.810813] (-) TimerEvent: {}
+[0.911559] (-) TimerEvent: {}
+[1.012324] (-) TimerEvent: {}
+[1.113052] (-) TimerEvent: {}
+[1.213774] (-) TimerEvent: {}
+[1.314543] (-) TimerEvent: {}
+[1.415282] (-) TimerEvent: {}
+[1.516006] (-) TimerEvent: {}
+[1.616777] (-) TimerEvent: {}
+[1.717535] (-) TimerEvent: {}
+[1.818269] (-) TimerEvent: {}
+[1.919179] (-) TimerEvent: {}
+[1.991103] (cv_bridge) StdoutLine: {'line': b'[ 12%] Built target gtest_main\n'}
+[1.992946] (cv_bridge) StdoutLine: {'line': b'[ 25%] Built target gtest\n'}
+[1.994134] (cv_bridge) StdoutLine: {'line': b'[ 43%] Built target cv_bridge\n'}
+[1.996994] (cv_bridge) StderrLine: {'line': b"failed to create symbolic link '/home/r1/r1_ws/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge' because existing path cannot be removed: Is a directory\n"}
+[1.998584] (cv_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cv_bridge] Error 1\n'}
+[1.999816] (cv_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/all] Error 2\n'}
+[2.000631] (cv_bridge) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.001959] (cv_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.005824] (image_geometry) StdoutLine: {'line': b'[ 33%] Built target image_geometry\n'}
+[2.006668] (image_geometry) StdoutLine: {'line': b'[ 55%] Built target gtest_main\n'}
+[2.007123] (image_geometry) StdoutLine: {'line': b'[ 77%] Built target gtest\n'}
+[2.007489] (image_geometry) StderrLine: {'line': b"failed to create symbolic link '/home/r1/r1_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory\n"}
+[2.007916] (image_geometry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1\n'}
+[2.008353] (image_geometry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2\n'}
+[2.008730] (image_geometry) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.009095] (image_geometry) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.009469] (cv_bridge) CommandEnded: {'returncode': 2}
+[2.011780] (image_geometry) CommandEnded: {'returncode': 2}
+[2.019324] (-) TimerEvent: {}
+[2.120674] (-) TimerEvent: {}
+[2.222901] (-) TimerEvent: {}
+[2.323967] (-) TimerEvent: {}
+[2.424855] (-) TimerEvent: {}
+[2.526242] (-) TimerEvent: {}
+[2.626975] (-) TimerEvent: {}
+[2.727693] (-) TimerEvent: {}
+[2.828462] (-) TimerEvent: {}
+[2.929148] (-) TimerEvent: {}
+[3.029851] (-) TimerEvent: {}
+[3.130577] (-) TimerEvent: {}
+[3.231332] (-) TimerEvent: {}
+[3.332090] (-) TimerEvent: {}
+[3.432923] (-) TimerEvent: {}
+[3.533785] (-) TimerEvent: {}
+[3.639685] (-) TimerEvent: {}
+[3.697028] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 2}
+[3.737327] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 2}
+[3.740103] (-) TimerEvent: {}
+[3.741518] (voice) JobEnded: {'identifier': 'voice', 'rc': 'SIGINT'}
+[3.840309] (-) TimerEvent: {}
+[3.941042] (-) TimerEvent: {}
+[4.041781] (-) TimerEvent: {}
+[4.142456] (-) TimerEvent: {}
+[4.243148] (-) TimerEvent: {}
+[4.343904] (-) TimerEvent: {}
+[4.445065] (-) TimerEvent: {}
+[4.545731] (-) TimerEvent: {}
+[4.646487] (-) TimerEvent: {}
+[4.747250] (-) TimerEvent: {}
+[4.848035] (-) TimerEvent: {}
+[4.948784] (-) TimerEvent: {}
+[5.049550] (-) TimerEvent: {}
+[5.150243] (-) TimerEvent: {}
+[5.251124] (-) TimerEvent: {}
+[5.352214] (-) TimerEvent: {}
+[5.453174] (-) TimerEvent: {}
+[5.554673] (-) TimerEvent: {}
+[5.591177] (control) JobEnded: {'identifier': 'control', 'rc': 'SIGINT'}
+[5.603537] (camera) JobSkipped: {'identifier': 'camera'}
+[5.603841] (cv_basics) JobSkipped: {'identifier': 'cv_basics'}
+[5.603992] (opencv_tests) JobSkipped: {'identifier': 'opencv_tests'}
+[5.604131] (v4l2_camera) JobSkipped: {'identifier': 'v4l2_camera'}
+[5.604264] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[5.604394] (-) EventReactorShutdown: {}

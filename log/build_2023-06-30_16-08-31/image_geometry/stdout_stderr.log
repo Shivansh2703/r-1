@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[ 77%] Built target image_geometry
+failed to create symbolic link '/home/r1/r1_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

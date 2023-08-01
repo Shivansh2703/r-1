@@ -1,0 +1,43 @@
+[0.106s] Invoking command in '/home/r1/r1_ws/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/camera -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera
+[1.042s] -- The C compiler identification is GNU 11.3.0
+[1.757s] -- The CXX compiler identification is GNU 11.3.0
+[1.803s] -- Detecting C compiler ABI info
+[2.198s] -- Detecting C compiler ABI info - done
+[2.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.230s] -- Detecting C compile features
+[2.233s] -- Detecting C compile features - done
+[2.249s] -- Detecting CXX compiler ABI info
+[2.622s] -- Detecting CXX compiler ABI info - done
+[2.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.650s] -- Detecting CXX compile features
+[2.652s] -- Detecting CXX compile features - done
+[2.689s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.679s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.616s] -- Found rclpy: 3.3.8 (/opt/ros/humble/share/rclpy/cmake)
+[4.635s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[4.986s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.033s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.105s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.630s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.296s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[6.297s]   By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project
+[6.298s]   has asked CMake to find a package configuration file provided by
+[6.299s]   "cv_bridge", but CMake did not find one.
+[6.299s] 
+[6.300s]   Could not find a package configuration file provided by "cv_bridge" with
+[6.301s]   any of the following names:
+[6.302s] 
+[6.303s]     cv_bridgeConfig.cmake
+[6.303s]     cv_bridge-config.cmake
+[6.304s] 
+[6.305s]   Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set
+[6.306s]   "cv_bridge_DIR" to a directory containing one of the above files.  If
+[6.307s]   "cv_bridge" provides a separate development package or SDK, be sure it has
+[6.308s]   been installed.
+[6.309s] 
+[6.310s] [0m
+[6.313s] -- Configuring incomplete, errors occurred!
+[6.315s] See also "/home/r1/r1_ws/build/camera/CMakeFiles/CMakeOutput.log".
+[6.431s] Invoked command in '/home/r1/r1_ws/build/camera' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/camera -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera

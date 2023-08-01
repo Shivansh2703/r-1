@@ -1,0 +1,1 @@
+Invoking command in '/home/r1/r1_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/cv_bridge

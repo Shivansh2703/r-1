@@ -1,0 +1,868 @@
+[1.701s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.701s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb1b91480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb2658580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb2658580>>)
+[1.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.809s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/r1/r1_ws'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore_ament_install'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_pkg']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_pkg'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_meta']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_meta'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ros']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ros'
+[1.876s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera' with type 'ros.ament_python' and name 'camera'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[1.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[1.894s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[1.900s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[1.905s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[1.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore_ament_install'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_pkg']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_pkg'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_meta']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_meta'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ros']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ros'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['cmake', 'python']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'cmake'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['python_setup_py']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python_setup_py'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore_ament_install'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_pkg']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_pkg'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_meta']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_meta'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ros']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ros'
+[1.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_depth_image_transport' with type 'ros.ament_cmake' and name 'compressed_depth_image_transport'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore_ament_install'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_pkg']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_pkg'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_meta']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_meta'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ros']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ros'
+[1.923s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_image_transport' with type 'ros.ament_cmake' and name 'compressed_image_transport'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore_ament_install'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_pkg']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_pkg'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_meta']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_meta'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ros']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ros'
+[1.928s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/image_transport_plugins' with type 'ros.ament_cmake' and name 'image_transport_plugins'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore_ament_install'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_pkg']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_pkg'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_meta']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_meta'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ros']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ros'
+[1.935s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/theora_image_transport' with type 'ros.ament_cmake' and name 'theora_image_transport'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore_ament_install'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_pkg']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_pkg'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_meta']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_meta'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ros']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ros'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['cmake', 'python']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'cmake'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['python_setup_py']
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python_setup_py'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore_ament_install'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_pkg']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_pkg'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_meta']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_meta'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ros']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ros'
+[1.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[1.957s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[1.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[1.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[1.971s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extensions ['ignore', 'ignore_ament_install']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extension 'ignore'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extension 'ignore_ament_install'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extensions ['colcon_pkg']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extension 'colcon_pkg'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extensions ['colcon_meta']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extension 'colcon_meta'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extensions ['ros']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice) by extension 'ros'
+[1.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voice' with type 'ros.ament_python' and name 'voice'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'colcon_meta'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'ros'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extensions ['cmake', 'python']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'cmake'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'python'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extensions ['python_setup_py']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming) by extension 'python_setup_py'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extensions ['ignore', 'ignore_ament_install']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'ignore'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'ignore_ament_install'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extensions ['colcon_pkg']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'colcon_pkg'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extensions ['colcon_meta']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'colcon_meta'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extensions ['ros']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'ros'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extensions ['cmake', 'python']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'cmake'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'python'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extensions ['python_setup_py']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch) by extension 'python_setup_py'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'ignore'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'ignore_ament_install'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extensions ['colcon_pkg']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'colcon_pkg'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extensions ['colcon_meta']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'colcon_meta'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extensions ['ros']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'ros'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extensions ['cmake', 'python']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'cmake'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'python'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extensions ['python_setup_py']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/pyimagesearch/motion_detection) by extension 'python_setup_py'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extensions ['ignore', 'ignore_ament_install']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'ignore'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'ignore_ament_install'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extensions ['colcon_pkg']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'colcon_pkg'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extensions ['colcon_meta']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'colcon_meta'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extensions ['ros']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'ros'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extensions ['cmake', 'python']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'cmake'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'python'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extensions ['python_setup_py']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(video_streaming/templates) by extension 'python_setup_py'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extensions ['ignore', 'ignore_ament_install']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'ignore'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'ignore_ament_install'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extensions ['colcon_pkg']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'colcon_pkg'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extensions ['colcon_meta']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'colcon_meta'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extensions ['ros']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'ros'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extensions ['cmake', 'python']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'cmake'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'python'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extensions ['python_setup_py']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(voice_testing) by extension 'python_setup_py'
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.103s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/r1/r1_ws/install
+[2.113s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 231 installed packages in /opt/ros/humble
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.352s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_transport' is in: /home/r1/r1_ws/install/image_transport, /opt/ros/humble
+	'cv_bridge' is in: /home/r1/r1_ws/install/cv_bridge, /opt/ros/humble
+	'compressed_image_transport' is in: /home/r1/r1_ws/install/compressed_image_transport, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding compressed_image_transport cv_bridge image_transport
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_args' from command line to 'None'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target' from command line to 'None'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_cache' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_first' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_force_configure' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'ament_cmake_args' from command line to 'None'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_cmake_args' from command line to 'None'
+[2.360s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.360s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration_parsers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/camera_calibration_parsers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/camera_calibration_parsers', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_common/camera_calibration_parsers', 'symlink_install': False, 'test_result_base': None}
+[2.364s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[2.364s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.366s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/control', 'merge_install': False, 'path': '/home/r1/r1_ws/src/control', 'symlink_install': False, 'test_result_base': None}
+[2.370s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.371s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/r1/r1_ws/src/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.378s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/image_geometry', 'merge_install': False, 'path': '/home/r1/r1_ws/src/vision_opencv/image_geometry', 'symlink_install': False, 'test_result_base': None}
+[2.382s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_args' from command line to 'None'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target' from command line to 'None'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.383s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/image_transport', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_common/image_transport', 'symlink_install': False, 'test_result_base': None}
+[2.388s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'cmake_args' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'cmake_target' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'cmake_clean_cache' from command line to 'False'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'cmake_clean_first' from command line to 'False'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'cmake_force_configure' from command line to 'False'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'ament_cmake_args' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'catkin_cmake_args' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'voice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.390s] DEBUG:colcon.colcon_core.verb:Building package 'voice' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/voice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/voice', 'merge_install': False, 'path': '/home/r1/r1_ws/src/voice', 'symlink_install': False, 'test_result_base': None}
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_args' from command line to 'None'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target' from command line to 'None'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.396s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.396s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.396s] DEBUG:colcon.colcon_core.verb:Building package 'camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/camera', 'merge_install': False, 'path': '/home/r1/r1_ws/src/camera', 'symlink_install': False, 'test_result_base': None}
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_args' from command line to 'None'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target' from command line to 'None'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_first' from command line to 'False'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_force_configure' from command line to 'False'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'ament_cmake_args' from command line to 'None'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.401s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/camera_info_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/camera_info_manager', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_common/camera_info_manager', 'symlink_install': False, 'test_result_base': None}
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_args' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.407s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_depth_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/compressed_depth_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/compressed_depth_image_transport', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport', 'symlink_install': False, 'test_result_base': None}
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_args' from command line to 'None'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target' from command line to 'None'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.412s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/compressed_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/compressed_image_transport', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport', 'symlink_install': False, 'test_result_base': None}
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.418s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/opencv_tests', 'merge_install': False, 'path': '/home/r1/r1_ws/src/vision_opencv/opencv_tests', 'symlink_install': False, 'test_result_base': None}
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_args' from command line to 'None'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target' from command line to 'None'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[2.423s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[2.423s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[2.423s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[2.423s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.423s] DEBUG:colcon.colcon_core.verb:Building package 'theora_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/theora_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/theora_image_transport', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport', 'symlink_install': False, 'test_result_base': None}
+[2.427s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[2.427s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.428s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/vision_opencv', 'merge_install': False, 'path': '/home/r1/r1_ws/src/vision_opencv/vision_opencv', 'symlink_install': False, 'test_result_base': None}
+[2.432s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_args' from command line to 'None'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target' from command line to 'None'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_cache' from command line to 'False'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_first' from command line to 'False'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_force_configure' from command line to 'False'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'ament_cmake_args' from command line to 'None'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_cmake_args' from command line to 'None'
+[2.433s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.434s] DEBUG:colcon.colcon_core.verb:Building package 'image_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/image_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/image_common', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_common/image_common', 'symlink_install': False, 'test_result_base': None}
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_args' from command line to 'None'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target' from command line to 'None'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.439s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/image_transport_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/image_transport_plugins', 'merge_install': False, 'path': '/home/r1/r1_ws/src/image_transport_plugins/image_transport_plugins', 'symlink_install': False, 'test_result_base': None}
+[2.443s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[2.443s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.444s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r1/r1_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r1/r1_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/r1/r1_ws/src/v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[2.447s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[2.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/vision_opencv/cv_bridge'
+[2.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/image_common/image_transport' with build type 'ament_cmake'
+[2.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/image_common/image_transport'
+[2.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.547s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/image_common/camera_calibration_parsers' with build type 'ament_cmake'
+[2.548s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/image_common/camera_calibration_parsers'
+[2.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[2.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/vision_opencv/image_geometry'
+[2.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/cv_bridge -- -j4 -l4
+[2.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_transport -- -j4 -l4
+[2.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/camera_calibration_parsers -- -j4 -l4
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/image_geometry
+[3.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/camera_calibration_parsers -- -j4 -l4
+[4.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_transport -- -j4 -l4
+[4.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/camera_calibration_parsers
+[4.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[4.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/camera_calibration_parsers
+[4.587s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers' for CMake module files
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers' for CMake config files
+[4.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[4.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[4.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[4.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[4.613s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/lib'
+[4.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[4.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[4.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[4.629s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/bin'
+[4.630s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[4.631s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/lib/python3.10/site-packages'
+[4.632s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/bin'
+[4.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[4.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[4.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[4.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[4.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/image_transport
+[4.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers' for CMake module files
+[5.015s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers' for CMake config files
+[5.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[5.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/lib'
+[5.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[5.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[5.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[5.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[5.062s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/bin'
+[5.063s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[5.064s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/lib/python3.10/site-packages'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_calibration_parsers/bin'
+[5.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[5.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[5.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[5.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[5.092s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/image_common/camera_info_manager' with build type 'ament_cmake'
+[5.093s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/image_common/camera_info_manager'
+[5.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[5.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/image_transport
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport' for CMake module files
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport' for CMake config files
+[5.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[5.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[5.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[5.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[5.169s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/lib'
+[5.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/bin'
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/lib/pkgconfig/image_transport.pc'
+[5.184s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/lib/python3.10/site-packages'
+[5.185s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/bin'
+[5.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.ps1'
+[5.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/image_transport/share/image_transport/package.dsv'
+[5.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.sh'
+[5.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.bash'
+[5.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.zsh'
+[5.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/image_transport/share/colcon-core/packages/image_transport)
+[5.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/r1/r1_ws/build/camera_info_manager -- -j4 -l4
+[5.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/r1/r1_ws/build/camera_info_manager -- -j4 -l4
+[5.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[5.795s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport' for CMake module files
+[5.800s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport' for CMake config files
+[5.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[5.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[5.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[5.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[5.842s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/lib'
+[5.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[5.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[5.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/bin'
+[5.873s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/lib/pkgconfig/image_transport.pc'
+[5.876s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/lib/python3.10/site-packages'
+[5.878s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/image_transport/bin'
+[5.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.ps1'
+[5.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/image_transport/share/image_transport/package.dsv'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.sh'
+[5.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.bash'
+[5.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/image_transport/share/image_transport/package.zsh'
+[5.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/image_transport/share/colcon-core/packages/image_transport)
+[5.914s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/r1/r1_ws/src/control' with build type 'ament_python'
+[5.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[5.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/control/share/control/hook/ament_prefix_path.ps1'
+[5.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/control/share/control/hook/ament_prefix_path.dsv'
+[5.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/control/share/control/hook/ament_prefix_path.sh'
+[5.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/r1/r1_ws/build/camera_info_manager
+[6.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/cv_bridge -- -j4 -l4
+[7.803s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/r1/r1_ws/src/control'
+[7.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[7.846s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager' for CMake module files
+[7.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/r1/r1_ws/build/camera_info_manager
+[7.850s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager' for CMake config files
+[7.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[7.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[7.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[7.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[7.865s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/lib'
+[7.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[7.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[7.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[7.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[7.877s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/bin'
+[7.877s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[7.878s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/lib/python3.10/site-packages'
+[7.880s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/bin'
+[7.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[7.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[7.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.sh'
+[7.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.bash'
+[7.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[7.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[7.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/cv_bridge
+[8.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[8.083s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager' for CMake module files
+[8.086s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager' for CMake config files
+[8.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[8.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[8.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[8.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[8.103s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/lib'
+[8.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[8.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[8.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[8.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[8.120s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/bin'
+[8.121s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/lib/python3.10/site-packages'
+[8.124s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/camera_info_manager/bin'
+[8.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[8.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.sh'
+[8.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.bash'
+[8.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[8.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[8.150s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/r1/r1_ws/src/voice' with build type 'ament_python'
+[8.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice', 'ament_prefix_path')
+[8.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/voice/share/voice/hook/ament_prefix_path.ps1'
+[8.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/voice/share/voice/hook/ament_prefix_path.dsv'
+[8.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/voice/share/voice/hook/ament_prefix_path.sh'
+[8.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.175s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/r1/r1_ws/src/voice'
+[10.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[10.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/cv_bridge
+[10.234s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge' for CMake module files
+[10.237s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge' for CMake config files
+[10.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[10.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[10.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[10.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[10.258s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/lib'
+[10.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[10.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[10.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[10.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[10.273s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/bin'
+[10.274s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[10.275s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/lib/python3.10/site-packages'
+[10.276s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/bin'
+[10.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[10.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[10.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[10.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[10.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[10.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[10.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[10.510s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge' for CMake module files
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge' for CMake config files
+[10.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[10.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[10.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[10.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[10.538s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/lib'
+[10.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[10.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[10.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[10.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/bin'
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[10.557s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/lib/python3.10/site-packages'
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/cv_bridge/bin'
+[10.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[10.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[10.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[10.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[10.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[10.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport' with build type 'ament_cmake'
+[10.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport'
+[10.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/r1/r1_ws/build/compressed_depth_image_transport -- -j4 -l4
+[10.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/r1/r1_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/image_geometry
+[11.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/image_geometry -- -j4 -l4
+[11.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/control/build
+[16.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/voice/build
+[23.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/control/build
+[23.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[29.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/voice/build
+[29.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/src/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed
+[30.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[30.044s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control' for CMake module files
+[30.048s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control' for CMake config files
+[30.068s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control/lib'
+[30.069s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control/bin'
+[30.070s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control/lib/pkgconfig/control.pc'
+[30.072s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control/lib/python3.10/site-packages'
+[30.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[30.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/control/share/control/hook/pythonpath.ps1'
+[30.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/control/share/control/hook/pythonpath.dsv'
+[30.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/control/share/control/hook/pythonpath.sh'
+[30.118s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/control/bin'
+[30.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[30.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/control/share/control/package.ps1'
+[30.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/control/share/control/package.dsv'
+[30.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/control/share/control/package.sh'
+[30.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/control/share/control/package.bash'
+[30.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/control/share/control/package.zsh'
+[30.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/control/share/colcon-core/packages/control)
+[30.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport' with build type 'ament_cmake'
+[30.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport'
+[30.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/compressed_image_transport': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/r1/r1_ws/build/compressed_image_transport -- -j4 -l4
+[36.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/src/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed
+[36.428s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice' for CMake module files
+[36.432s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice' for CMake config files
+[36.456s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice/lib'
+[36.457s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice/bin'
+[36.458s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice/lib/pkgconfig/voice.pc'
+[36.459s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages'
+[36.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice', 'pythonpath')
+[36.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/voice/share/voice/hook/pythonpath.ps1'
+[36.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r1/r1_ws/install/voice/share/voice/hook/pythonpath.dsv'
+[36.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r1/r1_ws/install/voice/share/voice/hook/pythonpath.sh'
+[36.515s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/voice/bin'
+[36.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice)
+[36.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/voice/share/voice/package.ps1'
+[36.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/voice/share/voice/package.dsv'
+[36.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/voice/share/voice/package.sh'
+[36.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/voice/share/voice/package.bash'
+[36.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/voice/share/voice/package.zsh'
+[36.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/voice/share/colcon-core/packages/voice)
+[36.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport' with build type 'ament_cmake'
+[36.590s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport'
+[36.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r1/r1_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/r1/r1_ws/build/theora_image_transport -- -j4 -l4
+[60.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r1/r1_ws/build/compressed_depth_image_transport' returned '2': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/r1/r1_ws/build/compressed_depth_image_transport -- -j4 -l4
+[61.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_depth_image_transport)
+[61.669s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/compressed_depth_image_transport' for CMake module files
+[61.683s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/compressed_depth_image_transport' for CMake config files
+[61.685s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/compressed_depth_image_transport/bin'
+[61.685s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/compressed_depth_image_transport/lib/pkgconfig/compressed_depth_image_transport.pc'
+[61.687s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/compressed_depth_image_transport/lib/python3.10/site-packages'
+[61.688s] Level 1:colcon.colcon_core.environment:checking '/home/r1/r1_ws/install/compressed_depth_image_transport/bin'
+[61.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.ps1'
+[61.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r1/r1_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv'
+[61.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.sh'
+[61.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.bash'
+[61.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/r1/r1_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.zsh'
+[61.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r1/r1_ws/install/compressed_depth_image_transport/share/colcon-core/packages/compressed_depth_image_transport)
+[76.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[76.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[76.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[76.432s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[76.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[76.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[76.464s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[76.516s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[76.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r1/r1_ws/install/local_setup.ps1'
+[76.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/r1/r1_ws/install/_local_setup_util_ps1.py'
+[76.532s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r1/r1_ws/install/setup.ps1'
+[76.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r1/r1_ws/install/local_setup.sh'
+[76.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/r1/r1_ws/install/_local_setup_util_sh.py'
+[76.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r1/r1_ws/install/setup.sh'
+[76.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r1/r1_ws/install/local_setup.bash'
+[76.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r1/r1_ws/install/setup.bash'
+[76.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r1/r1_ws/install/local_setup.zsh'
+[76.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r1/r1_ws/install/setup.zsh'

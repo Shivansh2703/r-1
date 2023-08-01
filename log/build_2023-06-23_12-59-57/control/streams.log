@@ -1,0 +1,51 @@
+[9.365s] Invoking command in '/home/r1/r1_ws/build/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/control/build
+[13.407s] running develop
+[13.409s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.410s]   warnings.warn(
+[13.425s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.426s]   warnings.warn(
+[14.236s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[14.237s]   warnings.warn(
+[14.238s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[14.239s]   warnings.warn(
+[16.197s] Invoked command in '/home/r1/r1_ws/build/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/control/build
+[16.218s] Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[20.599s] running egg_info
+[20.600s] writing ../../build/control/control.egg-info/PKG-INFO
+[20.608s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[20.610s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[20.611s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[20.612s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[20.655s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[20.657s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[20.658s] running build
+[20.659s] running build_py
+[20.661s] copying control/arms.py -> /home/r1/r1_ws/build/control/build/lib/control
+[20.675s] running install
+[20.687s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[20.688s]   warnings.warn(
+[20.689s] running install_lib
+[20.691s] copying /home/r1/r1_ws/build/control/build/lib/control/arms.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[20.704s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/arms.py to arms.cpython-310.pyc
+[20.711s]   File "/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/arms.py", line 72
+[20.712s]     if hand == 'r'
+[20.713s]                   ^
+[20.715s] SyntaxError: expected ':'
+[20.716s] 
+[20.718s] running install_data
+[20.730s] running install_egg_info
+[20.743s] removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-1.0.0-py3.10.egg-info' (and everything under it)
+[20.748s] Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-1.0.0-py3.10.egg-info
+[20.767s] running install_scripts
+[21.008s] Installing arms_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.015s] Installing base_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.017s] Installing eyes_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.020s] Installing head_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.021s] Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control
+[21.024s] Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control
+[21.026s] Installing left_hand_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.029s] Installing right_hand_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.031s] Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control
+[21.032s] Installing us_pub script to /home/r1/r1_ws/install/control/lib/control
+[21.035s] writing list of installed files to '/home/r1/r1_ws/build/control/install.log'
+[21.267s] Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed

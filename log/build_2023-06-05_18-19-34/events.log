@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.002487] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.004806] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.004997] (camera) JobStarted: {'identifier': 'camera'}
+[0.064203] (control) JobStarted: {'identifier': 'control'}
+[0.099172] (-) TimerEvent: {}
+[0.146192] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[0.150748] (control) JobEnded: {'identifier': 'control', 'rc': 'SIGINT'}
+[0.161883] (-) EventReactorShutdown: {}

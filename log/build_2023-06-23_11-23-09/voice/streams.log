@@ -1,0 +1,35 @@
+[12.165s] Invoking command in '/home/r1/r1_ws/build/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/voice/build
+[15.800s] running develop
+[15.810s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[15.812s]   warnings.warn(
+[15.828s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.829s]   warnings.warn(
+[16.762s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[16.763s]   warnings.warn(
+[16.770s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[16.771s]   warnings.warn(
+[18.818s] Invoked command in '/home/r1/r1_ws/build/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/voice/build
+[18.837s] Invoking command in '/home/r1/r1_ws/src/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed
+[22.384s] running egg_info
+[22.391s] writing ../../build/voice/voice.egg-info/PKG-INFO
+[22.395s] writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt
+[22.397s] writing entry points to ../../build/voice/voice.egg-info/entry_points.txt
+[22.400s] writing requirements to ../../build/voice/voice.egg-info/requires.txt
+[22.401s] writing top-level names to ../../build/voice/voice.egg-info/top_level.txt
+[22.425s] reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[22.438s] writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[22.440s] running build
+[22.441s] running build_py
+[22.450s] running install
+[22.452s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[22.454s]   warnings.warn(
+[22.455s] running install_lib
+[22.479s] running install_data
+[22.481s] running install_egg_info
+[22.490s] removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)
+[22.492s] Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info
+[22.499s] running install_scripts
+[22.632s] Installing main script to /home/r1/r1_ws/install/voice/lib/voice
+[22.635s] Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice
+[22.643s] writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'
+[22.952s] Invoked command in '/home/r1/r1_ws/src/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed

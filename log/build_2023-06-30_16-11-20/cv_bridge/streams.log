@@ -1,0 +1,10 @@
+[0.195s] Invoking command in '/home/r1/r1_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/cv_bridge -- -j4 -l4
+[1.986s] [ 12%] Built target gtest_main
+[1.987s] [ 25%] Built target gtest
+[1.990s] [ 43%] Built target cv_bridge
+[1.991s] failed to create symbolic link '/home/r1/r1_ws/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge' because existing path cannot be removed: Is a directory
+[1.993s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cv_bridge] Error 1
+[1.994s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/all] Error 2
+[1.994s] gmake[1]: *** Waiting for unfinished jobs....
+[1.999s] gmake: *** [Makefile:146: all] Error 2
+[2.003s] Invoked command in '/home/r1/r1_ws/build/cv_bridge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/cv_bridge -- -j4 -l4

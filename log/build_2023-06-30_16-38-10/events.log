@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.002479] (-) JobUnselected: {'identifier': 'camera'}
+[0.005243] (-) JobUnselected: {'identifier': 'cv_basics'}
+[0.005438] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.005785] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005957] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.006052] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.006148] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.006271] (-) JobUnselected: {'identifier': 'voice'}
+[0.006374] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.006472] (control) JobStarted: {'identifier': 'control'}
+[0.099152] (-) TimerEvent: {}
+[0.200857] (-) TimerEvent: {}
+[0.301682] (-) TimerEvent: {}
+[0.402343] (-) TimerEvent: {}
+[0.479624] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[0.483561] (-) EventReactorShutdown: {}

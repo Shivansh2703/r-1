@@ -1,0 +1,1301 @@
+[0.000000] (-) TimerEvent: {}
+[0.002032] (camera_calibration_parsers) JobQueued: {'identifier': 'camera_calibration_parsers', 'dependencies': OrderedDict()}
+[0.002163] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.002246] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.002325] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.002431] (image_transport) JobQueued: {'identifier': 'image_transport', 'dependencies': OrderedDict()}
+[0.002978] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.003064] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_transport', '/home/r1/r1_ws/install/image_transport')])}
+[0.003155] (camera_info_manager) JobQueued: {'identifier': 'camera_info_manager', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/r1/r1_ws/install/camera_calibration_parsers')])}
+[0.003236] (compressed_depth_image_transport) JobQueued: {'identifier': 'compressed_depth_image_transport', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_transport', '/home/r1/r1_ws/install/image_transport')])}
+[0.003321] (compressed_image_transport) JobQueued: {'identifier': 'compressed_image_transport', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_transport', '/home/r1/r1_ws/install/image_transport')])}
+[0.003406] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge')])}
+[0.003485] (theora_image_transport) JobQueued: {'identifier': 'theora_image_transport', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_transport', '/home/r1/r1_ws/install/image_transport')])}
+[0.003567] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_geometry', '/home/r1/r1_ws/install/image_geometry')])}
+[0.003649] (image_common) JobQueued: {'identifier': 'image_common', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/r1/r1_ws/install/camera_calibration_parsers'), ('image_transport', '/home/r1/r1_ws/install/image_transport'), ('camera_info_manager', '/home/r1/r1_ws/install/camera_info_manager')])}
+[0.003736] (image_transport_plugins) JobQueued: {'identifier': 'image_transport_plugins', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_transport', '/home/r1/r1_ws/install/image_transport'), ('compressed_depth_image_transport', '/home/r1/r1_ws/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/r1/r1_ws/install/compressed_image_transport'), ('theora_image_transport', '/home/r1/r1_ws/install/theora_image_transport')])}
+[0.006178] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/r1/r1_ws/install/camera_calibration_parsers'), ('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_transport', '/home/r1/r1_ws/install/image_transport'), ('camera_info_manager', '/home/r1/r1_ws/install/camera_info_manager')])}
+[0.006540] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.053765] (image_transport) JobStarted: {'identifier': 'image_transport'}
+[0.088165] (camera_calibration_parsers) JobStarted: {'identifier': 'camera_calibration_parsers'}
+[0.098908] (-) TimerEvent: {}
+[0.123572] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.169305] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.172182] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[0.174937] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/cv_bridge', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.189265] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'cmake'}
+[0.192853] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'build'}
+[0.194183] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/image_transport', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.203750] (-) TimerEvent: {}
+[0.207582] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'cmake'}
+[0.211233] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'build'}
+[0.212647] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/camera_calibration_parsers', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/camera_calibration_parsers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/camera_calibration_parsers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.260299] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'cmake'}
+[0.263045] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/vision_opencv/image_geometry', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/image_geometry'], 'cwd': '/home/r1/r1_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.306894] (-) TimerEvent: {}
+[0.408605] (-) TimerEvent: {}
+[0.447403] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cv_bridge\x1b[0m\n'}
+[0.492878] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.506503] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.508820] (-) TimerEvent: {}
+[0.528409] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.529900] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_calibration_parsers\x1b[0m\n'}
+[0.536681] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport\x1b[0m\n'}
+[0.550290] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.567051] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.581966] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.609031] (-) TimerEvent: {}
+[0.652380] (cv_bridge) StdoutLine: {'line': b'[ 22%] Built target cv_bridge\n'}
+[0.670308] (image_transport) StdoutLine: {'line': b'[  6%] Built target gtest\n'}
+[0.709237] (-) TimerEvent: {}
+[0.720708] (image_transport) StdoutLine: {'line': b'[ 12%] Built target gtest_main\n'}
+[0.742296] (camera_calibration_parsers) StdoutLine: {'line': b'[ 14%] Built target gtest\n'}
+[0.744121] (cv_bridge) StdoutLine: {'line': b'[ 33%] Built target gtest\n'}
+[0.747576] (cv_bridge) StdoutLine: {'line': b'[ 44%] Built target ament_cmake_python_copy_cv_bridge\n'}
+[0.751412] (cv_bridge) StdoutLine: {'line': b'[ 44%] Built target gtest_main\n'}
+[0.769388] (camera_calibration_parsers) StdoutLine: {'line': b'[ 28%] Built target gtest_main\n'}
+[0.789458] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cv_bridge_boost\x1b[0m\n'}
+[0.809699] (-) TimerEvent: {}
+[0.826522] (camera_calibration_parsers) StdoutLine: {'line': b'[ 57%] Built target camera_calibration_parsers\n'}
+[0.856490] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cv_bridge-utest\x1b[0m\n'}
+[0.877181] (image_geometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.903338] (image_transport) StdoutLine: {'line': b'[ 37%] Built target image_transport\n'}
+[0.909880] (-) TimerEvent: {}
+[0.915097] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target convert\x1b[0m\n'}
+[0.992329] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport_plugins\x1b[0m\n'}
+[1.010207] (-) TimerEvent: {}
+[1.050559] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_ini\x1b[0m\n'}
+[1.055446] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target republish\x1b[0m\n'}
+[1.061671] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target list_transports\x1b[0m\n'}
+[1.063812] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_yml\x1b[0m\n'}
+[1.097966] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-camera_common\x1b[0m\n'}
+[1.105529] (camera_calibration_parsers) StdoutLine: {'line': b'[ 71%] Built target convert\n'}
+[1.110552] (-) TimerEvent: {}
+[1.188960] (cv_bridge) StdoutLine: {'line': b'[ 61%] Built target cv_bridge_boost\n'}
+[1.198447] (cv_bridge) StdoutLine: {'line': b'[100%] Built target cv_bridge-utest\n'}
+[1.210712] (-) TimerEvent: {}
+[1.230260] (camera_calibration_parsers) StdoutLine: {'line': b'[ 85%] Built target camera_calibration_parsers-parse_ini\n'}
+[1.263587] (image_transport) StdoutLine: {'line': b'[ 43%] Built target image_transport-camera_common\n'}
+[1.270884] (image_transport) StdoutLine: {'line': b'[ 50%] Built target image_transport_plugins\n'}
+[1.278964] (image_transport) StdoutLine: {'line': b'[ 56%] Built target republish\n'}
+[1.292243] (camera_calibration_parsers) StdoutLine: {'line': b'[100%] Built target camera_calibration_parsers-parse_yml\n'}
+[1.309700] (image_transport) StdoutLine: {'line': b'[ 62%] Built target list_transports\n'}
+[1.311039] (-) TimerEvent: {}
+[1.355265] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-publisher\x1b[0m\n'}
+[1.416040] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[1.417830] (-) TimerEvent: {}
+[1.419848] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-message_passing\x1b[0m\n'}
+[1.426907] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-subscriber\x1b[0m\n'}
+[1.434856] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-remapping\x1b[0m\n'}
+[1.518235] (-) TimerEvent: {}
+[1.541237] (image_geometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.594971] (image_transport) StdoutLine: {'line': b'[ 68%] Built target image_transport-publisher\n'}
+[1.605457] (image_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.606699] (image_transport) StdoutLine: {'line': b'[ 75%] Built target image_transport-message_passing\n'}
+[1.618676] (-) TimerEvent: {}
+[1.620411] (image_transport) StdoutLine: {'line': b'[ 81%] Built target image_transport-remapping\n'}
+[1.628711] (image_transport) StdoutLine: {'line': b'[ 87%] Built target image_transport-subscriber\n'}
+[1.683734] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-single_subscriber_publisher\x1b[0m\n'}
+[1.691658] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport-qos_override\x1b[0m\n'}
+[1.718855] (-) TimerEvent: {}
+[1.805861] (image_transport) StdoutLine: {'line': b'[ 93%] Built target image_transport-single_subscriber_publisher\n'}
+[1.814835] (image_transport) StdoutLine: {'line': b'[100%] Built target image_transport-qos_override\n'}
+[1.819104] (-) TimerEvent: {}
+[1.879924] (image_transport) CommandEnded: {'returncode': 0}
+[1.919290] (-) TimerEvent: {}
+[1.957526] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'install'}
+[2.008032] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/r1/r1_ws/build/camera_calibration_parsers'], 'cwd': '/home/r1/r1_ws/build/camera_calibration_parsers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/camera_calibration_parsers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[2.019543] (-) TimerEvent: {}
+[2.052179] (image_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.062308] (camera_calibration_parsers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.063724] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so\n'}
+[2.066267] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert\n'}
+[2.067609] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers\n'}
+[2.068565] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers\n'}
+[2.069422] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp\n'}
+[2.070253] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h\n'}
+[2.070799] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp\n'}
+[2.072688] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h\n'}
+[2.073871] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp\n'}
+[2.075872] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h\n'}
+[2.076429] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp\n'}
+[2.076867] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers\n'}
+[2.077294] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers\n'}
+[2.078056] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh\n'}
+[2.079008] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv\n'}
+[2.079767] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh\n'}
+[2.080459] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv\n'}
+[2.081119] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash\n'}
+[2.081920] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh\n'}
+[2.084037] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh\n'}
+[2.084582] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv\n'}
+[2.085362] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv\n'}
+[2.086022] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers\n'}
+[2.087545] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake\n'}
+[2.089998] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake\n'}
+[2.101482] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.102121] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.102704] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake\n'}
+[2.103280] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake\n'}
+[2.103761] (camera_calibration_parsers) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml\n'}
+[2.104223] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[2.105730] (image_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.106355] (image_geometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.107021] (image_geometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.115886] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.121271] (-) TimerEvent: {}
+[2.222322] (-) TimerEvent: {}
+[2.323184] (-) TimerEvent: {}
+[2.424904] (-) TimerEvent: {}
+[2.429109] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'install'}
+[2.430291] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/r1/r1_ws/build/image_transport'], 'cwd': '/home/r1/r1_ws/build/image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[2.471861] (image_transport) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.473248] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/default_plugins.xml\n'}
+[2.474222] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/lib/libimage_transport.so\n'}
+[2.476258] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/lib/libimage_transport_plugins.so\n'}
+[2.478923] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/lib/libimage_transport.so\n'}
+[2.481172] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/lib/image_transport/list_transports\n'}
+[2.483891] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/lib/image_transport/republish\n'}
+[2.485229] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport\n'}
+[2.486039] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport\n'}
+[2.487070] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.h\n'}
+[2.487980] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/camera_publisher.hpp\n'}
+[2.488630] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/single_subscriber_publisher.hpp\n'}
+[2.489752] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/exception.hpp\n'}
+[2.491545] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/loader_fwds.hpp\n'}
+[2.492824] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/publisher.hpp\n'}
+[2.493974] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/publisher_plugin.h\n'}
+[2.496115] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/camera_subscriber.hpp\n'}
+[2.497063] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/subscriber.hpp\n'}
+[2.498379] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/raw_subscriber.hpp\n'}
+[2.499505] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/subscriber_filter.h\n'}
+[2.500228] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/subscriber_filter.hpp\n'}
+[2.500738] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.h\n'}
+[2.508197] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/image_transport.h\n'}
+[2.509450] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/raw_publisher.h\n'}
+[2.530345] (-) TimerEvent: {}
+[2.531583] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/image_transport.hpp\n'}
+[2.532208] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/transport_hints.h\n'}
+[2.532799] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/publisher_plugin.hpp\n'}
+[2.533590] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/subscriber_plugin.h\n'}
+[2.534045] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/camera_publisher.h\n'}
+[2.534796] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/exception.h\n'}
+[2.535449] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/single_subscriber_publisher.h\n'}
+[2.536086] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/raw_publisher.hpp\n'}
+[2.536625] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.hpp\n'}
+[2.537164] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/camera_common.hpp\n'}
+[2.537738] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/publisher.h\n'}
+[2.538169] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/camera_common.h\n'}
+[2.538644] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/subscriber.h\n'}
+[2.539104] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/transport_hints.hpp\n'}
+[2.539550] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/loader_fwds.h\n'}
+[2.540132] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/camera_subscriber.h\n'}
+[2.541198] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp\n'}
+[2.544030] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/visibility_control.hpp\n'}
+[2.544684] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/subscriber_plugin.hpp\n'}
+[2.545267] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/raw_subscriber.h\n'}
+[2.545800] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport\n'}
+[2.546313] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport\n'}
+[2.546894] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.sh\n'}
+[2.547515] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv\n'}
+[2.548024] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/environment/path.sh\n'}
+[2.548634] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/environment/path.dsv\n'}
+[2.549553] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/local_setup.bash\n'}
+[2.550711] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/local_setup.sh\n'}
+[2.556145] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/local_setup.zsh\n'}
+[2.557113] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/local_setup.dsv\n'}
+[2.558319] (image_transport) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/image_transport/share/image_transport/package.dsv\n'}
+[2.559826] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/ament_index/resource_index/packages/image_transport\n'}
+[2.560945] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport\n'}
+[2.561592] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/cmake/export_image_transportExport.cmake\n'}
+[2.562171] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/cmake/export_image_transportExport-noconfig.cmake\n'}
+[2.562878] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.563546] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.564302] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake\n'}
+[2.564889] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake\n'}
+[2.566023] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/image_transport/share/image_transport/package.xml\n'}
+[2.613068] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.629633] (camera_calibration_parsers) JobEnded: {'identifier': 'camera_calibration_parsers', 'rc': 0}
+[2.641250] (-) TimerEvent: {}
+[2.646039] (camera_info_manager) JobStarted: {'identifier': 'camera_info_manager'}
+[2.646650] (image_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.647406] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.647991] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.677106] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_python: 1.3.4 (/opt/ros/humble/share/ament_cmake_python/cmake)\n'}
+[2.679939] (image_transport) CommandEnded: {'returncode': 0}
+[2.702620] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.741694] (-) TimerEvent: {}
+[2.773722] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'cmake'}
+[2.778620] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'build'}
+[2.780853] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/camera_info_manager', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/camera_info_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/camera_calibration_parsers/lib:/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/camera_info_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[2.841840] (-) TimerEvent: {}
+[2.942788] (-) TimerEvent: {}
+[3.036493] (camera_info_manager) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_info_manager\x1b[0m\n'}
+[3.043024] (-) TimerEvent: {}
+[3.138887] (camera_info_manager) StdoutLine: {'line': b'[100%] Built target camera_info_manager\n'}
+[3.143203] (-) TimerEvent: {}
+[3.195135] (camera_info_manager) CommandEnded: {'returncode': 0}
+[3.243386] (-) TimerEvent: {}
+[3.263743] (cv_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[3.267599] (cv_bridge) StdoutLine: {'line': b'writing cv_bridge.egg-info/PKG-INFO\n'}
+[3.269163] (cv_bridge) StdoutLine: {'line': b'writing dependency_links to cv_bridge.egg-info/dependency_links.txt\n'}
+[3.270770] (cv_bridge) StdoutLine: {'line': b'writing top-level names to cv_bridge.egg-info/top_level.txt\n'}
+[3.291191] (cv_bridge) StdoutLine: {'line': b"reading manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[3.299150] (cv_bridge) StdoutLine: {'line': b"writing manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[3.343997] (-) TimerEvent: {}
+[3.447128] (-) TimerEvent: {}
+[3.452916] (image_transport) JobEnded: {'identifier': 'image_transport', 'rc': 0}
+[3.468582] (control) JobStarted: {'identifier': 'control'}
+[3.485976] (cv_bridge) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cv_bridge_egg\n'}
+[3.521437] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'install'}
+[3.522978] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/r1/r1_ws/build/camera_info_manager'], 'cwd': '/home/r1/r1_ws/build/camera_info_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/camera_calibration_parsers/lib:/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/camera_info_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[3.547581] (cv_bridge) CommandEnded: {'returncode': 0}
+[3.550798] (-) TimerEvent: {}
+[3.577908] (camera_info_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.579466] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/lib/libcamera_info_manager.so\n'}
+[3.580504] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager\n'}
+[3.581281] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager\n'}
+[3.581989] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp\n'}
+[3.592081] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.h\n'}
+[3.592769] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/visibility_control.h\n'}
+[3.593344] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager\n'}
+[3.593983] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager\n'}
+[3.602920] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh\n'}
+[3.603750] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv\n'}
+[3.604318] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh\n'}
+[3.604713] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv\n'}
+[3.605107] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash\n'}
+[3.605577] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh\n'}
+[3.605995] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh\n'}
+[3.606344] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv\n'}
+[3.608245] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.dsv\n'}
+[3.608708] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager\n'}
+[3.609111] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport.cmake\n'}
+[3.609517] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport-noconfig.cmake\n'}
+[3.609901] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.610381] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.611135] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake\n'}
+[3.611651] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake\n'}
+[3.612261] (camera_info_manager) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/camera_info_manager/share/camera_info_manager/package.xml\n'}
+[3.651005] (-) TimerEvent: {}
+[3.752049] (-) TimerEvent: {}
+[3.853303] (-) TimerEvent: {}
+[3.954457] (-) TimerEvent: {}
+[4.044792] (image_geometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.054557] (-) TimerEvent: {}
+[4.155306] (-) TimerEvent: {}
+[4.256158] (-) TimerEvent: {}
+[4.373208] (-) TimerEvent: {}
+[4.474086] (-) TimerEvent: {}
+[4.574894] (-) TimerEvent: {}
+[4.675825] (-) TimerEvent: {}
+[4.776654] (-) TimerEvent: {}
+[4.877489] (-) TimerEvent: {}
+[4.978355] (-) TimerEvent: {}
+[5.079341] (-) TimerEvent: {}
+[5.148151] (image_geometry) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: calib3d core highgui imgproc \n'}
+[5.167712] (image_geometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.179440] (-) TimerEvent: {}
+[5.280249] (-) TimerEvent: {}
+[5.377989] (camera_info_manager) CommandEnded: {'returncode': 0}
+[5.388410] (-) TimerEvent: {}
+[5.445127] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'install'}
+[5.446129] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/r1/r1_ws/build/cv_bridge'], 'cwd': '/home/r1/r1_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[5.488687] (-) TimerEvent: {}
+[5.489926] (cv_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.491196] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh\n'}
+[5.491986] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv\n'}
+[5.492498] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info\n'}
+[5.493240] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.493902] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/top_level.txt\n'}
+[5.495085] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.496271] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/PKG-INFO\n'}
+[5.497635] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge\n'}
+[5.498731] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py\n'}
+[5.499293] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py\n'}
+[5.523006] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.577136] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.588887] (-) TimerEvent: {}
+[5.655492] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.689324] (-) TimerEvent: {}
+[5.691551] (camera_info_manager) JobEnded: {'identifier': 'camera_info_manager', 'rc': 0}
+[5.705393] (voice) JobStarted: {'identifier': 'voice'}
+[5.768037] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.769243] (cv_bridge) StdoutLine: {'line': b"Listing '/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...\n"}
+[5.771195] (cv_bridge) StdoutLine: {'line': b"Listing '/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...\n"}
+[5.789582] (-) TimerEvent: {}
+[5.829191] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[5.831707] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h\n'}
+[5.834879] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost/cv_bridge_boost.so\n'}
+[5.838768] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge\n'}
+[5.840236] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge\n'}
+[5.841851] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp\n'}
+[5.843628] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp\n'}
+[5.844925] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h\n'}
+[5.846976] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp\n'}
+[5.849478] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h\n'}
+[5.851140] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h\n'}
+[5.853495] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[5.856331] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge\n'}
+[5.857836] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge\n'}
+[5.859626] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh\n'}
+[5.861235] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv\n'}
+[5.862782] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/environment/path.sh\n'}
+[5.866200] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv\n'}
+[5.868771] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/local_setup.bash\n'}
+[5.870553] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/local_setup.sh\n'}
+[5.872257] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh\n'}
+[5.874097] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv\n'}
+[5.875836] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.dsv\n'}
+[5.878566] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge\n'}
+[5.880461] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake\n'}
+[5.881882] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake\n'}
+[5.883320] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake\n'}
+[5.884953] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.886495] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.888220] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake\n'}
+[5.889518] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake\n'}
+[5.890054] (-) TimerEvent: {}
+[5.891909] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/cv_bridge/share/cv_bridge/package.xml\n'}
+[5.934139] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.990471] (-) TimerEvent: {}
+[6.091986] (-) TimerEvent: {}
+[6.192866] (-) TimerEvent: {}
+[6.293848] (-) TimerEvent: {}
+[6.394816] (-) TimerEvent: {}
+[6.495744] (-) TimerEvent: {}
+[6.596722] (-) TimerEvent: {}
+[6.697721] (-) TimerEvent: {}
+[6.798695] (-) TimerEvent: {}
+[6.899651] (-) TimerEvent: {}
+[6.942875] (image_geometry) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.953326] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.999855] (-) TimerEvent: {}
+[7.101113] (-) TimerEvent: {}
+[7.202471] (-) TimerEvent: {}
+[7.303351] (-) TimerEvent: {}
+[7.336693] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.338505] (image_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.403537] (-) TimerEvent: {}
+[7.504987] (-) TimerEvent: {}
+[7.606105] (-) TimerEvent: {}
+[7.708024] (-) TimerEvent: {}
+[7.761085] (cv_bridge) CommandEnded: {'returncode': 0}
+[7.790598] (image_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.792371] (image_geometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.808250] (-) TimerEvent: {}
+[7.909806] (-) TimerEvent: {}
+[8.010854] (-) TimerEvent: {}
+[8.111828] (-) TimerEvent: {}
+[8.127876] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[8.131963] (compressed_depth_image_transport) JobStarted: {'identifier': 'compressed_depth_image_transport'}
+[8.212108] (-) TimerEvent: {}
+[8.243698] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'cmake'}
+[8.251676] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'build'}
+[8.260470] (compressed_depth_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/compressed_depth_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/compressed_depth_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/compressed_depth_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[8.280381] (image_geometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.312467] (-) TimerEvent: {}
+[8.416255] (-) TimerEvent: {}
+[8.440093] (image_geometry) StdoutLine: {'line': b'-- Generating done\n'}
+[8.458163] (image_geometry) StdoutLine: {'line': b'-- Build files have been written to: /home/r1/r1_ws/build/image_geometry\n'}
+[8.517418] (-) TimerEvent: {}
+[8.537708] (image_geometry) CommandEnded: {'returncode': 0}
+[8.539967] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'build'}
+[8.540245] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/image_geometry', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[8.577048] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/r1/r1_ws/build/control/build'], 'cwd': '/home/r1/r1_ws/build/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/r1', 'OLDPWD': '/home/r1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'r1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'SESSION_MANAGER': 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4LD71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/r1/r1_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[8.617630] (-) TimerEvent: {}
+[8.703439] (compressed_depth_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_depth_image_transport\x1b[0m\n'}
+[8.717838] (-) TimerEvent: {}
+[8.818686] (-) TimerEvent: {}
+[8.896201] (image_geometry) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o\x1b[0m\n'}
+[8.918864] (-) TimerEvent: {}
+[8.929733] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o\x1b[0m\n'}
+[8.981181] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/codec.cpp.o\x1b[0m\n'}
+[8.998916] (image_geometry) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[8.999859] (image_geometry) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[9.019048] (-) TimerEvent: {}
+[9.020165] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o\x1b[0m\n'}
+[9.071015] (image_geometry) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_copy_image_geometry\n'}
+[9.119324] (-) TimerEvent: {}
+[9.220348] (-) TimerEvent: {}
+[9.321370] (-) TimerEvent: {}
+[9.440669] (-) TimerEvent: {}
+[9.542460] (-) TimerEvent: {}
+[9.644278] (-) TimerEvent: {}
+[9.745504] (-) TimerEvent: {}
+[9.846566] (-) TimerEvent: {}
+[9.947622] (-) TimerEvent: {}
+[10.048543] (-) TimerEvent: {}
+[10.149700] (-) TimerEvent: {}
+[10.251021] (-) TimerEvent: {}
+[10.351859] (-) TimerEvent: {}
+[10.453480] (-) TimerEvent: {}
+[10.458965] (compressed_depth_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/codec.cpp:40\x1b[m\x1b[K:\n'}
+[10.459816] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460419] (compressed_depth_image_transport) StderrLine: {'line': b'   42 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead\n'}
+[10.460929] (compressed_depth_image_transport) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.553712] (-) TimerEvent: {}
+[10.655013] (-) TimerEvent: {}
+[10.756884] (-) TimerEvent: {}
+[10.858683] (-) TimerEvent: {}
+[10.960025] (-) TimerEvent: {}
+[11.061014] (-) TimerEvent: {}
+[11.161933] (-) TimerEvent: {}
+[11.262820] (-) TimerEvent: {}
+[11.363749] (-) TimerEvent: {}
+[11.464941] (-) TimerEvent: {}
+[11.565798] (-) TimerEvent: {}
+[11.666621] (-) TimerEvent: {}
+[11.767682] (-) TimerEvent: {}
+[11.868685] (-) TimerEvent: {}
+[11.969726] (-) TimerEvent: {}
+[12.070969] (-) TimerEvent: {}
+[12.172106] (-) TimerEvent: {}
+[12.273048] (-) TimerEvent: {}
+[12.374294] (-) TimerEvent: {}
+[12.475219] (-) TimerEvent: {}
+[12.576168] (-) TimerEvent: {}
+[12.677218] (-) TimerEvent: {}
+[12.766819] (compressed_depth_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:36\x1b[m\x1b[K:\n'}
+[12.767818] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.768772] (compressed_depth_image_transport) StderrLine: {'line': b'   42 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead\n'}
+[12.769755] (compressed_depth_image_transport) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.777474] (-) TimerEvent: {}
+[12.879288] (-) TimerEvent: {}
+[12.980960] (-) TimerEvent: {}
+[13.081945] (-) TimerEvent: {}
+[13.183017] (-) TimerEvent: {}
+[13.284019] (-) TimerEvent: {}
+[13.385134] (-) TimerEvent: {}
+[13.487270] (-) TimerEvent: {}
+[13.588591] (-) TimerEvent: {}
+[13.690541] (-) TimerEvent: {}
+[13.792451] (-) TimerEvent: {}
+[13.893975] (-) TimerEvent: {}
+[13.995678] (-) TimerEvent: {}
+[14.088064] (voice) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/r1/r1_ws/build/voice/build'], 'cwd': '/home/r1/r1_ws/build/voice', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/r1', 'OLDPWD': '/home/r1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'r1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'SESSION_MANAGER': 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4LD71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/r1/r1_ws/build/voice', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[14.107489] (-) TimerEvent: {}
+[14.209836] (-) TimerEvent: {}
+[14.308824] (control) StdoutLine: {'line': b'running develop\n'}
+[14.309869] (-) TimerEvent: {}
+[14.334772] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.335643] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.359479] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.361248] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.410191] (-) TimerEvent: {}
+[14.511870] (-) TimerEvent: {}
+[14.614083] (-) TimerEvent: {}
+[14.632494] (image_geometry) StdoutLine: {'line': b'running egg_info\n'}
+[14.639461] (image_geometry) StdoutLine: {'line': b'creating image_geometry.egg-info\n'}
+[14.652918] (image_geometry) StdoutLine: {'line': b'writing image_geometry.egg-info/PKG-INFO\n'}
+[14.655643] (image_geometry) StdoutLine: {'line': b'writing dependency_links to image_geometry.egg-info/dependency_links.txt\n'}
+[14.659333] (image_geometry) StdoutLine: {'line': b'writing top-level names to image_geometry.egg-info/top_level.txt\n'}
+[14.674931] (image_geometry) StdoutLine: {'line': b"writing manifest file 'image_geometry.egg-info/SOURCES.txt'\n"}
+[14.706670] (image_geometry) StdoutLine: {'line': b"reading manifest file 'image_geometry.egg-info/SOURCES.txt'\n"}
+[14.714278] (-) TimerEvent: {}
+[14.723641] (image_geometry) StdoutLine: {'line': b"writing manifest file 'image_geometry.egg-info/SOURCES.txt'\n"}
+[14.814632] (-) TimerEvent: {}
+[14.915952] (-) TimerEvent: {}
+[15.017030] (-) TimerEvent: {}
+[15.118359] (-) TimerEvent: {}
+[15.211785] (image_geometry) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_build_image_geometry_egg\n'}
+[15.218596] (-) TimerEvent: {}
+[15.319715] (-) TimerEvent: {}
+[15.329305] (image_geometry) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o\x1b[0m\n'}
+[15.419971] (-) TimerEvent: {}
+[15.521627] (-) TimerEvent: {}
+[15.622897] (-) TimerEvent: {}
+[15.724015] (-) TimerEvent: {}
+[15.825221] (-) TimerEvent: {}
+[15.926533] (-) TimerEvent: {}
+[16.028137] (-) TimerEvent: {}
+[16.129847] (-) TimerEvent: {}
+[16.132842] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[16.134274] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.137318] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[16.138686] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.230134] (-) TimerEvent: {}
+[16.331802] (-) TimerEvent: {}
+[16.432966] (-) TimerEvent: {}
+[16.534244] (-) TimerEvent: {}
+[16.635484] (-) TimerEvent: {}
+[16.736600] (-) TimerEvent: {}
+[16.838346] (-) TimerEvent: {}
+[16.939510] (-) TimerEvent: {}
+[17.040556] (-) TimerEvent: {}
+[17.141838] (-) TimerEvent: {}
+[17.243473] (-) TimerEvent: {}
+[17.345291] (-) TimerEvent: {}
+[17.447107] (-) TimerEvent: {}
+[17.548731] (-) TimerEvent: {}
+[17.650034] (-) TimerEvent: {}
+[17.751211] (-) TimerEvent: {}
+[17.852172] (-) TimerEvent: {}
+[17.954109] (-) TimerEvent: {}
+[18.056198] (-) TimerEvent: {}
+[18.157526] (-) TimerEvent: {}
+[18.258836] (-) TimerEvent: {}
+[18.360067] (-) TimerEvent: {}
+[18.461350] (-) TimerEvent: {}
+[18.563468] (-) TimerEvent: {}
+[18.665035] (-) TimerEvent: {}
+[18.767568] (-) TimerEvent: {}
+[18.869616] (-) TimerEvent: {}
+[18.965275] (image_geometry) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[18.969948] (-) TimerEvent: {}
+[19.071639] (-) TimerEvent: {}
+[19.173416] (-) TimerEvent: {}
+[19.274982] (-) TimerEvent: {}
+[19.376156] (-) TimerEvent: {}
+[19.488828] (-) TimerEvent: {}
+[19.590721] (-) TimerEvent: {}
+[19.692451] (-) TimerEvent: {}
+[19.722744] (image_geometry) StdoutLine: {'line': b'[ 55%] Built target gtest_main\n'}
+[19.792681] (-) TimerEvent: {}
+[19.894318] (-) TimerEvent: {}
+[19.995329] (-) TimerEvent: {}
+[20.096313] (-) TimerEvent: {}
+[20.197549] (-) TimerEvent: {}
+[20.298918] (-) TimerEvent: {}
+[20.400644] (-) TimerEvent: {}
+[20.502663] (-) TimerEvent: {}
+[20.561490] (control) CommandEnded: {'returncode': 0}
+[20.566460] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/r1/r1_ws/build/control/build', 'install', '--record', '/home/r1/r1_ws/build/control/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/r1', 'OLDPWD': '/home/r1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'r1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'SESSION_MANAGER': 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4LD71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/r1/r1_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[20.602852] (-) TimerEvent: {}
+[20.703819] (-) TimerEvent: {}
+[20.805083] (-) TimerEvent: {}
+[20.906807] (-) TimerEvent: {}
+[21.008260] (-) TimerEvent: {}
+[21.109528] (-) TimerEvent: {}
+[21.180039] (voice) StdoutLine: {'line': b'running develop\n'}
+[21.182596] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[21.183783] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.204127] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[21.205233] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.209753] (-) TimerEvent: {}
+[21.310924] (-) TimerEvent: {}
+[21.412376] (-) TimerEvent: {}
+[21.513686] (-) TimerEvent: {}
+[21.614905] (-) TimerEvent: {}
+[21.716508] (-) TimerEvent: {}
+[21.817568] (-) TimerEvent: {}
+[21.918868] (-) TimerEvent: {}
+[22.020205] (-) TimerEvent: {}
+[22.121323] (-) TimerEvent: {}
+[22.222290] (-) TimerEvent: {}
+[22.323436] (-) TimerEvent: {}
+[22.424387] (-) TimerEvent: {}
+[22.525508] (-) TimerEvent: {}
+[22.626608] (-) TimerEvent: {}
+[22.727783] (-) TimerEvent: {}
+[22.829091] (-) TimerEvent: {}
+[22.930024] (-) TimerEvent: {}
+[22.967180] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[22.978811] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[22.980811] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[22.981992] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[23.030292] (-) TimerEvent: {}
+[23.131550] (-) TimerEvent: {}
+[23.233185] (-) TimerEvent: {}
+[23.334250] (-) TimerEvent: {}
+[23.435558] (-) TimerEvent: {}
+[23.536915] (-) TimerEvent: {}
+[23.638106] (-) TimerEvent: {}
+[23.739955] (-) TimerEvent: {}
+[23.841549] (-) TimerEvent: {}
+[23.943356] (-) TimerEvent: {}
+[24.045119] (-) TimerEvent: {}
+[24.146261] (-) TimerEvent: {}
+[24.247446] (-) TimerEvent: {}
+[24.348864] (-) TimerEvent: {}
+[24.450171] (-) TimerEvent: {}
+[24.557630] (-) TimerEvent: {}
+[24.658945] (-) TimerEvent: {}
+[24.760294] (-) TimerEvent: {}
+[24.861444] (-) TimerEvent: {}
+[24.962644] (-) TimerEvent: {}
+[25.063748] (-) TimerEvent: {}
+[25.164987] (-) TimerEvent: {}
+[25.266016] (-) TimerEvent: {}
+[25.367502] (-) TimerEvent: {}
+[25.468620] (-) TimerEvent: {}
+[25.569849] (-) TimerEvent: {}
+[25.671587] (-) TimerEvent: {}
+[25.773184] (-) TimerEvent: {}
+[25.874826] (-) TimerEvent: {}
+[25.976454] (-) TimerEvent: {}
+[26.077558] (-) TimerEvent: {}
+[26.178568] (-) TimerEvent: {}
+[26.279729] (-) TimerEvent: {}
+[26.381457] (-) TimerEvent: {}
+[26.483099] (-) TimerEvent: {}
+[26.584791] (-) TimerEvent: {}
+[26.687154] (-) TimerEvent: {}
+[26.777529] (voice) CommandEnded: {'returncode': 0}
+[26.783286] (voice) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/voice', 'build', '--build-base', '/home/r1/r1_ws/build/voice/build', 'install', '--record', '/home/r1/r1_ws/build/voice/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/voice', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/r1', 'OLDPWD': '/home/r1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'r1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'SESSION_MANAGER': 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4LD71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/r1/r1_ws/build/voice', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[26.797004] (-) TimerEvent: {}
+[26.813746] (control) StdoutLine: {'line': b'running egg_info\n'}
+[26.828453] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[26.843132] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[26.846908] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[26.850699] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[26.854696] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[26.885493] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[26.897442] (-) TimerEvent: {}
+[26.911025] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[26.913619] (control) StdoutLine: {'line': b'running build\n'}
+[26.915226] (control) StdoutLine: {'line': b'running build_py\n'}
+[26.926794] (control) StdoutLine: {'line': b'running install\n'}
+[26.929637] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[26.930558] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[26.932296] (control) StdoutLine: {'line': b'running install_lib\n'}
+[26.997672] (-) TimerEvent: {}
+[27.006846] (control) StdoutLine: {'line': b'running install_data\n'}
+[27.010494] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.043808] (control) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[27.046127] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-1.0.0-py3.10.egg-info\n'}
+[27.073132] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[27.097936] (-) TimerEvent: {}
+[27.199828] (-) TimerEvent: {}
+[27.292340] (control) StdoutLine: {'line': b'Installing arms_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.300129] (-) TimerEvent: {}
+[27.307979] (control) StdoutLine: {'line': b'Installing base_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.312651] (control) StdoutLine: {'line': b'Installing eyes_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.315732] (control) StdoutLine: {'line': b'Installing head_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.317133] (control) StdoutLine: {'line': b'Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.318337] (control) StdoutLine: {'line': b'Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.319626] (control) StdoutLine: {'line': b'Installing left_hand_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.320920] (control) StdoutLine: {'line': b'Installing right_hand_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.322269] (control) StdoutLine: {'line': b'Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.323610] (control) StdoutLine: {'line': b'Installing us_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[27.326891] (control) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/control/install.log'\n"}
+[27.400630] (-) TimerEvent: {}
+[27.503557] (-) TimerEvent: {}
+[27.575938] (control) CommandEnded: {'returncode': 0}
+[27.603752] (-) TimerEvent: {}
+[27.704780] (-) TimerEvent: {}
+[27.736178] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[27.741850] (compressed_image_transport) JobStarted: {'identifier': 'compressed_image_transport'}
+[27.807606] (-) TimerEvent: {}
+[27.908864] (-) TimerEvent: {}
+[27.915867] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'cmake'}
+[27.920533] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'build'}
+[27.927782] (compressed_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/compressed_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/compressed_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/compressed_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[28.009137] (-) TimerEvent: {}
+[28.110602] (-) TimerEvent: {}
+[28.212141] (-) TimerEvent: {}
+[28.313761] (-) TimerEvent: {}
+[28.415295] (-) TimerEvent: {}
+[28.516383] (-) TimerEvent: {}
+[28.569451] (compressed_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_image_transport\x1b[0m\n'}
+[28.616731] (-) TimerEvent: {}
+[28.717920] (-) TimerEvent: {}
+[28.779790] (compressed_image_transport) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o\x1b[0m\n'}
+[28.807688] (compressed_image_transport) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o\x1b[0m\n'}
+[28.818217] (-) TimerEvent: {}
+[28.847739] (compressed_image_transport) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o\x1b[0m\n'}
+[28.918514] (-) TimerEvent: {}
+[29.019445] (-) TimerEvent: {}
+[29.120361] (-) TimerEvent: {}
+[29.221450] (-) TimerEvent: {}
+[29.322501] (-) TimerEvent: {}
+[29.423431] (-) TimerEvent: {}
+[29.524477] (-) TimerEvent: {}
+[29.625522] (-) TimerEvent: {}
+[29.726379] (-) TimerEvent: {}
+[29.827869] (-) TimerEvent: {}
+[29.929533] (-) TimerEvent: {}
+[30.030560] (-) TimerEvent: {}
+[30.131992] (-) TimerEvent: {}
+[30.232982] (-) TimerEvent: {}
+[30.333991] (-) TimerEvent: {}
+[30.435535] (-) TimerEvent: {}
+[30.537113] (-) TimerEvent: {}
+[30.638789] (-) TimerEvent: {}
+[30.739816] (-) TimerEvent: {}
+[30.841210] (-) TimerEvent: {}
+[30.942645] (-) TimerEvent: {}
+[31.043695] (-) TimerEvent: {}
+[31.145068] (-) TimerEvent: {}
+[31.246315] (-) TimerEvent: {}
+[31.347391] (-) TimerEvent: {}
+[31.448925] (-) TimerEvent: {}
+[31.550565] (-) TimerEvent: {}
+[31.651477] (-) TimerEvent: {}
+[31.752444] (-) TimerEvent: {}
+[31.853398] (-) TimerEvent: {}
+[31.954683] (-) TimerEvent: {}
+[32.055818] (-) TimerEvent: {}
+[32.157139] (-) TimerEvent: {}
+[32.258169] (-) TimerEvent: {}
+[32.337310] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:37\x1b[m\x1b[K:\n'}
+[32.338295] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.339665] (compressed_image_transport) StderrLine: {'line': b'   42 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead\n'}
+[32.340428] (compressed_image_transport) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[32.358850] (-) TimerEvent: {}
+[32.460705] (-) TimerEvent: {}
+[32.562321] (-) TimerEvent: {}
+[32.664085] (-) TimerEvent: {}
+[32.683463] (voice) StdoutLine: {'line': b'running egg_info\n'}
+[32.701451] (voice) StdoutLine: {'line': b'writing ../../build/voice/voice.egg-info/PKG-INFO\n'}
+[32.704461] (voice) StdoutLine: {'line': b'writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt\n'}
+[32.708148] (voice) StdoutLine: {'line': b'writing entry points to ../../build/voice/voice.egg-info/entry_points.txt\n'}
+[32.718229] (voice) StdoutLine: {'line': b'writing requirements to ../../build/voice/voice.egg-info/requires.txt\n'}
+[32.719528] (voice) StdoutLine: {'line': b'writing top-level names to ../../build/voice/voice.egg-info/top_level.txt\n'}
+[32.760115] (voice) StdoutLine: {'line': b"reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'\n"}
+[32.764469] (-) TimerEvent: {}
+[32.781792] (voice) StdoutLine: {'line': b"writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'\n"}
+[32.800974] (voice) StdoutLine: {'line': b'running build\n'}
+[32.801720] (voice) StdoutLine: {'line': b'running build_py\n'}
+[32.811974] (voice) StdoutLine: {'line': b'copying voice/detection_subscriber.py -> /home/r1/r1_ws/build/voice/build/lib/voice\n'}
+[32.819602] (voice) StdoutLine: {'line': b'running install\n'}
+[32.820796] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[32.832570] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[32.833698] (image_geometry) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libimage_geometry.so\x1b[0m\n'}
+[32.834985] (voice) StdoutLine: {'line': b'running install_lib\n'}
+[32.863181] (voice) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/voice/build/lib/voice/detection_subscriber.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice\n'}
+[32.864646] (-) TimerEvent: {}
+[32.876968] (voice) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/detection_subscriber.py to detection_subscriber.cpython-310.pyc\n'}
+[32.896524] (voice) StdoutLine: {'line': b'running install_data\n'}
+[32.900714] (voice) StdoutLine: {'line': b'running install_egg_info\n'}
+[32.935515] (voice) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[32.937337] (voice) StdoutLine: {'line': b'Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info\n'}
+[32.964534] (voice) StdoutLine: {'line': b'running install_scripts\n'}
+[32.965241] (-) TimerEvent: {}
+[32.984516] (compressed_depth_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:35\x1b[m\x1b[K:\n'}
+[32.985498] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h:53:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual void compressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[32.986255] (compressed_depth_image_transport) StderrLine: {'line': b'   53 |   virtual void \x1b[01;31m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[32.987090] (compressed_depth_image_transport) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.065596] (-) TimerEvent: {}
+[33.123713] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:37\x1b[m\x1b[K:\n'}
+[33.130944] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[33.131846] (compressed_image_transport) StderrLine: {'line': b'   42 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead\n'}
+[33.132938] (compressed_image_transport) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[33.165874] (-) TimerEvent: {}
+[33.267533] (-) TimerEvent: {}
+[33.369104] (-) TimerEvent: {}
+[33.394754] (voice) StdoutLine: {'line': b'Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice\n'}
+[33.415792] (voice) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'\n"}
+[33.469372] (-) TimerEvent: {}
+[33.570828] (-) TimerEvent: {}
+[33.673240] (-) TimerEvent: {}
+[33.776263] (-) TimerEvent: {}
+[33.878091] (-) TimerEvent: {}
+[33.957002] (voice) CommandEnded: {'returncode': 0}
+[33.959403] (compressed_depth_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/manifest.cpp:36\x1b[m\x1b[K:\n'}
+[33.960743] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h:53:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual void compressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[33.961857] (compressed_depth_image_transport) StderrLine: {'line': b'   53 |   virtual void \x1b[01;31m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[33.962758] (compressed_depth_image_transport) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.978509] (-) TimerEvent: {}
+[34.079760] (-) TimerEvent: {}
+[34.121289] (voice) JobEnded: {'identifier': 'voice', 'rc': 0}
+[34.124853] (theora_image_transport) JobStarted: {'identifier': 'theora_image_transport'}
+[34.180021] (-) TimerEvent: {}
+[34.303594] (-) TimerEvent: {}
+[34.398210] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'cmake'}
+[34.409111] (-) TimerEvent: {}
+[34.410739] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'build'}
+[34.413386] (theora_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/theora_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/theora_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1738,unix/rpi4:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7897754d_ce2f_4871_883a_5a620563ad13'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C4LD71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r1/r1_ws/build/theora_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[34.509479] (-) TimerEvent: {}
+[34.556618] (image_geometry) StdoutLine: {'line': b'[ 66%] Built target image_geometry\n'}
+[34.609771] (-) TimerEvent: {}
+[34.711405] (-) TimerEvent: {}
+[34.812982] (-) TimerEvent: {}
+[34.914697] (-) TimerEvent: {}
+[35.016698] (-) TimerEvent: {}
+[35.090585] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_generator_c\x1b[0m\n'}
+[35.210462] (-) TimerEvent: {}
+[35.266868] (theora_image_transport) StdoutLine: {'line': b'[  2%] Built target theora_image_transport__cpp\n'}
+[35.310652] (-) TimerEvent: {}
+[35.377202] (theora_image_transport) StdoutLine: {'line': b'[ 10%] Built target theora_image_transport__rosidl_generator_c\n'}
+[35.410881] (-) TimerEvent: {}
+[35.512617] (-) TimerEvent: {}
+[35.534888] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[35.612965] (-) TimerEvent: {}
+[35.715046] (-) TimerEvent: {}
+[35.726183] (theora_image_transport) StdoutLine: {'line': b'[ 18%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp\n'}
+[35.815288] (-) TimerEvent: {}
+[35.841738] (theora_image_transport) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_copy_theora_image_transport\n'}
+[35.899123] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[35.915547] (-) TimerEvent: {}
+[36.013163] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[36.015798] (-) TimerEvent: {}
+[36.098894] (theora_image_transport) StdoutLine: {'line': b'[ 27%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp\n'}
+[36.116082] (-) TimerEvent: {}
+[36.217909] (-) TimerEvent: {}
+[36.222599] (theora_image_transport) StdoutLine: {'line': b'[ 35%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c\n'}
+[36.238108] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[36.318175] (-) TimerEvent: {}
+[36.377937] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_c\x1b[0m\n'}
+[36.418454] (-) TimerEvent: {}
+[36.436557] (theora_image_transport) StdoutLine: {'line': b'[ 43%] Built target theora_image_transport__rosidl_typesupport_introspection_c\n'}
+[36.518655] (-) TimerEvent: {}
+[36.577272] (theora_image_transport) StdoutLine: {'line': b'[ 51%] Built target theora_image_transport__rosidl_typesupport_c\n'}
+[36.618886] (-) TimerEvent: {}
+[36.720068] (-) TimerEvent: {}
+[36.750849] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_cpp\x1b[0m\n'}
+[36.820296] (-) TimerEvent: {}
+[36.921489] (-) TimerEvent: {}
+[36.962361] (theora_image_transport) StdoutLine: {'line': b'[ 59%] Built target theora_image_transport__rosidl_typesupport_cpp\n'}
+[37.021828] (-) TimerEvent: {}
+[37.123064] (-) TimerEvent: {}
+[37.224269] (-) TimerEvent: {}
+[37.325464] (-) TimerEvent: {}
+[37.426682] (-) TimerEvent: {}
+[37.527908] (-) TimerEvent: {}
+[37.628972] (-) TimerEvent: {}
+[37.730541] (-) TimerEvent: {}
+[37.831607] (-) TimerEvent: {}
+[37.932838] (-) TimerEvent: {}
+[38.033938] (-) TimerEvent: {}
+[38.135013] (-) TimerEvent: {}
+[38.236232] (-) TimerEvent: {}
+[38.337570] (-) TimerEvent: {}
+[38.438800] (-) TimerEvent: {}
+[38.539943] (-) TimerEvent: {}
+[38.641128] (-) TimerEvent: {}
+[38.743125] (-) TimerEvent: {}
+[38.844924] (-) TimerEvent: {}
+[38.945994] (-) TimerEvent: {}
+[39.047106] (-) TimerEvent: {}
+[39.148070] (-) TimerEvent: {}
+[39.249418] (-) TimerEvent: {}
+[39.350571] (-) TimerEvent: {}
+[39.451650] (-) TimerEvent: {}
+[39.552677] (-) TimerEvent: {}
+[39.654468] (-) TimerEvent: {}
+[39.756344] (-) TimerEvent: {}
+[39.858169] (-) TimerEvent: {}
+[39.959358] (-) TimerEvent: {}
+[40.060451] (-) TimerEvent: {}
+[40.161824] (-) TimerEvent: {}
+[40.262882] (-) TimerEvent: {}
+[40.363985] (-) TimerEvent: {}
+[40.465437] (-) TimerEvent: {}
+[40.566648] (-) TimerEvent: {}
+[40.667907] (-) TimerEvent: {}
+[40.769025] (-) TimerEvent: {}
+[40.870111] (-) TimerEvent: {}
+[40.971525] (-) TimerEvent: {}
+[41.073037] (-) TimerEvent: {}
+[41.174211] (-) TimerEvent: {}
+[41.276021] (-) TimerEvent: {}
+[41.377714] (-) TimerEvent: {}
+[41.479423] (-) TimerEvent: {}
+[41.580536] (-) TimerEvent: {}
+[41.681784] (-) TimerEvent: {}
+[41.782878] (-) TimerEvent: {}
+[41.884106] (-) TimerEvent: {}
+[41.985611] (-) TimerEvent: {}
+[42.086646] (-) TimerEvent: {}
+[42.188637] (-) TimerEvent: {}
+[42.290206] (-) TimerEvent: {}
+[42.391554] (-) TimerEvent: {}
+[42.486102] (theora_image_transport) StdoutLine: {'line': b'running egg_info\n'}
+[42.491803] (theora_image_transport) StdoutLine: {'line': b'writing theora_image_transport.egg-info/PKG-INFO\n'}
+[42.493867] (-) TimerEvent: {}
+[42.503700] (theora_image_transport) StdoutLine: {'line': b'writing dependency_links to theora_image_transport.egg-info/dependency_links.txt\n'}
+[42.505688] (theora_image_transport) StdoutLine: {'line': b'writing top-level names to theora_image_transport.egg-info/top_level.txt\n'}
+[42.557427] (theora_image_transport) StdoutLine: {'line': b"reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'\n"}
+[42.574815] (theora_image_transport) StdoutLine: {'line': b"writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'\n"}
+[42.594379] (-) TimerEvent: {}
+[42.697006] (-) TimerEvent: {}
+[42.799717] (-) TimerEvent: {}
+[42.859745] (theora_image_transport) StdoutLine: {'line': b'[ 59%] Built target ament_cmake_python_build_theora_image_transport_egg\n'}
+[42.900068] (-) TimerEvent: {}
+[42.931681] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ogg_saver\x1b[0m\n'}
+[43.000344] (-) TimerEvent: {}
+[43.101444] (-) TimerEvent: {}
+[43.169911] (theora_image_transport) StdoutLine: {'line': b'[ 64%] Built target ogg_saver\n'}
+[43.201751] (-) TimerEvent: {}
+[43.302743] (-) TimerEvent: {}
+[43.366958] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target theora_image_transport_component\x1b[0m\n'}
+[43.403130] (-) TimerEvent: {}
+[43.504579] (-) TimerEvent: {}
+[43.605801] (-) TimerEvent: {}
+[43.627830] (theora_image_transport) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o\x1b[0m\n'}
+[43.706099] (-) TimerEvent: {}
+[43.807444] (-) TimerEvent: {}
+[43.909586] (-) TimerEvent: {}
+[44.011431] (-) TimerEvent: {}
+[44.112492] (-) TimerEvent: {}
+[44.213566] (-) TimerEvent: {}
+[44.314639] (-) TimerEvent: {}
+[44.415723] (-) TimerEvent: {}
+[44.516810] (-) TimerEvent: {}
+[44.618213] (-) TimerEvent: {}
+[44.719402] (-) TimerEvent: {}
+[44.820434] (-) TimerEvent: {}
+[44.921429] (-) TimerEvent: {}
+[45.022527] (-) TimerEvent: {}
+[45.123582] (-) TimerEvent: {}
+[45.224916] (-) TimerEvent: {}
+[45.327018] (-) TimerEvent: {}
+[45.427984] (-) TimerEvent: {}
+[45.529176] (-) TimerEvent: {}
+[45.630720] (-) TimerEvent: {}
+[45.732315] (-) TimerEvent: {}
+[45.833875] (-) TimerEvent: {}
+[45.935651] (-) TimerEvent: {}
+[46.037302] (-) TimerEvent: {}
+[46.138308] (-) TimerEvent: {}
+[46.239514] (-) TimerEvent: {}
+[46.340706] (-) TimerEvent: {}
+[46.441871] (-) TimerEvent: {}
+[46.543096] (-) TimerEvent: {}
+[46.640310] (theora_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:39\x1b[m\x1b[K,\n'}
+[46.641714] (theora_image_transport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35\x1b[m\x1b[K:\n'}
+[46.643054] (theora_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[46.643956] (-) TimerEvent: {}
+[46.645657] (theora_image_transport) StderrLine: {'line': b'   42 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead\n'}
+[46.647303] (theora_image_transport) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[46.744257] (-) TimerEvent: {}
+[46.845985] (-) TimerEvent: {}
+[46.947991] (-) TimerEvent: {}
+[47.049811] (-) TimerEvent: {}
+[47.145194] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void compressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[47.150044] (-) TimerEvent: {}
+[47.155142] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:66:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcompressed_depth_image_transport::CompressedDepthPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[47.156125] (compressed_depth_image_transport) StderrLine: {'line': b'   66 |   \x1b[01;31m\x1b[KBase::advertiseImpl(node, base_topic, custom_qos)\x1b[m\x1b[K;\n'}
+[47.156945] (compressed_depth_image_transport) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.158261] (compressed_depth_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h:37\x1b[m\x1b[K,\n'}
+[47.159157] (compressed_depth_image_transport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_depth_image_transport/src/compressed_depth_publisher.cpp:35\x1b[m\x1b[K:\n'}
+[47.160014] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = sensor_msgs::msg::CompressedImage_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[47.161056] (compressed_depth_image_transport) StderrLine: {'line': b'  101 |   void \x1b[01;36m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[47.162827] (compressed_depth_image_transport) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.163554] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[47.250330] (-) TimerEvent: {}
+[47.351963] (-) TimerEvent: {}
+[47.453606] (-) TimerEvent: {}
+[47.555280] (-) TimerEvent: {}
+[47.657090] (-) TimerEvent: {}
+[47.759185] (-) TimerEvent: {}
+[47.860537] (-) TimerEvent: {}
+[47.963172] (-) TimerEvent: {}
+[48.065642] (-) TimerEvent: {}
+[48.167674] (-) TimerEvent: {}
+[48.270555] (-) TimerEvent: {}
+[48.367004] (image_geometry) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[48.370807] (-) TimerEvent: {}
+[48.472614] (-) TimerEvent: {}
+[48.574265] (-) TimerEvent: {}
+[48.675964] (-) TimerEvent: {}
+[48.777725] (-) TimerEvent: {}
+[48.879815] (-) TimerEvent: {}
+[48.981496] (-) TimerEvent: {}
+[49.083258] (-) TimerEvent: {}
+[49.185247] (-) TimerEvent: {}
+[49.224525] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:35\x1b[m\x1b[K:\n'}
+[49.226105] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h:60:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid compressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[49.230841] (compressed_image_transport) StderrLine: {'line': b'   60 |   void \x1b[01;31m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[49.232220] (compressed_image_transport) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[49.285485] (-) TimerEvent: {}
+[49.320724] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:35\x1b[m\x1b[K:\n'}
+[49.321974] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_subscriber.h:59:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid compressed_image_transport::CompressedSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[49.322915] (compressed_image_transport) StderrLine: {'line': b'   59 |   void \x1b[01;31m\x1b[KsubscribeImpl\x1b[m\x1b[K(\n'}
+[49.323709] (compressed_image_transport) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[49.385754] (-) TimerEvent: {}
+[49.462320] (image_geometry) StdoutLine: {'line': b'[ 77%] Built target gtest\n'}
+[49.486022] (-) TimerEvent: {}
+[49.587198] (-) TimerEvent: {}
+[49.688358] (-) TimerEvent: {}
+[49.743691] (image_geometry) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o\x1b[0m\n'}
+[49.788625] (-) TimerEvent: {}
+[49.889903] (-) TimerEvent: {}
+[49.990928] (-) TimerEvent: {}
+[50.091893] (-) TimerEvent: {}
+[50.193009] (-) TimerEvent: {}
+[50.294099] (-) TimerEvent: {}
+[50.395179] (-) TimerEvent: {}
+[50.496177] (-) TimerEvent: {}
+[50.597309] (-) TimerEvent: {}
+[50.698308] (-) TimerEvent: {}
+[50.710781] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/manifest.cpp:36\x1b[m\x1b[K:\n'}
+[50.711525] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h:60:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid compressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[50.712316] (compressed_image_transport) StderrLine: {'line': b'   60 |   void \x1b[01;31m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[50.712911] (compressed_image_transport) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[50.798638] (-) TimerEvent: {}
+[50.859578] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/manifest.cpp:37\x1b[m\x1b[K:\n'}
+[50.860689] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_subscriber.h:59:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid compressed_image_transport::CompressedSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[50.861812] (compressed_image_transport) StderrLine: {'line': b'   59 |   void \x1b[01;31m\x1b[KsubscribeImpl\x1b[m\x1b[K(\n'}
+[50.862800] (compressed_image_transport) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[50.898843] (-) TimerEvent: {}
+[50.999922] (-) TimerEvent: {}
+[51.101091] (-) TimerEvent: {}
+[51.202195] (-) TimerEvent: {}
+[51.304170] (-) TimerEvent: {}
+[51.405765] (-) TimerEvent: {}
+[51.507284] (-) TimerEvent: {}
+[51.608787] (-) TimerEvent: {}
+[51.710514] (-) TimerEvent: {}
+[51.812029] (-) TimerEvent: {}
+[51.913852] (-) TimerEvent: {}
+[52.014982] (-) TimerEvent: {}
+[52.116178] (-) TimerEvent: {}
+[52.217672] (-) TimerEvent: {}
+[52.318911] (-) TimerEvent: {}
+[52.420139] (-) TimerEvent: {}
+[52.521749] (-) TimerEvent: {}
+[52.623503] (-) TimerEvent: {}
+[52.724910] (-) TimerEvent: {}
+[52.826211] (-) TimerEvent: {}
+[52.927449] (-) TimerEvent: {}
+[53.028580] (-) TimerEvent: {}
+[53.129914] (-) TimerEvent: {}
+[53.230962] (-) TimerEvent: {}
+[53.332793] (-) TimerEvent: {}
+[53.433921] (-) TimerEvent: {}
+[53.535192] (-) TimerEvent: {}
+[53.636465] (-) TimerEvent: {}
+[53.737680] (-) TimerEvent: {}
+[53.839463] (-) TimerEvent: {}
+[53.940715] (-) TimerEvent: {}
+[54.049020] (-) TimerEvent: {}
+[54.150282] (-) TimerEvent: {}
+[54.251529] (-) TimerEvent: {}
+[54.353356] (-) TimerEvent: {}
+[54.455479] (-) TimerEvent: {}
+[54.557588] (-) TimerEvent: {}
+[54.659435] (-) TimerEvent: {}
+[54.761401] (-) TimerEvent: {}
+[54.863419] (-) TimerEvent: {}
+[54.965461] (-) TimerEvent: {}
+[55.066762] (-) TimerEvent: {}
+[55.168005] (-) TimerEvent: {}
+[55.269266] (-) TimerEvent: {}
+[55.370610] (-) TimerEvent: {}
+[55.471712] (-) TimerEvent: {}
+[55.573103] (-) TimerEvent: {}
+[55.674987] (-) TimerEvent: {}
+[55.776881] (-) TimerEvent: {}
+[55.878539] (-) TimerEvent: {}
+[55.980750] (-) TimerEvent: {}
+[56.082514] (-) TimerEvent: {}
+[56.184339] (-) TimerEvent: {}
+[56.286086] (-) TimerEvent: {}
+[56.387857] (-) TimerEvent: {}
+[56.489598] (-) TimerEvent: {}
+[56.591361] (-) TimerEvent: {}
+[56.692985] (-) TimerEvent: {}
+[56.794633] (-) TimerEvent: {}
+[56.896265] (-) TimerEvent: {}
+[56.998001] (-) TimerEvent: {}
+[57.099630] (-) TimerEvent: {}
+[57.201392] (-) TimerEvent: {}
+[57.303108] (-) TimerEvent: {}
+[57.405248] (-) TimerEvent: {}
+[57.458273] (compressed_depth_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_depth_image_transport.dir/build.make:104: CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o] Error 1\n'}
+[57.459388] (compressed_depth_image_transport) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[57.505509] (-) TimerEvent: {}
+[57.607058] (-) TimerEvent: {}
+[57.708169] (-) TimerEvent: {}
+[57.809860] (-) TimerEvent: {}
+[57.911525] (-) TimerEvent: {}
+[58.013202] (-) TimerEvent: {}
+[58.114826] (-) TimerEvent: {}
+[58.216069] (-) TimerEvent: {}
+[58.317810] (-) TimerEvent: {}
+[58.365268] (compressed_depth_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_depth_image_transport.dir/build.make:76: CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o] Error 1\n'}
+[58.368765] (compressed_depth_image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/compressed_depth_image_transport.dir/all] Error 2\n'}
+[58.371788] (compressed_depth_image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[58.391505] (compressed_depth_image_transport) CommandEnded: {'returncode': 2}
+[58.418181] (-) TimerEvent: {}
+[58.520024] (-) TimerEvent: {}
+[58.621848] (-) TimerEvent: {}
+[58.723923] (-) TimerEvent: {}
+[58.825129] (-) TimerEvent: {}
+[58.926190] (-) TimerEvent: {}
+[59.027745] (-) TimerEvent: {}
+[59.129088] (-) TimerEvent: {}
+[59.246658] (-) TimerEvent: {}
+[59.287365] (compressed_depth_image_transport) JobEnded: {'identifier': 'compressed_depth_image_transport', 'rc': 2}
+[59.346883] (-) TimerEvent: {}
+[59.448036] (-) TimerEvent: {}
+[59.549364] (-) TimerEvent: {}
+[59.650822] (-) TimerEvent: {}
+[59.752018] (-) TimerEvent: {}
+[59.853563] (-) TimerEvent: {}
+[59.954805] (-) TimerEvent: {}
+[60.055938] (-) TimerEvent: {}
+[60.157066] (-) TimerEvent: {}
+[60.258222] (-) TimerEvent: {}
+[60.359510] (-) TimerEvent: {}
+[60.461237] (-) TimerEvent: {}
+[60.562902] (-) TimerEvent: {}
+[60.663979] (-) TimerEvent: {}
+[60.765102] (-) TimerEvent: {}
+[60.861734] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid compressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[60.862855] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:67:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcompressed_image_transport::CompressedPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[60.863855] (compressed_image_transport) StderrLine: {'line': b'   67 |   \x1b[01;31m\x1b[KBase::advertiseImpl(node, base_topic, custom_qos)\x1b[m\x1b[K;\n'}
+[60.864676] (compressed_image_transport) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[60.865531] (-) TimerEvent: {}
+[60.867359] (compressed_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h:39\x1b[m\x1b[K,\n'}
+[60.868257] (compressed_image_transport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_publisher.cpp:35\x1b[m\x1b[K:\n'}
+[60.869079] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = sensor_msgs::msg::CompressedImage_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[60.869890] (compressed_image_transport) StderrLine: {'line': b'  101 |   void \x1b[01;36m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[60.870810] (compressed_image_transport) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[60.871652] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[60.931039] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void compressed_image_transport::CompressedSubscriber::subscribeImpl(rclcpp::Node*, const string&, const Callback&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[60.932055] (compressed_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/compressed_image_transport/src/compressed_subscriber.cpp:78:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsubscribeImplWithOptions\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KBase\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::SimpleSubscriberPlugin<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[60.932861] (compressed_image_transport) StderrLine: {'line': b'   78 |     Base::\x1b[01;31m\x1b[KsubscribeImplWithOptions\x1b[m\x1b[K(node, base_topic, callback, custom_qos, options);\n'}
+[60.933731] (compressed_image_transport) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[60.965805] (-) TimerEvent: {}
+[61.066951] (-) TimerEvent: {}
+[61.168140] (-) TimerEvent: {}
+[61.269212] (-) TimerEvent: {}
+[61.370334] (-) TimerEvent: {}
+[61.472130] (-) TimerEvent: {}
+[61.573866] (-) TimerEvent: {}
+[61.675785] (-) TimerEvent: {}
+[61.776858] (-) TimerEvent: {}
+[61.878594] (-) TimerEvent: {}
+[61.980280] (-) TimerEvent: {}
+[62.081952] (-) TimerEvent: {}
+[62.183615] (-) TimerEvent: {}
+[62.285155] (-) TimerEvent: {}
+[62.386217] (-) TimerEvent: {}
+[62.487392] (-) TimerEvent: {}
+[62.588471] (-) TimerEvent: {}
+[62.689542] (-) TimerEvent: {}
+[62.791245] (-) TimerEvent: {}
+[62.892905] (-) TimerEvent: {}
+[62.993981] (-) TimerEvent: {}
+[63.095147] (-) TimerEvent: {}
+[63.196372] (-) TimerEvent: {}
+[63.297726] (-) TimerEvent: {}
+[63.399167] (-) TimerEvent: {}
+[63.501191] (-) TimerEvent: {}
+[63.602953] (-) TimerEvent: {}
+[63.704710] (-) TimerEvent: {}
+[63.806347] (-) TimerEvent: {}
+[63.907966] (-) TimerEvent: {}
+[64.009127] (-) TimerEvent: {}
+[64.110324] (-) TimerEvent: {}
+[64.211572] (-) TimerEvent: {}
+[64.313075] (-) TimerEvent: {}
+[64.414758] (-) TimerEvent: {}
+[64.515983] (-) TimerEvent: {}
+[64.617129] (-) TimerEvent: {}
+[64.718283] (-) TimerEvent: {}
+[64.819560] (-) TimerEvent: {}
+[64.920615] (-) TimerEvent: {}
+[65.021751] (-) TimerEvent: {}
+[65.123088] (-) TimerEvent: {}
+[65.224197] (-) TimerEvent: {}
+[65.325558] (-) TimerEvent: {}
+[65.426768] (-) TimerEvent: {}
+[65.528060] (-) TimerEvent: {}
+[65.629490] (-) TimerEvent: {}
+[65.730999] (-) TimerEvent: {}
+[65.832359] (-) TimerEvent: {}
+[65.933783] (-) TimerEvent: {}
+[66.034894] (-) TimerEvent: {}
+[66.126625] (theora_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void theora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*, const string&, uint32_t, rmw_qos_profile_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[66.128000] (theora_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:90:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktheora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[66.129449] (theora_image_transport) StderrLine: {'line': b'   90 |   \x1b[01;31m\x1b[KBase::advertiseImpl(node, base_topic, custom_qos)\x1b[m\x1b[K;\n'}
+[66.130258] (theora_image_transport) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[66.131137] (theora_image_transport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:38\x1b[m\x1b[K,\n'}
+[66.131927] (theora_image_transport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35\x1b[m\x1b[K:\n'}
+[66.132816] (theora_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = theora_image_transport::msg::Packet_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[66.133752] (theora_image_transport) StderrLine: {'line': b'  101 |   void \x1b[01;36m\x1b[KadvertiseImpl\x1b[m\x1b[K(\n'}
+[66.134649] (theora_image_transport) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[66.135336] (-) TimerEvent: {}
+[66.136169] (theora_image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[66.235735] (-) TimerEvent: {}
+[66.337426] (-) TimerEvent: {}
+[66.438607] (-) TimerEvent: {}
+[66.539724] (-) TimerEvent: {}
+[66.640863] (-) TimerEvent: {}
+[66.742968] (-) TimerEvent: {}
+[66.844624] (-) TimerEvent: {}
+[66.945780] (-) TimerEvent: {}
+[67.047539] (-) TimerEvent: {}
+[67.149608] (-) TimerEvent: {}
+[67.250832] (-) TimerEvent: {}
+[67.352002] (-) TimerEvent: {}
+[67.360106] (image_geometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_geometry-utest\x1b[0m\n'}
+[67.452273] (-) TimerEvent: {}
+[67.553553] (-) TimerEvent: {}
+[67.655130] (-) TimerEvent: {}
+[67.756449] (-) TimerEvent: {}
+[67.858313] (-) TimerEvent: {}
+[67.960094] (-) TimerEvent: {}
+[68.062009] (-) TimerEvent: {}
+[68.163981] (-) TimerEvent: {}
+[68.265940] (-) TimerEvent: {}
+[68.367216] (-) TimerEvent: {}
+[68.455451] (compressed_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:76: CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o] Error 1\n'}
+[68.456509] (compressed_image_transport) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[68.467493] (-) TimerEvent: {}
+[68.568535] (-) TimerEvent: {}
+[68.670097] (-) TimerEvent: {}
+[68.771481] (-) TimerEvent: {}
+[68.874259] (-) TimerEvent: {}
+[68.963051] (image_geometry) StdoutLine: {'line': b'[100%] Built target image_geometry-utest\n'}
+[68.974536] (-) TimerEvent: {}
+[69.027071] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 'SIGINT'}
+[69.074745] (-) TimerEvent: {}
+[69.175782] (-) TimerEvent: {}
+[69.276874] (-) TimerEvent: {}
+[69.386168] (-) TimerEvent: {}
+[69.487668] (-) TimerEvent: {}
+[69.588811] (-) TimerEvent: {}
+[69.689992] (-) TimerEvent: {}
+[69.791132] (-) TimerEvent: {}
+[69.892295] (-) TimerEvent: {}
+[69.993503] (-) TimerEvent: {}
+[70.094629] (-) TimerEvent: {}
+[70.195900] (-) TimerEvent: {}
+[70.297618] (-) TimerEvent: {}
+[70.298884] (compressed_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:104: CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o] Error 1\n'}
+[70.398044] (-) TimerEvent: {}
+[70.499570] (-) TimerEvent: {}
+[70.600406] (-) TimerEvent: {}
+[70.701381] (-) TimerEvent: {}
+[70.802353] (-) TimerEvent: {}
+[70.876796] (theora_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:76: CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o] Error 1\n'}
+[70.877866] (theora_image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/theora_image_transport_component.dir/all] Error 2\n'}
+[70.879057] (theora_image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[70.885671] (theora_image_transport) JobEnded: {'identifier': 'theora_image_transport', 'rc': 'SIGINT'}
+[70.902576] (-) TimerEvent: {}
+[71.003296] (-) TimerEvent: {}
+[71.104048] (-) TimerEvent: {}
+[71.205005] (-) TimerEvent: {}
+[71.305819] (-) TimerEvent: {}
+[71.406635] (-) TimerEvent: {}
+[71.507394] (-) TimerEvent: {}
+[71.608189] (-) TimerEvent: {}
+[71.708993] (-) TimerEvent: {}
+[71.809846] (-) TimerEvent: {}
+[71.910592] (-) TimerEvent: {}
+[72.011320] (-) TimerEvent: {}
+[72.112090] (-) TimerEvent: {}
+[72.212873] (-) TimerEvent: {}
+[72.313708] (-) TimerEvent: {}
+[72.414521] (-) TimerEvent: {}
+[72.515299] (-) TimerEvent: {}
+[72.616052] (-) TimerEvent: {}
+[72.716942] (-) TimerEvent: {}
+[72.818188] (-) TimerEvent: {}
+[72.918960] (-) TimerEvent: {}
+[73.019657] (-) TimerEvent: {}
+[73.120370] (-) TimerEvent: {}
+[73.221230] (-) TimerEvent: {}
+[73.322062] (-) TimerEvent: {}
+[73.422910] (-) TimerEvent: {}
+[73.523685] (-) TimerEvent: {}
+[73.624490] (-) TimerEvent: {}
+[73.725330] (-) TimerEvent: {}
+[73.826383] (-) TimerEvent: {}
+[73.927709] (-) TimerEvent: {}
+[73.951224] (compressed_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:90: CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o] Error 1\n'}
+[73.952227] (compressed_image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/compressed_image_transport.dir/all] Error 2\n'}
+[73.953074] (compressed_image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[73.961093] (compressed_image_transport) JobEnded: {'identifier': 'compressed_image_transport', 'rc': 'SIGINT'}
+[73.973343] (camera) JobSkipped: {'identifier': 'camera'}
+[73.973760] (opencv_tests) JobSkipped: {'identifier': 'opencv_tests'}
+[73.974004] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[73.974323] (image_common) JobSkipped: {'identifier': 'image_common'}
+[73.974754] (image_transport_plugins) JobSkipped: {'identifier': 'image_transport_plugins'}
+[73.974917] (v4l2_camera) JobSkipped: {'identifier': 'v4l2_camera'}
+[73.975085] (-) EventReactorShutdown: {}

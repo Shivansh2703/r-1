@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/PKG-INFO
+../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt
+../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/dependency_links.txt
+../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/requires.txt
+../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/top_level.txt
+Adafruit_PCA9685/PCA9685.py
+Adafruit_PCA9685/__init__.py

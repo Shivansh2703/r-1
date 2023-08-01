@@ -1,0 +1,738 @@
+[0.000000] (-) TimerEvent: {}
+[0.001713] (Adafruit_PCA9685) JobQueued: {'identifier': 'Adafruit_PCA9685', 'dependencies': OrderedDict()}
+[0.002271] (ai_assistant) JobQueued: {'identifier': 'ai_assistant', 'dependencies': OrderedDict()}
+[0.002361] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.002441] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.002517] (lex_common_msgs) JobQueued: {'identifier': 'lex_common_msgs', 'dependencies': OrderedDict()}
+[0.002596] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.002672] (lex_node) JobQueued: {'identifier': 'lex_node', 'dependencies': OrderedDict([('lex_common_msgs', '/home/r1/r1_ws/install/lex_common_msgs')])}
+[0.002758] (lex_common_msgs) JobStarted: {'identifier': 'lex_common_msgs'}
+[0.051577] (Adafruit_PCA9685) JobStarted: {'identifier': 'Adafruit_PCA9685'}
+[0.087788] (ai_assistant) JobStarted: {'identifier': 'ai_assistant'}
+[0.099103] (-) TimerEvent: {}
+[0.138645] (camera) JobStarted: {'identifier': 'camera'}
+[0.200983] (-) TimerEvent: {}
+[0.209058] (lex_common_msgs) JobProgress: {'identifier': 'lex_common_msgs', 'progress': 'cmake'}
+[0.211959] (lex_common_msgs) JobProgress: {'identifier': 'lex_common_msgs', 'progress': 'build'}
+[0.214781] (lex_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/lex_common_msgs', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/lex_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.13 52052 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/video_streaming'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/lex_common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.13 52052 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.301213] (-) TimerEvent: {}
+[0.402704] (-) TimerEvent: {}
+[0.503616] (-) TimerEvent: {}
+[0.604383] (-) TimerEvent: {}
+[0.705228] (-) TimerEvent: {}
+[0.807043] (-) TimerEvent: {}
+[0.908680] (-) TimerEvent: {}
+[1.009660] (-) TimerEvent: {}
+[1.111192] (-) TimerEvent: {}
+[1.213033] (-) TimerEvent: {}
+[1.313890] (-) TimerEvent: {}
+[1.414677] (-) TimerEvent: {}
+[1.515355] (-) TimerEvent: {}
+[1.616099] (-) TimerEvent: {}
+[1.716801] (-) TimerEvent: {}
+[1.817498] (-) TimerEvent: {}
+[1.918182] (-) TimerEvent: {}
+[2.018882] (-) TimerEvent: {}
+[2.119712] (-) TimerEvent: {}
+[2.220927] (-) TimerEvent: {}
+[2.323332] (-) TimerEvent: {}
+[2.425019] (-) TimerEvent: {}
+[2.526811] (-) TimerEvent: {}
+[2.628589] (-) TimerEvent: {}
+[2.730779] (-) TimerEvent: {}
+[2.833121] (-) TimerEvent: {}
+[2.933926] (-) TimerEvent: {}
+[3.035011] (-) TimerEvent: {}
+[3.135893] (-) TimerEvent: {}
+[3.236637] (-) TimerEvent: {}
+[3.337316] (-) TimerEvent: {}
+[3.438073] (-) TimerEvent: {}
+[3.538763] (-) TimerEvent: {}
+[3.639582] (-) TimerEvent: {}
+[3.740355] (-) TimerEvent: {}
+[3.841130] (-) TimerEvent: {}
+[3.941987] (-) TimerEvent: {}
+[4.043205] (-) TimerEvent: {}
+[4.053532] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.055722] (lex_common_msgs) StdoutLine: {'line': b'[  2%] Built target lex_common_msgs__cpp\n'}
+[4.057172] (lex_common_msgs) StdoutLine: {'line': b'[ 12%] Built target lex_common_msgs__rosidl_generator_c\n'}
+[4.057832] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.058639] (lex_common_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_lex_common_msgs\n'}
+[4.059041] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.059365] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.059694] (lex_common_msgs) StdoutLine: {'line': b'[ 23%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.060081] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.060445] (lex_common_msgs) StdoutLine: {'line': b'[ 33%] Built target lex_common_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.060791] (lex_common_msgs) StdoutLine: {'line': b'[ 43%] Built target lex_common_msgs__rosidl_typesupport_cpp\n'}
+[4.061136] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.061545] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.061913] (lex_common_msgs) StdoutLine: {'line': b'[ 53%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.062263] (lex_common_msgs) StdoutLine: {'line': b'[ 64%] Built target lex_common_msgs__rosidl_typesupport_introspection_c\n'}
+[4.062616] (lex_common_msgs) StdoutLine: {'line': b'[ 74%] Built target lex_common_msgs__rosidl_typesupport_c\n'}
+[4.062971] (lex_common_msgs) StdoutLine: {'line': b'[ 74%] Built target lex_common_msgs\n'}
+[4.063321] (lex_common_msgs) StdoutLine: {'line': b'[ 76%] Built target lex_common_msgs__py\n'}
+[4.063706] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_generator_py\x1b[0m\n'}
+[4.064005] (lex_common_msgs) StdoutLine: {'line': b'[ 84%] Built target lex_common_msgs__rosidl_generator_py\n'}
+[4.064298] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.064632] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.064982] (lex_common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.065471] (lex_common_msgs) StdoutLine: {'line': b'[ 89%] Built target lex_common_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.066127] (lex_common_msgs) StdoutLine: {'line': b'[ 94%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.066519] (lex_common_msgs) StdoutLine: {'line': b'[100%] Built target lex_common_msgs__rosidl_typesupport_c__pyext\n'}
+[4.066856] (lex_common_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.067194] (lex_common_msgs) StdoutLine: {'line': b'writing lex_common_msgs.egg-info/PKG-INFO\n'}
+[4.067502] (lex_common_msgs) StdoutLine: {'line': b'writing dependency_links to lex_common_msgs.egg-info/dependency_links.txt\n'}
+[4.067854] (lex_common_msgs) StdoutLine: {'line': b'writing top-level names to lex_common_msgs.egg-info/top_level.txt\n'}
+[4.068181] (lex_common_msgs) StdoutLine: {'line': b"reading manifest file 'lex_common_msgs.egg-info/SOURCES.txt'\n"}
+[4.068502] (lex_common_msgs) StdoutLine: {'line': b"writing manifest file 'lex_common_msgs.egg-info/SOURCES.txt'\n"}
+[4.068821] (lex_common_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lex_common_msgs_egg\n'}
+[4.071574] (lex_common_msgs) CommandEnded: {'returncode': 0}
+[4.143459] (-) TimerEvent: {}
+[4.244860] (-) TimerEvent: {}
+[4.346370] (-) TimerEvent: {}
+[4.447621] (-) TimerEvent: {}
+[4.550419] (-) TimerEvent: {}
+[4.653160] (-) TimerEvent: {}
+[4.754113] (-) TimerEvent: {}
+[4.854792] (-) TimerEvent: {}
+[4.955496] (-) TimerEvent: {}
+[5.056186] (-) TimerEvent: {}
+[5.156835] (-) TimerEvent: {}
+[5.257485] (-) TimerEvent: {}
+[5.358163] (-) TimerEvent: {}
+[5.458811] (-) TimerEvent: {}
+[5.559509] (-) TimerEvent: {}
+[5.660478] (-) TimerEvent: {}
+[5.761570] (-) TimerEvent: {}
+[5.770955] (Adafruit_PCA9685) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Adafruit_PCA9685', 'build', '--build-base', '/home/r1/r1_ws/build/Adafruit_PCA9685/build', 'install', '--record', '/home/r1/r1_ws/build/Adafruit_PCA9685/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/Adafruit_Python_PCA9685', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/Adafruit_PCA9685', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/Adafruit_PCA9685/prefix_override:/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[5.785310] (lex_common_msgs) JobProgress: {'identifier': 'lex_common_msgs', 'progress': 'install'}
+[5.829281] (lex_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/r1/r1_ws/build/lex_common_msgs'], 'cwd': '/home/r1/r1_ws/build/lex_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.13 52052 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/video_streaming'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/lex_common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.13 52052 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[5.861936] (-) TimerEvent: {}
+[5.882243] (lex_common_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.883361] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/rosidl_interfaces/lex_common_msgs\n'}
+[5.888489] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs\n'}
+[5.889469] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg\n'}
+[5.890393] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/key_value.h\n'}
+[5.891389] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail\n'}
+[5.892212] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__functions.c\n'}
+[5.893716] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__struct.h\n'}
+[5.895012] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__type_support.h\n'}
+[5.896350] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__functions.h\n'}
+[5.897768] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.899044] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv\n'}
+[5.899950] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail\n'}
+[5.900957] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__type_support.h\n'}
+[5.902257] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__functions.c\n'}
+[5.903859] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__functions.h\n'}
+[5.905444] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__struct.h\n'}
+[5.906930] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/audio_text_conversation.h\n'}
+[5.910320] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/library_path.sh\n'}
+[5.912612] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/library_path.dsv\n'}
+[5.918832] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_c.so\n'}
+[5.923347] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_c.so" to ""\n'}
+[5.925076] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs\n'}
+[5.926817] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg\n'}
+[5.929649] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.933014] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail\n'}
+[5.934915] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h\n'}
+[5.937678] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv\n'}
+[5.939484] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail\n'}
+[5.941466] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_fastrtps_c.h\n'}
+[5.944478] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.948803] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.950381] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs\n'}
+[5.951851] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg\n'}
+[5.953506] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/key_value.hpp\n'}
+[5.956049] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail\n'}
+[5.957776] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__traits.hpp\n'}
+[5.960535] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__builder.hpp\n'}
+[5.962130] (-) TimerEvent: {}
+[5.964240] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__struct.hpp\n'}
+[5.966645] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv\n'}
+[5.968101] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/audio_text_conversation.hpp\n'}
+[5.969342] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail\n'}
+[5.970559] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__traits.hpp\n'}
+[5.972065] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__builder.hpp\n'}
+[5.974116] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__struct.hpp\n'}
+[5.976281] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs\n'}
+[5.977047] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg\n'}
+[5.978118] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail\n'}
+[5.979047] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/dds_fastrtps\n'}
+[5.979847] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981770] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.983420] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv\n'}
+[5.984239] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail\n'}
+[5.985690] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.986989] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/dds_fastrtps\n'}
+[5.989529] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.994765] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.996405] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs\n'}
+[5.998380] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg\n'}
+[6.000273] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail\n'}
+[6.002115] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h\n'}
+[6.004996] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__type_support.c\n'}
+[6.008063] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.010745] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv\n'}
+[6.012461] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail\n'}
+[6.014950] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_introspection_c.h\n'}
+[6.019052] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c\n'}
+[6.022621] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.026961] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.028873] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_c.so\n'}
+[6.032852] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.034572] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs\n'}
+[6.036170] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg\n'}
+[6.037968] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail\n'}
+[6.039862] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.043320] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__type_support.cpp\n'}
+[6.047589] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv\n'}
+[6.049332] (lex_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail\n'}
+[6.051645] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.054737] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__type_support.cpp\n'}
+[6.058099] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.062373] (-) TimerEvent: {}
+[6.064522] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.066508] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_cpp.so\n'}
+[6.071030] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.072975] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/pythonpath.sh\n'}
+[6.077495] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/pythonpath.dsv\n'}
+[6.080908] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info\n'}
+[6.083538] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.086115] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/top_level.txt\n'}
+[6.089120] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.092028] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/PKG-INFO\n'}
+[6.095349] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs\n'}
+[6.097398] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.100445] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg\n'}
+[6.102553] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/_key_value.py\n'}
+[6.105594] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/__init__.py\n'}
+[6.109028] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/_key_value_s.c\n'}
+[6.113062] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.116191] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.119289] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.122412] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/__init__.py\n'}
+[6.125256] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.128237] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/liblex_common_msgs__rosidl_generator_py.so\n'}
+[6.131379] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.134683] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv\n'}
+[6.137139] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/__init__.py\n'}
+[6.140031] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/_audio_text_conversation_s.c\n'}
+[6.144234] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/_audio_text_conversation.py\n'}
+[6.162644] (-) TimerEvent: {}
+[6.263988] (-) TimerEvent: {}
+[6.364949] (-) TimerEvent: {}
+[6.420077] (lex_common_msgs) StdoutLine: {'line': b"Listing '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs'...\n"}
+[6.421455] (lex_common_msgs) StdoutLine: {'line': b"Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/__init__.py'...\n"}
+[6.422061] (lex_common_msgs) StdoutLine: {'line': b"Listing '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg'...\n"}
+[6.422545] (lex_common_msgs) StdoutLine: {'line': b"Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/__init__.py'...\n"}
+[6.422993] (lex_common_msgs) StdoutLine: {'line': b"Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/_key_value.py'...\n"}
+[6.423519] (lex_common_msgs) StdoutLine: {'line': b"Listing '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv'...\n"}
+[6.424054] (lex_common_msgs) StdoutLine: {'line': b"Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/__init__.py'...\n"}
+[6.424542] (lex_common_msgs) StdoutLine: {'line': b"Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/_audio_text_conversation.py'...\n"}
+[6.464865] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.465531] (-) TimerEvent: {}
+[6.469812] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[6.472673] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.476994] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[6.479914] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.484247] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[6.486166] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_py.so\n'}
+[6.490354] (lex_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_py.so" to ""\n'}
+[6.492466] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/msg/KeyValue.idl\n'}
+[6.495438] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation.idl\n'}
+[6.498039] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/msg/KeyValue.msg\n'}
+[6.501316] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation.srv\n'}
+[6.504430] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation_Request.msg\n'}
+[6.507778] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation_Response.msg\n'}
+[6.511353] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/package_run_dependencies/lex_common_msgs\n'}
+[6.515180] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/parent_prefix_path/lex_common_msgs\n'}
+[6.518426] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/ament_prefix_path.sh\n'}
+[6.521973] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/ament_prefix_path.dsv\n'}
+[6.525200] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/path.sh\n'}
+[6.528491] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/path.dsv\n'}
+[6.531706] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.bash\n'}
+[6.534742] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.sh\n'}
+[6.537992] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.zsh\n'}
+[6.541096] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.dsv\n'}
+[6.544018] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/package.dsv\n'}
+[6.547587] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/packages/lex_common_msgs\n'}
+[6.552253] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_cExport.cmake\n'}
+[6.555780] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.559024] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.562586] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.565767] (-) TimerEvent: {}
+[6.567142] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.570617] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.574352] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.578005] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.581562] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.584847] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.588240] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.591541] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.594932] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.598425] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.601861] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.605271] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.608742] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.611957] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.615393] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.618607] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.621999] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.625193] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.628163] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.631407] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.634428] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgsConfig.cmake\n'}
+[6.637062] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgsConfig-version.cmake\n'}
+[6.640058] (lex_common_msgs) StdoutLine: {'line': b'-- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/package.xml\n'}
+[6.653959] (lex_common_msgs) CommandEnded: {'returncode': 0}
+[6.668029] (-) TimerEvent: {}
+[6.769774] (-) TimerEvent: {}
+[6.870765] (-) TimerEvent: {}
+[6.972548] (-) TimerEvent: {}
+[7.074067] (-) TimerEvent: {}
+[7.174924] (-) TimerEvent: {}
+[7.276372] (-) TimerEvent: {}
+[7.378041] (-) TimerEvent: {}
+[7.428171] (lex_common_msgs) JobEnded: {'identifier': 'lex_common_msgs', 'rc': 0}
+[7.433089] (control) JobStarted: {'identifier': 'control'}
+[7.480708] (-) TimerEvent: {}
+[7.581927] (-) TimerEvent: {}
+[7.683435] (-) TimerEvent: {}
+[7.784994] (-) TimerEvent: {}
+[7.886712] (-) TimerEvent: {}
+[7.954864] (Adafruit_PCA9685) StdoutLine: {'line': b'running egg_info\n'}
+[7.959253] (Adafruit_PCA9685) StdoutLine: {'line': b'creating ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info\n'}
+[7.962155] (Adafruit_PCA9685) StdoutLine: {'line': b'writing ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/PKG-INFO\n'}
+[7.964812] (Adafruit_PCA9685) StdoutLine: {'line': b'writing dependency_links to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/dependency_links.txt\n'}
+[7.967000] (Adafruit_PCA9685) StdoutLine: {'line': b'writing requirements to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/requires.txt\n'}
+[7.968623] (Adafruit_PCA9685) StdoutLine: {'line': b'writing top-level names to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/top_level.txt\n'}
+[7.971661] (Adafruit_PCA9685) StdoutLine: {'line': b"writing manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'\n"}
+[7.985304] (Adafruit_PCA9685) StdoutLine: {'line': b"reading manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'\n"}
+[7.986975] (-) TimerEvent: {}
+[7.990369] (Adafruit_PCA9685) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.996436] (Adafruit_PCA9685) StdoutLine: {'line': b"writing manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'\n"}
+[7.998511] (Adafruit_PCA9685) StdoutLine: {'line': b'running build\n'}
+[8.000334] (Adafruit_PCA9685) StdoutLine: {'line': b'running build_py\n'}
+[8.002736] (Adafruit_PCA9685) StdoutLine: {'line': b'creating /home/r1/r1_ws/build/Adafruit_PCA9685/build\n'}
+[8.004340] (Adafruit_PCA9685) StdoutLine: {'line': b'creating /home/r1/r1_ws/build/Adafruit_PCA9685/build/lib\n'}
+[8.005826] (Adafruit_PCA9685) StdoutLine: {'line': b'creating /home/r1/r1_ws/build/Adafruit_PCA9685/build/lib/Adafruit_PCA9685\n'}
+[8.008153] (Adafruit_PCA9685) StdoutLine: {'line': b'copying Adafruit_PCA9685/PCA9685.py -> /home/r1/r1_ws/build/Adafruit_PCA9685/build/lib/Adafruit_PCA9685\n'}
+[8.012836] (Adafruit_PCA9685) StdoutLine: {'line': b'copying Adafruit_PCA9685/__init__.py -> /home/r1/r1_ws/build/Adafruit_PCA9685/build/lib/Adafruit_PCA9685\n'}
+[8.016227] (Adafruit_PCA9685) StdoutLine: {'line': b'running install\n'}
+[8.019184] (Adafruit_PCA9685) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.020061] (Adafruit_PCA9685) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.021022] (Adafruit_PCA9685) StdoutLine: {'line': b'running install_lib\n'}
+[8.026511] (Adafruit_PCA9685) StdoutLine: {'line': b'creating /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685\n'}
+[8.027441] (Adafruit_PCA9685) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/Adafruit_PCA9685/build/lib/Adafruit_PCA9685/PCA9685.py -> /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685\n'}
+[8.028235] (Adafruit_PCA9685) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/Adafruit_PCA9685/build/lib/Adafruit_PCA9685/__init__.py -> /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685\n'}
+[8.031756] (Adafruit_PCA9685) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685/PCA9685.py to PCA9685.cpython-310.pyc\n'}
+[8.077292] (Adafruit_PCA9685) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685/__init__.py to __init__.cpython-310.pyc\n'}
+[8.078863] (Adafruit_PCA9685) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.087211] (-) TimerEvent: {}
+[8.092824] (Adafruit_PCA9685) StdoutLine: {'line': b'Copying ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info to /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685-1.0.1-py3.10.egg-info\n'}
+[8.100659] (Adafruit_PCA9685) StdoutLine: {'line': b'running install_scripts\n'}
+[8.187443] (-) TimerEvent: {}
+[8.213664] (Adafruit_PCA9685) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/Adafruit_PCA9685/install.log'\n"}
+[8.287647] (-) TimerEvent: {}
+[8.389304] (-) TimerEvent: {}
+[8.490934] (-) TimerEvent: {}
+[8.592684] (-) TimerEvent: {}
+[8.696723] (-) TimerEvent: {}
+[8.800176] (-) TimerEvent: {}
+[8.903491] (-) TimerEvent: {}
+[9.004136] (-) TimerEvent: {}
+[9.104752] (-) TimerEvent: {}
+[9.205440] (-) TimerEvent: {}
+[9.306092] (-) TimerEvent: {}
+[9.406865] (-) TimerEvent: {}
+[9.507869] (-) TimerEvent: {}
+[9.609864] (-) TimerEvent: {}
+[9.655981] (Adafruit_PCA9685) CommandEnded: {'returncode': 0}
+[9.692394] (Adafruit_PCA9685) JobEnded: {'identifier': 'Adafruit_PCA9685', 'rc': 0}
+[9.696876] (ai_assistant) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ai_assistant', 'build', '--build-base', '/home/r1/r1_ws/build/ai_assistant/build', 'install', '--record', '/home/r1/r1_ws/build/ai_assistant/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/ai_assistant', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/ai_assistant', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/ai_assistant/prefix_override:/home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[9.722624] (-) TimerEvent: {}
+[9.723638] (camera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/r1/r1_ws/build/camera/build'], 'cwd': '/home/r1/r1_ws/build/camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/camera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[9.728488] (voice) JobStarted: {'identifier': 'voice'}
+[9.822886] (-) TimerEvent: {}
+[9.924363] (-) TimerEvent: {}
+[10.026169] (-) TimerEvent: {}
+[10.127105] (-) TimerEvent: {}
+[10.227985] (-) TimerEvent: {}
+[10.328875] (-) TimerEvent: {}
+[10.429788] (-) TimerEvent: {}
+[10.530695] (-) TimerEvent: {}
+[10.631653] (-) TimerEvent: {}
+[10.732741] (-) TimerEvent: {}
+[10.833785] (-) TimerEvent: {}
+[10.934657] (-) TimerEvent: {}
+[11.035562] (-) TimerEvent: {}
+[11.136446] (-) TimerEvent: {}
+[11.237298] (-) TimerEvent: {}
+[11.338192] (-) TimerEvent: {}
+[11.439210] (-) TimerEvent: {}
+[11.540300] (-) TimerEvent: {}
+[11.641499] (-) TimerEvent: {}
+[11.742303] (-) TimerEvent: {}
+[11.770919] (ai_assistant) StdoutLine: {'line': b'running egg_info\n'}
+[11.774256] (ai_assistant) StdoutLine: {'line': b'creating ../../build/ai_assistant/ai_assistant.egg-info\n'}
+[11.776015] (ai_assistant) StdoutLine: {'line': b'writing ../../build/ai_assistant/ai_assistant.egg-info/PKG-INFO\n'}
+[11.777769] (ai_assistant) StdoutLine: {'line': b'writing dependency_links to ../../build/ai_assistant/ai_assistant.egg-info/dependency_links.txt\n'}
+[11.779328] (ai_assistant) StdoutLine: {'line': b'writing entry points to ../../build/ai_assistant/ai_assistant.egg-info/entry_points.txt\n'}
+[11.780485] (ai_assistant) StdoutLine: {'line': b'writing requirements to ../../build/ai_assistant/ai_assistant.egg-info/requires.txt\n'}
+[11.781269] (ai_assistant) StdoutLine: {'line': b'writing top-level names to ../../build/ai_assistant/ai_assistant.egg-info/top_level.txt\n'}
+[11.782969] (ai_assistant) StdoutLine: {'line': b"writing manifest file '../../build/ai_assistant/ai_assistant.egg-info/SOURCES.txt'\n"}
+[11.795771] (ai_assistant) StdoutLine: {'line': b"reading manifest file '../../build/ai_assistant/ai_assistant.egg-info/SOURCES.txt'\n"}
+[11.800375] (ai_assistant) StdoutLine: {'line': b"writing manifest file '../../build/ai_assistant/ai_assistant.egg-info/SOURCES.txt'\n"}
+[11.801318] (ai_assistant) StdoutLine: {'line': b'running build\n'}
+[11.802186] (ai_assistant) StdoutLine: {'line': b'running build_py\n'}
+[11.802938] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/build/ai_assistant/build\n'}
+[11.803765] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/build/ai_assistant/build/lib\n'}
+[11.804453] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant\n'}
+[11.805265] (ai_assistant) StdoutLine: {'line': b'copying ai_assistant/main.py -> /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant\n'}
+[11.807182] (ai_assistant) StdoutLine: {'line': b'copying ai_assistant/r1.py -> /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant\n'}
+[11.810286] (ai_assistant) StdoutLine: {'line': b'copying ai_assistant/__init__.py -> /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant\n'}
+[11.813145] (ai_assistant) StdoutLine: {'line': b'running install\n'}
+[11.814890] (ai_assistant) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.816002] (ai_assistant) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.818559] (ai_assistant) StdoutLine: {'line': b'running install_lib\n'}
+[11.824990] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant\n'}
+[11.827087] (ai_assistant) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant/main.py -> /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant\n'}
+[11.829208] (ai_assistant) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant/r1.py -> /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant\n'}
+[11.831617] (ai_assistant) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/ai_assistant/build/lib/ai_assistant/__init__.py -> /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant\n'}
+[11.836337] (ai_assistant) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant/main.py to main.cpython-310.pyc\n'}
+[11.842529] (-) TimerEvent: {}
+[11.847352] (ai_assistant) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant/r1.py to r1.cpython-310.pyc\n'}
+[11.853663] (ai_assistant) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant/__init__.py to __init__.cpython-310.pyc\n'}
+[11.856398] (ai_assistant) StdoutLine: {'line': b'running install_data\n'}
+[11.861063] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/install/ai_assistant/share/ament_index\n'}
+[11.863239] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/install/ai_assistant/share/ament_index/resource_index\n'}
+[11.865065] (ai_assistant) StdoutLine: {'line': b'creating /home/r1/r1_ws/install/ai_assistant/share/ament_index/resource_index/packages\n'}
+[11.867110] (ai_assistant) StdoutLine: {'line': b'copying resource/ai_assistant -> /home/r1/r1_ws/install/ai_assistant/share/ament_index/resource_index/packages\n'}
+[11.869493] (ai_assistant) StdoutLine: {'line': b'copying package.xml -> /home/r1/r1_ws/install/ai_assistant/share/ai_assistant\n'}
+[11.871560] (ai_assistant) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.882267] (ai_assistant) StdoutLine: {'line': b'Copying ../../build/ai_assistant/ai_assistant.egg-info to /home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages/ai_assistant-0.0.0-py3.10.egg-info\n'}
+[11.890339] (camera) StdoutLine: {'line': b'running develop\n'}
+[11.897504] (ai_assistant) StdoutLine: {'line': b'running install_scripts\n'}
+[11.907206] (camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.908587] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.919149] (camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.920074] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.942915] (-) TimerEvent: {}
+[12.045177] (-) TimerEvent: {}
+[12.065296] (ai_assistant) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/ai_assistant/install.log'\n"}
+[12.145611] (-) TimerEvent: {}
+[12.246921] (-) TimerEvent: {}
+[12.258605] (ai_assistant) CommandEnded: {'returncode': 0}
+[12.312890] (ai_assistant) JobEnded: {'identifier': 'ai_assistant', 'rc': 0}
+[12.320212] (lex_node) JobStarted: {'identifier': 'lex_node'}
+[12.347135] (-) TimerEvent: {}
+[12.403411] (lex_node) JobProgress: {'identifier': 'lex_node', 'progress': 'cmake'}
+[12.404807] (lex_node) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/lex-ros2/lex_node', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/lex_node'], 'cwd': '/home/r1/r1_ws/build/lex_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.13 52052 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/lex_common_msgs/lib:/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/video_streaming'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/lex_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.13 52052 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[12.447370] (-) TimerEvent: {}
+[12.549193] (-) TimerEvent: {}
+[12.651440] (-) TimerEvent: {}
+[12.755979] (-) TimerEvent: {}
+[12.812155] (camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[12.813205] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.814474] (camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[12.823121] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.824135] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/r1/r1_ws/build/control/build'], 'cwd': '/home/r1/r1_ws/build/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[12.856214] (-) TimerEvent: {}
+[12.887586] (lex_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[12.956414] (-) TimerEvent: {}
+[13.057819] (-) TimerEvent: {}
+[13.158629] (-) TimerEvent: {}
+[13.251936] (lex_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[13.258876] (-) TimerEvent: {}
+[13.312388] (lex_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.359148] (-) TimerEvent: {}
+[13.460573] (-) TimerEvent: {}
+[13.561887] (-) TimerEvent: {}
+[13.663397] (-) TimerEvent: {}
+[13.764952] (-) TimerEvent: {}
+[13.822105] (lex_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.851427] (lex_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.858913] (lex_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.861323] (lex_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.865133] (-) TimerEvent: {}
+[13.883232] (lex_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.965430] (-) TimerEvent: {}
+[14.066377] (-) TimerEvent: {}
+[14.168513] (-) TimerEvent: {}
+[14.216138] (camera) CommandEnded: {'returncode': 0}
+[14.218033] (camera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera', 'build', '--build-base', '/home/r1/r1_ws/build/camera/build', 'install', '--record', '/home/r1/r1_ws/build/camera/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/camera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[14.268689] (-) TimerEvent: {}
+[14.370286] (-) TimerEvent: {}
+[14.442525] (lex_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.470458] (-) TimerEvent: {}
+[14.473263] (lex_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.475396] (lex_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.478487] (lex_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.530004] (lex_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[14.570884] (-) TimerEvent: {}
+[14.672172] (-) TimerEvent: {}
+[14.773236] (-) TimerEvent: {}
+[14.874341] (-) TimerEvent: {}
+[14.975504] (-) TimerEvent: {}
+[15.077508] (-) TimerEvent: {}
+[15.178510] (-) TimerEvent: {}
+[15.279975] (-) TimerEvent: {}
+[15.348476] (voice) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/r1/r1_ws/build/voice/build'], 'cwd': '/home/r1/r1_ws/build/voice', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/voice', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[15.352064] (control) StdoutLine: {'line': b'running develop\n'}
+[15.352921] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.353688] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.356361] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.357058] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.389741] (-) TimerEvent: {}
+[15.492052] (-) TimerEvent: {}
+[15.593018] (-) TimerEvent: {}
+[15.693870] (-) TimerEvent: {}
+[15.794799] (-) TimerEvent: {}
+[15.895769] (-) TimerEvent: {}
+[15.996847] (-) TimerEvent: {}
+[16.017874] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[16.018770] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.020543] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[16.022264] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.031780] (lex_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[16.097095] (-) TimerEvent: {}
+[16.198578] (-) TimerEvent: {}
+[16.300211] (-) TimerEvent: {}
+[16.401104] (-) TimerEvent: {}
+[16.502051] (-) TimerEvent: {}
+[16.602843] (-) TimerEvent: {}
+[16.603680] (camera) StdoutLine: {'line': b'running egg_info\n'}
+[16.606929] (camera) StdoutLine: {'line': b'writing ../../build/camera/camera.egg-info/PKG-INFO\n'}
+[16.609070] (camera) StdoutLine: {'line': b'writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt\n'}
+[16.610633] (camera) StdoutLine: {'line': b'writing entry points to ../../build/camera/camera.egg-info/entry_points.txt\n'}
+[16.611847] (camera) StdoutLine: {'line': b'writing requirements to ../../build/camera/camera.egg-info/requires.txt\n'}
+[16.613289] (camera) StdoutLine: {'line': b'writing top-level names to ../../build/camera/camera.egg-info/top_level.txt\n'}
+[16.636960] (camera) StdoutLine: {'line': b"reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'\n"}
+[16.644696] (camera) StdoutLine: {'line': b"writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'\n"}
+[16.647999] (camera) StdoutLine: {'line': b'running build\n'}
+[16.649770] (camera) StdoutLine: {'line': b'running build_py\n'}
+[16.656093] (camera) StdoutLine: {'line': b'copying camera/camera_node.py -> /home/r1/r1_ws/build/camera/build/lib/camera\n'}
+[16.658454] (camera) StdoutLine: {'line': b'copying camera/path_planning.py -> /home/r1/r1_ws/build/camera/build/lib/camera\n'}
+[16.661004] (camera) StdoutLine: {'line': b'running install\n'}
+[16.662799] (camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.663692] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.666092] (camera) StdoutLine: {'line': b'running install_lib\n'}
+[16.675084] (camera) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/camera/build/lib/camera/camera_node.py -> /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera\n'}
+[16.677289] (camera) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/camera/build/lib/camera/path_planning.py -> /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera\n'}
+[16.683668] (camera) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera/camera_node.py to camera_node.cpython-310.pyc\n'}
+[16.687301] (camera) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera/path_planning.py to path_planning.cpython-310.pyc\n'}
+[16.691508] (camera) StdoutLine: {'line': b'running install_data\n'}
+[16.696250] (camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.703071] (-) TimerEvent: {}
+[16.706143] (camera) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.709031] (camera) StdoutLine: {'line': b'Copying ../../build/camera/camera.egg-info to /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info\n'}
+[16.717742] (camera) StdoutLine: {'line': b'running install_scripts\n'}
+[16.803282] (-) TimerEvent: {}
+[16.819449] (camera) StdoutLine: {'line': b'Installing camera_node script to /home/r1/r1_ws/install/camera/lib/camera\n'}
+[16.820970] (camera) StdoutLine: {'line': b'Installing frames_sub script to /home/r1/r1_ws/install/camera/lib/camera\n'}
+[16.823001] (camera) StdoutLine: {'line': b'Installing img_pub script to /home/r1/r1_ws/install/camera/lib/camera\n'}
+[16.824927] (camera) StdoutLine: {'line': b'Installing path_planning_node script to /home/r1/r1_ws/install/camera/lib/camera\n'}
+[16.828224] (camera) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/camera/install.log'\n"}
+[16.903492] (-) TimerEvent: {}
+[17.000137] (camera) CommandEnded: {'returncode': 0}
+[17.003636] (-) TimerEvent: {}
+[17.048592] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[17.076062] (lex_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[17.103813] (-) TimerEvent: {}
+[17.204969] (-) TimerEvent: {}
+[17.307087] (-) TimerEvent: {}
+[17.383014] (control) CommandEnded: {'returncode': 0}
+[17.386490] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/r1/r1_ws/build/control/build', 'install', '--record', '/home/r1/r1_ws/build/control/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[17.407279] (-) TimerEvent: {}
+[17.509243] (-) TimerEvent: {}
+[17.610969] (-) TimerEvent: {}
+[17.676519] (voice) StdoutLine: {'line': b'running develop\n'}
+[17.678609] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.679310] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.685271] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.686031] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.711103] (-) TimerEvent: {}
+[17.725054] (lex_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.807598] (lex_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.811284] (-) TimerEvent: {}
+[17.912998] (-) TimerEvent: {}
+[17.917502] (lex_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[18.013180] (-) TimerEvent: {}
+[18.114929] (-) TimerEvent: {}
+[18.133265] (lex_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.153032] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[18.153716] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.154380] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[18.154871] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.215114] (-) TimerEvent: {}
+[18.315928] (-) TimerEvent: {}
+[18.417484] (-) TimerEvent: {}
+[18.494782] (lex_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.517634] (-) TimerEvent: {}
+[18.618392] (-) TimerEvent: {}
+[18.719478] (-) TimerEvent: {}
+[18.820918] (-) TimerEvent: {}
+[18.922588] (-) TimerEvent: {}
+[19.024465] (-) TimerEvent: {}
+[19.126153] (-) TimerEvent: {}
+[19.228584] (-) TimerEvent: {}
+[19.236973] (lex_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[19.239453] (voice) CommandEnded: {'returncode': 0}
+[19.245873] (voice) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/voice', 'build', '--build-base', '/home/r1/r1_ws/build/voice/build', 'install', '--record', '/home/r1/r1_ws/build/voice/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/voice', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.1.13 52052 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/video_streaming', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/r1/r1_ws/build/voice', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.13 52052 192.168.1.32 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers'}, 'shell': False}
+[19.250735] (control) StdoutLine: {'line': b'running egg_info\n'}
+[19.251518] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[19.254730] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[19.255844] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[19.256826] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[19.258127] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[19.270306] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[19.275109] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[19.276021] (control) StdoutLine: {'line': b'running build\n'}
+[19.276778] (control) StdoutLine: {'line': b'running build_py\n'}
+[19.279436] (control) StdoutLine: {'line': b'copying control/ultrasonic.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.281332] (control) StdoutLine: {'line': b'copying control/new_base.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.283069] (control) StdoutLine: {'line': b'copying control/arms.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.285087] (control) StdoutLine: {'line': b'copying control/head.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.286068] (lex_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[19.287092] (control) StdoutLine: {'line': b'copying control/right_hand_sub.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.289103] (control) StdoutLine: {'line': b'copying control/base.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.291040] (control) StdoutLine: {'line': b'copying control/servos.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.293278] (control) StdoutLine: {'line': b'copying control/head1.0.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[19.295944] (control) StdoutLine: {'line': b'running install\n'}
+[19.297155] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[19.297839] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.298795] (control) StdoutLine: {'line': b'running install_lib\n'}
+[19.303777] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/ultrasonic.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.307023] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/new_base.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.308320] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/arms.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.309880] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/head.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.310887] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/right_hand_sub.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.312380] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/base.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.313609] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/servos.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.315080] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/head1.0.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[19.318643] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/ultrasonic.py to ultrasonic.cpython-310.pyc\n'}
+[19.324382] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/new_base.py to new_base.cpython-310.pyc\n'}
+[19.328751] (-) TimerEvent: {}
+[19.330233] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/arms.py to arms.cpython-310.pyc\n'}
+[19.332938] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/head.py to head.cpython-310.pyc\n'}
+[19.336514] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/right_hand_sub.py to right_hand_sub.cpython-310.pyc\n'}
+[19.340042] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/base.py to base.cpython-310.pyc\n'}
+[19.344410] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/servos.py to servos.cpython-310.pyc\n'}
+[19.346899] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/head1.0.py to head1.0.cpython-310.pyc\n'}
+[19.349186] (control) StdoutLine: {'line': b'running install_data\n'}
+[19.353329] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.360686] (control) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.362701] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-1.0.0-py3.10.egg-info\n'}
+[19.370785] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[19.429001] (-) TimerEvent: {}
+[19.481151] (control) StdoutLine: {'line': b'Installing arms_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.482173] (control) StdoutLine: {'line': b'Installing base_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.483216] (control) StdoutLine: {'line': b'Installing eyes_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.485086] (control) StdoutLine: {'line': b'Installing head_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.487192] (control) StdoutLine: {'line': b'Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.488904] (control) StdoutLine: {'line': b'Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.489997] (control) StdoutLine: {'line': b'Installing left_hand_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.490967] (control) StdoutLine: {'line': b'Installing right_hand_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.492085] (control) StdoutLine: {'line': b'Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.492921] (control) StdoutLine: {'line': b'Installing us_pub script to /home/r1/r1_ws/install/control/lib/control\n'}
+[19.496427] (control) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/control/install.log'\n"}
+[19.529230] (-) TimerEvent: {}
+[19.632613] (-) TimerEvent: {}
+[19.655539] (control) CommandEnded: {'returncode': 0}
+[19.703874] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[19.732770] (-) TimerEvent: {}
+[19.833572] (-) TimerEvent: {}
+[19.934282] (-) TimerEvent: {}
+[20.035024] (-) TimerEvent: {}
+[20.135781] (-) TimerEvent: {}
+[20.185552] (lex_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[20.235954] (-) TimerEvent: {}
+[20.336633] (-) TimerEvent: {}
+[20.437316] (-) TimerEvent: {}
+[20.454821] (lex_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[20.537480] (-) TimerEvent: {}
+[20.638142] (-) TimerEvent: {}
+[20.738847] (-) TimerEvent: {}
+[20.839487] (-) TimerEvent: {}
+[20.867479] (voice) StdoutLine: {'line': b'running egg_info\n'}
+[20.870479] (voice) StdoutLine: {'line': b'writing ../../build/voice/voice.egg-info/PKG-INFO\n'}
+[20.872281] (voice) StdoutLine: {'line': b'writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt\n'}
+[20.873449] (voice) StdoutLine: {'line': b'writing entry points to ../../build/voice/voice.egg-info/entry_points.txt\n'}
+[20.874471] (voice) StdoutLine: {'line': b'writing requirements to ../../build/voice/voice.egg-info/requires.txt\n'}
+[20.875230] (voice) StdoutLine: {'line': b'writing top-level names to ../../build/voice/voice.egg-info/top_level.txt\n'}
+[20.888237] (voice) StdoutLine: {'line': b"reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'\n"}
+[20.893063] (voice) StdoutLine: {'line': b"writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'\n"}
+[20.893916] (voice) StdoutLine: {'line': b'running build\n'}
+[20.894472] (voice) StdoutLine: {'line': b'running build_py\n'}
+[20.897168] (voice) StdoutLine: {'line': b'copying voice/detection_subscriber.py -> /home/r1/r1_ws/build/voice/build/lib/voice\n'}
+[20.899071] (voice) StdoutLine: {'line': b'copying voice/ai.py -> /home/r1/r1_ws/build/voice/build/lib/voice\n'}
+[20.900668] (voice) StdoutLine: {'line': b'copying voice/talk.py -> /home/r1/r1_ws/build/voice/build/lib/voice\n'}
+[20.903296] (voice) StdoutLine: {'line': b'running install\n'}
+[20.904092] (voice) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[20.904690] (voice) StderrLine: {'line': b'  warnings.warn(\n'}
+[20.905464] (voice) StdoutLine: {'line': b'running install_lib\n'}
+[20.910827] (voice) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/voice/build/lib/voice/detection_subscriber.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice\n'}
+[20.912651] (voice) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/voice/build/lib/voice/ai.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice\n'}
+[20.913754] (lex_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.914370] (voice) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/voice/build/lib/voice/talk.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice\n'}
+[20.917492] (voice) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/detection_subscriber.py to detection_subscriber.cpython-310.pyc\n'}
+[20.921205] (voice) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/ai.py to ai.cpython-310.pyc\n'}
+[20.923332] (voice) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/talk.py to talk.cpython-310.pyc\n'}
+[20.925401] (voice) StdoutLine: {'line': b'running install_data\n'}
+[20.929492] (voice) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.935957] (voice) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.937576] (voice) StdoutLine: {'line': b'Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info\n'}
+[20.939624] (-) TimerEvent: {}
+[20.943892] (voice) StdoutLine: {'line': b'running install_scripts\n'}
+[21.028828] (voice) StdoutLine: {'line': b'Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice\n'}
+[21.030758] (voice) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'\n"}
+[21.039929] (-) TimerEvent: {}
+[21.064378] (lex_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[21.140198] (-) TimerEvent: {}
+[21.167956] (voice) CommandEnded: {'returncode': 0}
+[21.214884] (voice) JobEnded: {'identifier': 'voice', 'rc': 0}
+[21.240431] (-) TimerEvent: {}
+[21.341203] (-) TimerEvent: {}
+[21.442050] (-) TimerEvent: {}
+[21.457879] (lex_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[21.459733] (lex_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[21.542252] (-) TimerEvent: {}
+[21.643032] (-) TimerEvent: {}
+[21.743758] (-) TimerEvent: {}
+[21.818926] (lex_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[21.823585] (lex_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.843913] (-) TimerEvent: {}
+[21.944630] (-) TimerEvent: {}
+[22.045407] (-) TimerEvent: {}
+[22.146068] (-) TimerEvent: {}
+[22.246767] (-) TimerEvent: {}
+[22.347449] (-) TimerEvent: {}
+[22.448148] (-) TimerEvent: {}
+[22.548828] (-) TimerEvent: {}
+[22.593747] (lex_node) StdoutLine: {'line': b'-- Found lex_common_msgs: 3.1.0 (/home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake)\n'}
+[22.648992] (-) TimerEvent: {}
+[22.749761] (-) TimerEvent: {}
+[22.828131] (lex_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[22.828956] (lex_node) StderrLine: {'line': b'  By not providing "Findlex_common.cmake" in CMAKE_MODULE_PATH this project\n'}
+[22.829318] (lex_node) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[22.829752] (lex_node) StderrLine: {'line': b'  "lex_common", but CMake did not find one.\n'}
+[22.830065] (lex_node) StderrLine: {'line': b'\n'}
+[22.830417] (lex_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "lex_common" with\n'}
+[22.830873] (lex_node) StderrLine: {'line': b'  any of the following names:\n'}
+[22.831183] (lex_node) StderrLine: {'line': b'\n'}
+[22.831510] (lex_node) StderrLine: {'line': b'    lex_commonConfig.cmake\n'}
+[22.831815] (lex_node) StderrLine: {'line': b'    lex_common-config.cmake\n'}
+[22.832128] (lex_node) StderrLine: {'line': b'\n'}
+[22.832462] (lex_node) StderrLine: {'line': b'  Add the installation prefix of "lex_common" to CMAKE_PREFIX_PATH or set\n'}
+[22.832782] (lex_node) StderrLine: {'line': b'  "lex_common_DIR" to a directory containing one of the above files.  If\n'}
+[22.833093] (lex_node) StderrLine: {'line': b'  "lex_common" provides a separate development package or SDK, be sure it has\n'}
+[22.833549] (lex_node) StderrLine: {'line': b'  been installed.\n'}
+[22.833995] (lex_node) StderrLine: {'line': b'\n'}
+[22.834397] (lex_node) StderrLine: {'line': b'\x1b[0m\n'}
+[22.835695] (lex_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[22.836746] (lex_node) StdoutLine: {'line': b'See also "/home/r1/r1_ws/build/lex_node/CMakeFiles/CMakeOutput.log".\n'}
+[22.850055] (-) TimerEvent: {}
+[22.864776] (lex_node) CommandEnded: {'returncode': 1}
+[22.944257] (lex_node) JobEnded: {'identifier': 'lex_node', 'rc': 1}
+[22.950112] (-) TimerEvent: {}
+[22.955990] (-) EventReactorShutdown: {}

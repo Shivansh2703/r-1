@@ -1,0 +1,52 @@
+[0.087s] Invoking command in '/home/r1/r1_ws/build/lex_node': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/lex_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/lex_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/r1/r1_ws/src/lex-ros2/lex_node -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/lex_node
+[0.568s] -- The C compiler identification is GNU 11.3.0
+[0.932s] -- The CXX compiler identification is GNU 11.3.0
+[0.993s] -- Detecting C compiler ABI info
+[1.502s] -- Detecting C compiler ABI info - done
+[1.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.539s] -- Detecting C compile features
+[1.541s] -- Detecting C compile features - done
+[1.563s] -- Detecting CXX compiler ABI info
+[2.123s] -- Detecting CXX compiler ABI info - done
+[2.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.156s] -- Detecting CXX compile features
+[2.159s] -- Detecting CXX compile features - done
+[2.210s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.712s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.756s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[5.405s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.488s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.598s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.917s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.966s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.866s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.135s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.594s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.745s] -- Looking for pthread.h
+[9.138s] -- Looking for pthread.h - found
+[9.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.499s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.504s] -- Found Threads: TRUE  
+[10.274s] -- Found lex_common_msgs: 3.1.0 (/home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake)
+[10.508s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[10.509s]   By not providing "Findlex_common.cmake" in CMAKE_MODULE_PATH this project
+[10.509s]   has asked CMake to find a package configuration file provided by
+[10.510s]   "lex_common", but CMake did not find one.
+[10.510s] 
+[10.510s]   Could not find a package configuration file provided by "lex_common" with
+[10.511s]   any of the following names:
+[10.511s] 
+[10.511s]     lex_commonConfig.cmake
+[10.512s]     lex_common-config.cmake
+[10.512s] 
+[10.512s]   Add the installation prefix of "lex_common" to CMAKE_PREFIX_PATH or set
+[10.513s]   "lex_common_DIR" to a directory containing one of the above files.  If
+[10.513s]   "lex_common" provides a separate development package or SDK, be sure it has
+[10.514s]   been installed.
+[10.514s] 
+[10.515s] [0m
+[10.516s] -- Configuring incomplete, errors occurred!
+[10.517s] See also "/home/r1/r1_ws/build/lex_node/CMakeFiles/CMakeOutput.log".
+[10.545s] Invoked command in '/home/r1/r1_ws/build/lex_node' returned '1': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/lex_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/lex_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/r1/r1_ws/src/lex-ros2/lex_node -DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/lex_node

@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.001806] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.002444] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.004607] (camera) JobStarted: {'identifier': 'camera'}
+[0.052058] (control) JobStarted: {'identifier': 'control'}
+[0.099082] (-) TimerEvent: {}
+[0.105213] (camera) JobProgress: {'identifier': 'camera', 'progress': 'cmake'}
+[0.106491] (camera) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/camera', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/camera'], 'cwd': '/home/r1/r1_ws/build/camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.108 51445 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9a818724-09ce-4f59-b9b4-9996c3958b7f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2cb52e48fe.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/r1/r1_ws/build/camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.108 51445 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/opt/ros/humble')]), 'shell': False}
+[0.199309] (-) TimerEvent: {}
+[0.300071] (-) TimerEvent: {}
+[0.400978] (-) TimerEvent: {}
+[0.501762] (-) TimerEvent: {}
+[0.602823] (-) TimerEvent: {}
+[0.703695] (-) TimerEvent: {}
+[0.804398] (-) TimerEvent: {}
+[0.905151] (-) TimerEvent: {}
+[1.005856] (-) TimerEvent: {}
+[1.046343] (camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.106056] (-) TimerEvent: {}
+[1.206855] (-) TimerEvent: {}
+[1.307712] (-) TimerEvent: {}
+[1.408811] (-) TimerEvent: {}
+[1.509649] (-) TimerEvent: {}
+[1.613879] (-) TimerEvent: {}
+[1.715113] (-) TimerEvent: {}
+[1.761143] (camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.807523] (camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.815251] (-) TimerEvent: {}
+[1.916105] (-) TimerEvent: {}
+[2.018633] (-) TimerEvent: {}
+[2.120182] (-) TimerEvent: {}
+[2.202549] (camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.220296] (-) TimerEvent: {}
+[2.232175] (camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.234759] (camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.237391] (camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.252979] (camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.320525] (-) TimerEvent: {}
+[2.424619] (-) TimerEvent: {}
+[2.526574] (-) TimerEvent: {}
+[2.626362] (camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.626907] (-) TimerEvent: {}
+[2.653227] (camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.654454] (camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.656275] (camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.693299] (camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.727077] (-) TimerEvent: {}
+[2.827961] (-) TimerEvent: {}
+[2.928844] (-) TimerEvent: {}
+[3.029880] (-) TimerEvent: {}
+[3.130645] (-) TimerEvent: {}
+[3.231585] (-) TimerEvent: {}
+[3.332490] (-) TimerEvent: {}
+[3.433245] (-) TimerEvent: {}
+[3.534202] (-) TimerEvent: {}
+[3.635002] (-) TimerEvent: {}
+[3.682745] (camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.735199] (-) TimerEvent: {}
+[3.836225] (-) TimerEvent: {}
+[3.937078] (-) TimerEvent: {}
+[4.038148] (-) TimerEvent: {}
+[4.139021] (-) TimerEvent: {}
+[4.239957] (-) TimerEvent: {}
+[4.340716] (-) TimerEvent: {}
+[4.441625] (-) TimerEvent: {}
+[4.544070] (-) TimerEvent: {}
+[4.619725] (camera) StdoutLine: {'line': b'-- Found rclpy: 3.3.8 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.638623] (camera) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.644362] (-) TimerEvent: {}
+[4.726033] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/r1/r1_ws/build/control/build', 'install', '--record', '/home/r1/r1_ws/build/control/install.log', '--single-version-externally-managed'], 'cwd': '/home/r1/r1_ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'r1', 'SSH_CLIENT': '192.168.0.108 51445 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/r1', 'OLDPWD': '/home/r1/r1_ws/src', 'TERM_PROGRAM_VERSION': '1.78.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-9a818724-09ce-4f59-b9b4-9996c3958b7f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/r1/r1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/r1/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/r1/.local/bin:/opt/ros/humble/bin:/home/r1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin:/home/r1/esp/xtensa-esp32-elf/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2cb52e48fe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/r1/r1_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 51445 192.168.0.127 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/r1/r1_ws/install/turtlesim'}, 'shell': False}
+[4.744589] (-) TimerEvent: {}
+[4.845536] (-) TimerEvent: {}
+[4.947903] (-) TimerEvent: {}
+[4.990056] (camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.036982] (camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.048098] (-) TimerEvent: {}
+[5.108759] (camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.148262] (-) TimerEvent: {}
+[5.205481] (camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.248442] (-) TimerEvent: {}
+[5.337970] (camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.348616] (-) TimerEvent: {}
+[5.450538] (-) TimerEvent: {}
+[5.552536] (-) TimerEvent: {}
+[5.633847] (camera) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.652704] (-) TimerEvent: {}
+[5.753481] (-) TimerEvent: {}
+[5.854337] (-) TimerEvent: {}
+[5.956484] (-) TimerEvent: {}
+[5.966098] (control) StdoutLine: {'line': b'running egg_info\n'}
+[5.969881] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[5.971035] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[5.972088] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[5.972881] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[5.973739] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[5.981672] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[6.030823] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[6.032214] (control) StdoutLine: {'line': b'running build\n'}
+[6.033041] (control) StdoutLine: {'line': b'running build_py\n'}
+[6.033479] (control) StdoutLine: {'line': b'copying control/ultrasonic.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[6.034197] (control) StdoutLine: {'line': b'copying control/infrared_right.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[6.035236] (control) StdoutLine: {'line': b'copying control/infrared_left.py -> /home/r1/r1_ws/build/control/build/lib/control\n'}
+[6.036081] (control) StdoutLine: {'line': b'running install\n'}
+[6.056656] (-) TimerEvent: {}
+[6.078118] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.078883] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.079732] (control) StdoutLine: {'line': b'running install_lib\n'}
+[6.083926] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/ultrasonic.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[6.084976] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/infrared_right.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[6.085811] (control) StdoutLine: {'line': b'copying /home/r1/r1_ws/build/control/build/lib/control/infrared_left.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control\n'}
+[6.088421] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/ultrasonic.py to ultrasonic.cpython-310.pyc\n'}
+[6.090702] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/infrared_right.py to infrared_right.cpython-310.pyc\n'}
+[6.092654] (control) StdoutLine: {'line': b'byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/infrared_left.py to infrared_left.cpython-310.pyc\n'}
+[6.094173] (control) StdoutLine: {'line': b'running install_data\n'}
+[6.096604] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.103075] (control) StdoutLine: {'line': b"removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.104767] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[6.112797] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.156807] (-) TimerEvent: {}
+[6.202195] (control) StdoutLine: {'line': b"writing list of installed files to '/home/r1/r1_ws/build/control/install.log'\n"}
+[6.257076] (-) TimerEvent: {}
+[6.298315] (camera) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[6.300971] (camera) StderrLine: {'line': b'  By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project\n'}
+[6.301805] (camera) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[6.302672] (camera) StderrLine: {'line': b'  "cv_bridge", but CMake did not find one.\n'}
+[6.303599] (camera) StderrLine: {'line': b'\n'}
+[6.304464] (camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "cv_bridge" with\n'}
+[6.305288] (camera) StderrLine: {'line': b'  any of the following names:\n'}
+[6.306143] (camera) StderrLine: {'line': b'\n'}
+[6.306885] (camera) StderrLine: {'line': b'    cv_bridgeConfig.cmake\n'}
+[6.307714] (camera) StderrLine: {'line': b'    cv_bridge-config.cmake\n'}
+[6.308465] (camera) StderrLine: {'line': b'\n'}
+[6.309266] (camera) StderrLine: {'line': b'  Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set\n'}
+[6.310013] (camera) StderrLine: {'line': b'  "cv_bridge_DIR" to a directory containing one of the above files.  If\n'}
+[6.310814] (camera) StderrLine: {'line': b'  "cv_bridge" provides a separate development package or SDK, be sure it has\n'}
+[6.311902] (camera) StderrLine: {'line': b'  been installed.\n'}
+[6.312709] (camera) StderrLine: {'line': b'\n'}
+[6.313765] (camera) StderrLine: {'line': b'\x1b[0m\n'}
+[6.315934] (camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.318159] (camera) StdoutLine: {'line': b'See also "/home/r1/r1_ws/build/camera/CMakeFiles/CMakeOutput.log".\n'}
+[6.345060] (control) CommandEnded: {'returncode': 0}
+[6.357902] (-) TimerEvent: {}
+[6.430628] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[6.435494] (camera) CommandEnded: {'returncode': 1}
+[6.458221] (-) TimerEvent: {}
+[6.509208] (camera) JobEnded: {'identifier': 'camera', 'rc': 1}
+[6.521273] (-) EventReactorShutdown: {}

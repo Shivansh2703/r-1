@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.002714] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.003115] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.003279] (voice) JobQueued: {'identifier': 'voice', 'dependencies': OrderedDict()}
+[0.003374] (web_video_server) JobQueued: {'identifier': 'web_video_server', 'dependencies': OrderedDict()}
+[0.003455] (camera) JobStarted: {'identifier': 'camera'}
+[0.056348] (control) JobStarted: {'identifier': 'control'}
+[0.097331] (voice) JobStarted: {'identifier': 'voice'}
+[0.103264] (-) TimerEvent: {}
+[0.139609] (web_video_server) JobStarted: {'identifier': 'web_video_server'}
+[0.203437] (-) TimerEvent: {}
+[0.304181] (-) TimerEvent: {}
+[0.404934] (-) TimerEvent: {}
+[0.505597] (-) TimerEvent: {}
+[0.606251] (-) TimerEvent: {}
+[0.706883] (-) TimerEvent: {}
+[0.807520] (-) TimerEvent: {}
+[0.908170] (-) TimerEvent: {}
+[1.008848] (-) TimerEvent: {}
+[1.109467] (-) TimerEvent: {}
+[1.210116] (-) TimerEvent: {}
+[1.310908] (-) TimerEvent: {}
+[1.411632] (-) TimerEvent: {}
+[1.512409] (-) TimerEvent: {}
+[1.613507] (-) TimerEvent: {}
+[1.714238] (-) TimerEvent: {}
+[1.814885] (-) TimerEvent: {}
+[1.915560] (-) TimerEvent: {}
+[2.016226] (-) TimerEvent: {}
+[2.116943] (-) TimerEvent: {}
+[2.217575] (-) TimerEvent: {}
+[2.318215] (-) TimerEvent: {}
+[2.418829] (-) TimerEvent: {}
+[2.519442] (-) TimerEvent: {}
+[2.620088] (-) TimerEvent: {}
+[2.720764] (-) TimerEvent: {}
+[2.821469] (-) TimerEvent: {}
+[2.922255] (-) TimerEvent: {}
+[3.023605] (-) TimerEvent: {}
+[3.124511] (-) TimerEvent: {}
+[3.225248] (-) TimerEvent: {}
+[3.325881] (-) TimerEvent: {}
+[3.426523] (-) TimerEvent: {}
+[3.527336] (-) TimerEvent: {}
+[3.627965] (-) TimerEvent: {}
+[3.728617] (-) TimerEvent: {}
+[3.829263] (-) TimerEvent: {}
+[3.929919] (-) TimerEvent: {}
+[4.030563] (-) TimerEvent: {}
+[4.131223] (-) TimerEvent: {}
+[4.231872] (-) TimerEvent: {}
+[4.332606] (-) TimerEvent: {}
+[4.433571] (-) TimerEvent: {}
+[4.447155] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'cmake'}
+[4.448257] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/web_video_server', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/web_video_server'], 'cwd': '/home/r1/r1_ws/build/web_video_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.126 59526 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/web_video_server'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.126 59526 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/turtlesim')]), 'shell': False}
+[4.492354] (web_video_server) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[4.493201] (web_video_server) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[4.493884] (web_video_server) StderrLine: {'line': b'  CMake.\n'}
+[4.494568] (web_video_server) StderrLine: {'line': b'\n'}
+[4.495040] (web_video_server) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[4.495372] (web_video_server) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[4.495725] (web_video_server) StderrLine: {'line': b'\n'}
+[4.496276] (web_video_server) StderrLine: {'line': b'\x1b[0m\n'}
+[4.533799] (-) TimerEvent: {}
+[4.635576] (-) TimerEvent: {}
+[4.737858] (-) TimerEvent: {}
+[4.793165] (web_video_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[4.838078] (-) TimerEvent: {}
+[4.939609] (-) TimerEvent: {}
+[5.041001] (-) TimerEvent: {}
+[5.129261] (web_video_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[5.149014] (-) TimerEvent: {}
+[5.169232] (web_video_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.249290] (-) TimerEvent: {}
+[5.350220] (-) TimerEvent: {}
+[5.451279] (-) TimerEvent: {}
+[5.551337] (web_video_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.552065] (-) TimerEvent: {}
+[5.588221] (web_video_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.590503] (web_video_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.593513] (web_video_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.610624] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.652300] (-) TimerEvent: {}
+[5.753283] (-) TimerEvent: {}
+[5.854368] (-) TimerEvent: {}
+[5.955297] (-) TimerEvent: {}
+[6.010156] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.046368] (web_video_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.048943] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.052501] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.055508] (-) TimerEvent: {}
+[6.157481] (-) TimerEvent: {}
+[6.210213] (web_video_server) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[6.210934] (web_video_server) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.211526] (web_video_server) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[6.212034] (web_video_server) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.212588] (web_video_server) StderrLine: {'line': b'\n'}
+[6.213286] (web_video_server) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[6.213973] (web_video_server) StderrLine: {'line': b'  of the following names:\n'}
+[6.214767] (web_video_server) StderrLine: {'line': b'\n'}
+[6.215697] (web_video_server) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[6.216486] (web_video_server) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[6.217867] (web_video_server) StderrLine: {'line': b'\n'}
+[6.218474] (web_video_server) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[6.219079] (web_video_server) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[6.219601] (web_video_server) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[6.220323] (web_video_server) StderrLine: {'line': b'  installed.\n'}
+[6.221197] (web_video_server) StderrLine: {'line': b'\n'}
+[6.222184] (web_video_server) StderrLine: {'line': b'\x1b[0m\n'}
+[6.229488] (web_video_server) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.230276] (web_video_server) StdoutLine: {'line': b'See also "/home/r1/r1_ws/build/web_video_server/CMakeFiles/CMakeOutput.log".\n'}
+[6.230915] (web_video_server) CommandEnded: {'returncode': 1}
+[6.257697] (-) TimerEvent: {}
+[6.350761] (web_video_server) JobEnded: {'identifier': 'web_video_server', 'rc': 1}
+[6.357866] (-) TimerEvent: {}
+[6.458991] (-) TimerEvent: {}
+[6.560904] (-) TimerEvent: {}
+[6.662665] (-) TimerEvent: {}
+[6.764140] (-) TimerEvent: {}
+[6.865755] (-) TimerEvent: {}
+[6.967652] (-) TimerEvent: {}
+[7.071814] (-) TimerEvent: {}
+[7.176656] (-) TimerEvent: {}
+[7.280650] (-) TimerEvent: {}
+[7.314645] (control) JobEnded: {'identifier': 'control', 'rc': 'SIGINT'}
+[7.317010] (camera) JobEnded: {'identifier': 'camera', 'rc': 'SIGINT'}
+[7.325349] (voice) JobEnded: {'identifier': 'voice', 'rc': 'SIGINT'}
+[7.327996] (-) EventReactorShutdown: {}

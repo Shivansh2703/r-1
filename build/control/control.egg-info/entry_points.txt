@@ -1,0 +1,12 @@
+[console_scripts]
+arms_sub = control.arms:main
+base_sub = control.base:main
+eyes_sub = control.eyes:main
+head_sub = control.head:main
+ir_left_pub = control.infrared_left:main
+ir_right_pub = control.infrared_right:main
+left_hand_sub = control.left_hand_sub:main
+right_hand_sub = control.right_hand_sub:main
+sensors_sub = control.sensors:main
+us_pub = control.ultrasonic:main
+

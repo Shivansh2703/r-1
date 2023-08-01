@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/voice/voice.egg-info/PKG-INFO
+writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt
+writing entry points to ../../build/voice/voice.egg-info/entry_points.txt
+writing requirements to ../../build/voice/voice.egg-info/requires.txt
+writing top-level names to ../../build/voice/voice.egg-info/top_level.txt
+reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+running build
+running build_py
+copying voice/detection_subscriber.py -> /home/r1/r1_ws/build/voice/build/lib/voice
+copying voice/ai.py -> /home/r1/r1_ws/build/voice/build/lib/voice
+running install
+running install_lib
+copying /home/r1/r1_ws/build/voice/build/lib/voice/detection_subscriber.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice
+copying /home/r1/r1_ws/build/voice/build/lib/voice/ai.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice
+byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/detection_subscriber.py to detection_subscriber.cpython-310.pyc
+byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/ai.py to ai.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info
+running install_scripts
+Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice
+writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'

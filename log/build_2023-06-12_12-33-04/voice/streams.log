@@ -1,0 +1,39 @@
+[7.745s] Invoking command in '/home/r1/r1_ws/src/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed
+[9.381s] running egg_info
+[9.384s] creating ../../build/voice/voice.egg-info
+[9.385s] writing ../../build/voice/voice.egg-info/PKG-INFO
+[9.387s] writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt
+[9.388s] writing entry points to ../../build/voice/voice.egg-info/entry_points.txt
+[9.390s] writing requirements to ../../build/voice/voice.egg-info/requires.txt
+[9.390s] writing top-level names to ../../build/voice/voice.egg-info/top_level.txt
+[9.392s] writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[9.401s] reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[9.407s] writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[9.408s] running build
+[9.409s] running build_py
+[9.410s] creating /home/r1/r1_ws/build/voice/build
+[9.411s] creating /home/r1/r1_ws/build/voice/build/lib
+[9.412s] creating /home/r1/r1_ws/build/voice/build/lib/voice
+[9.414s] copying voice/detection_subscriber.py -> /home/r1/r1_ws/build/voice/build/lib/voice
+[9.415s] copying voice/__init__.py -> /home/r1/r1_ws/build/voice/build/lib/voice
+[9.415s] running install
+[9.417s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.417s]   warnings.warn(
+[9.418s] running install_lib
+[9.424s] creating /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice
+[9.442s] copying /home/r1/r1_ws/build/voice/build/lib/voice/detection_subscriber.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice
+[9.445s] copying /home/r1/r1_ws/build/voice/build/lib/voice/__init__.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice
+[9.446s] byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/detection_subscriber.py to detection_subscriber.cpython-310.pyc
+[9.447s] byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/__init__.py to __init__.cpython-310.pyc
+[9.447s] running install_data
+[9.448s] creating /home/r1/r1_ws/install/voice/share/ament_index
+[9.449s] creating /home/r1/r1_ws/install/voice/share/ament_index/resource_index
+[9.450s] creating /home/r1/r1_ws/install/voice/share/ament_index/resource_index/packages
+[9.450s] copying resource/voice -> /home/r1/r1_ws/install/voice/share/ament_index/resource_index/packages
+[9.451s] copying package.xml -> /home/r1/r1_ws/install/voice/share/voice
+[9.451s] running install_egg_info
+[9.457s] Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info
+[9.457s] running install_scripts
+[9.607s] Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice
+[9.610s] writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'
+[9.911s] Invoked command in '/home/r1/r1_ws/src/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed

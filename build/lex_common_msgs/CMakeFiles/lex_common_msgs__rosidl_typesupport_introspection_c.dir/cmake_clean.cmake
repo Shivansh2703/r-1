@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/msg/detail/key_value__type_support.c.o"
+  "CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/msg/detail/key_value__type_support.c.o.d"
+  "CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c.o"
+  "CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c.o.d"
+  "liblex_common_msgs__rosidl_typesupport_introspection_c.pdb"
+  "liblex_common_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lex_common_msgs/msg/detail/key_value__type_support.c"
+  "rosidl_typesupport_introspection_c/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/lex_common_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.001636] (-) JobUnselected: {'identifier': 'Adafruit_PCA9685'}
+[0.002173] (-) JobUnselected: {'identifier': 'ai_assistant'}
+[0.002259] (-) JobUnselected: {'identifier': 'camera'}
+[0.002335] (-) JobUnselected: {'identifier': 'control'}
+[0.002409] (-) JobUnselected: {'identifier': 'voice'}
+[0.002490] (mpu9250driver) JobQueued: {'identifier': 'mpu9250driver', 'dependencies': OrderedDict()}
+[0.002573] (mpu9250driver) JobStarted: {'identifier': 'mpu9250driver'}
+[0.099064] (-) TimerEvent: {}
+[0.134826] (mpu9250driver) JobProgress: {'identifier': 'mpu9250driver', 'progress': 'cmake'}
+[0.135742] (mpu9250driver) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/mpu9250_driver', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/mpu9250driver'], 'cwd': '/home/r1/r1_ws/build/mpu9250driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.24 45478 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/lex_common_msgs/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/ai_assistant:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/mpu9250driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 45478 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages:/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/ai_assistant:/opt/ros/humble')]), 'shell': False}
+[0.199305] (-) TimerEvent: {}
+[0.300186] (-) TimerEvent: {}
+[0.400935] (-) TimerEvent: {}
+[0.502025] (-) TimerEvent: {}
+[0.603039] (-) TimerEvent: {}
+[0.704248] (-) TimerEvent: {}
+[0.805560] (-) TimerEvent: {}
+[0.906670] (-) TimerEvent: {}
+[1.007732] (-) TimerEvent: {}
+[1.108509] (-) TimerEvent: {}
+[1.209231] (-) TimerEvent: {}
+[1.309938] (-) TimerEvent: {}
+[1.319820] (mpu9250driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.410221] (-) TimerEvent: {}
+[1.511085] (-) TimerEvent: {}
+[1.605580] (mpu9250driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.611248] (-) TimerEvent: {}
+[1.667538] (mpu9250driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.711559] (-) TimerEvent: {}
+[1.812680] (-) TimerEvent: {}
+[1.913501] (-) TimerEvent: {}
+[2.014220] (-) TimerEvent: {}
+[2.092066] (mpu9250driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.114367] (-) TimerEvent: {}
+[2.118304] (mpu9250driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.122334] (mpu9250driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.125277] (mpu9250driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.143442] (mpu9250driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.214567] (-) TimerEvent: {}
+[2.315494] (-) TimerEvent: {}
+[2.416277] (-) TimerEvent: {}
+[2.517140] (-) TimerEvent: {}
+[2.530233] (mpu9250driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.558130] (mpu9250driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.559089] (mpu9250driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.560688] (mpu9250driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.617348] (-) TimerEvent: {}
+[2.618072] (mpu9250driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.717540] (-) TimerEvent: {}
+[2.818268] (-) TimerEvent: {}
+[2.919057] (-) TimerEvent: {}
+[3.019754] (-) TimerEvent: {}
+[3.120440] (-) TimerEvent: {}
+[3.221184] (-) TimerEvent: {}
+[3.321928] (-) TimerEvent: {}
+[3.423035] (-) TimerEvent: {}
+[3.524163] (-) TimerEvent: {}
+[3.624803] (-) TimerEvent: {}
+[3.725599] (-) TimerEvent: {}
+[3.738457] (mpu9250driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.825707] (-) TimerEvent: {}
+[3.926343] (-) TimerEvent: {}
+[4.026991] (-) TimerEvent: {}
+[4.127628] (-) TimerEvent: {}
+[4.228283] (-) TimerEvent: {}
+[4.328971] (-) TimerEvent: {}
+[4.429685] (-) TimerEvent: {}
+[4.530353] (-) TimerEvent: {}
+[4.625404] (mpu9250driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.630485] (-) TimerEvent: {}
+[4.731097] (-) TimerEvent: {}
+[4.831740] (-) TimerEvent: {}
+[4.932370] (-) TimerEvent: {}
+[5.033018] (-) TimerEvent: {}
+[5.133686] (-) TimerEvent: {}
+[5.185960] (mpu9250driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.233845] (-) TimerEvent: {}
+[5.260190] (mpu9250driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.334005] (-) TimerEvent: {}
+[5.349567] (mpu9250driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.434180] (-) TimerEvent: {}
+[5.461149] (mpu9250driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.534366] (-) TimerEvent: {}
+[5.624198] (mpu9250driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.634521] (-) TimerEvent: {}
+[5.735145] (-) TimerEvent: {}
+[5.835819] (-) TimerEvent: {}
+[5.936514] (-) TimerEvent: {}
+[6.037153] (-) TimerEvent: {}
+[6.137815] (-) TimerEvent: {}
+[6.155639] (mpu9250driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.195088] (mpu9250driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.237973] (-) TimerEvent: {}
+[6.338633] (-) TimerEvent: {}
+[6.439301] (-) TimerEvent: {}
+[6.539938] (-) TimerEvent: {}
+[6.640610] (-) TimerEvent: {}
+[6.741442] (-) TimerEvent: {}
+[6.842186] (-) TimerEvent: {}
+[6.942948] (-) TimerEvent: {}
+[6.976848] (mpu9250driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.043111] (-) TimerEvent: {}
+[7.143824] (-) TimerEvent: {}
+[7.244493] (-) TimerEvent: {}
+[7.272718] (mpu9250driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.344672] (-) TimerEvent: {}
+[7.445337] (-) TimerEvent: {}
+[7.545999] (-) TimerEvent: {}
+[7.646706] (-) TimerEvent: {}
+[7.747385] (-) TimerEvent: {}
+[7.767046] (mpu9250driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.847574] (-) TimerEvent: {}
+[7.899293] (mpu9250driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.947764] (-) TimerEvent: {}
+[8.048633] (-) TimerEvent: {}
+[8.149358] (-) TimerEvent: {}
+[8.250087] (-) TimerEvent: {}
+[8.262711] (mpu9250driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.263956] (mpu9250driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.350321] (-) TimerEvent: {}
+[8.451174] (-) TimerEvent: {}
+[8.552046] (-) TimerEvent: {}
+[8.629472] (mpu9250driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.634089] (mpu9250driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.652283] (-) TimerEvent: {}
+[8.752949] (-) TimerEvent: {}
+[8.853657] (-) TimerEvent: {}
+[8.954322] (-) TimerEvent: {}
+[9.054993] (-) TimerEvent: {}
+[9.155659] (-) TimerEvent: {}
+[9.256350] (-) TimerEvent: {}
+[9.357058] (-) TimerEvent: {}
+[9.379320] (mpu9250driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[9.457258] (-) TimerEvent: {}
+[9.557931] (-) TimerEvent: {}
+[9.658570] (-) TimerEvent: {}
+[9.759259] (-) TimerEvent: {}
+[9.859943] (-) TimerEvent: {}
+[9.960595] (-) TimerEvent: {}
+[10.061245] (-) TimerEvent: {}
+[10.162087] (-) TimerEvent: {}
+[10.227355] (mpu9250driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.262234] (-) TimerEvent: {}
+[10.307119] (mpu9250driver) StdoutLine: {'line': b'-- Generating done\n'}
+[10.315235] (mpu9250driver) StdoutLine: {'line': b'-- Build files have been written to: /home/r1/r1_ws/build/mpu9250driver\n'}
+[10.351353] (mpu9250driver) CommandEnded: {'returncode': 0}
+[10.353079] (mpu9250driver) JobProgress: {'identifier': 'mpu9250driver', 'progress': 'build'}
+[10.361420] (mpu9250driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/mpu9250driver', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/mpu9250driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.1.24 45478 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/home/r1/r1_ws/install/lex_common_msgs/lib:/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:/home/r1/r1_ws/install/camera_info_manager/lib:/home/r1/r1_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/ai_assistant:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/mpu9250driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 45478 192.168.1.32 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/cv_basics/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/ai_assistant/lib/python3.10/site-packages:/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/lex_common_msgs:/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/camera_info_manager:/home/r1/r1_ws/install/camera_calibration_parsers:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/ai_assistant:/opt/ros/humble')]), 'shell': False}
+[10.364952] (-) TimerEvent: {}
+[10.465811] (-) TimerEvent: {}
+[10.566673] (-) TimerEvent: {}
+[10.619961] (mpu9250driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object lib/mpu9250sensor/CMakeFiles/mpu9250sensor.dir/src/mpu9250sensor.cpp.o\x1b[0m\n'}
+[10.620795] (mpu9250driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object lib/i2c/CMakeFiles/linux_i2c_communicator.dir/src/LinuxI2cCommunicator.cpp.o\x1b[0m\n'}
+[10.666962] (-) TimerEvent: {}
+[10.703426] (mpu9250driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r1/r1_ws/src/mpu9250_driver/lib/i2c/src/LinuxI2cCommunicator.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ki2c/smbus.h: No such file or directory\n'}
+[10.704250] (mpu9250driver) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<i2c/smbus.h>\x1b[m\x1b[K\n'}
+[10.704786] (mpu9250driver) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.705264] (mpu9250driver) StderrLine: {'line': b'compilation terminated.\n'}
+[10.708150] (mpu9250driver) StderrLine: {'line': b'gmake[2]: *** [lib/i2c/CMakeFiles/linux_i2c_communicator.dir/build.make:76: lib/i2c/CMakeFiles/linux_i2c_communicator.dir/src/LinuxI2cCommunicator.cpp.o] Error 1\n'}
+[10.709060] (mpu9250driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:214: lib/i2c/CMakeFiles/linux_i2c_communicator.dir/all] Error 2\n'}
+[10.709750] (mpu9250driver) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.767135] (-) TimerEvent: {}
+[10.867940] (-) TimerEvent: {}
+[10.968661] (-) TimerEvent: {}
+[11.069393] (-) TimerEvent: {}
+[11.170143] (-) TimerEvent: {}
+[11.270916] (-) TimerEvent: {}
+[11.371658] (-) TimerEvent: {}
+[11.472389] (-) TimerEvent: {}
+[11.573155] (-) TimerEvent: {}
+[11.673997] (-) TimerEvent: {}
+[11.774702] (-) TimerEvent: {}
+[11.875424] (-) TimerEvent: {}
+[11.976159] (-) TimerEvent: {}
+[12.076904] (-) TimerEvent: {}
+[12.177697] (-) TimerEvent: {}
+[12.278443] (-) TimerEvent: {}
+[12.379192] (-) TimerEvent: {}
+[12.479928] (-) TimerEvent: {}
+[12.580616] (-) TimerEvent: {}
+[12.681367] (-) TimerEvent: {}
+[12.782189] (-) TimerEvent: {}
+[12.883073] (-) TimerEvent: {}
+[12.934140] (mpu9250driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libmpu9250sensor.a\x1b[0m\n'}
+[12.983256] (-) TimerEvent: {}
+[13.083976] (-) TimerEvent: {}
+[13.184758] (-) TimerEvent: {}
+[13.250211] (mpu9250driver) StdoutLine: {'line': b'[ 50%] Built target mpu9250sensor\n'}
+[13.254297] (mpu9250driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.260816] (mpu9250driver) CommandEnded: {'returncode': 2}
+[13.285072] (-) TimerEvent: {}
+[13.385924] (-) TimerEvent: {}
+[13.486802] (-) TimerEvent: {}
+[13.524527] (mpu9250driver) JobEnded: {'identifier': 'mpu9250driver', 'rc': 2}
+[13.536025] (-) EventReactorShutdown: {}

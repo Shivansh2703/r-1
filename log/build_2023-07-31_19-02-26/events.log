@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.001223] (-) JobUnselected: {'identifier': 'Adafruit_PCA9685'}
+[0.001505] (-) JobUnselected: {'identifier': 'ai_assistant'}
+[0.001608] (-) JobUnselected: {'identifier': 'camera'}
+[0.001735] (-) JobUnselected: {'identifier': 'control'}
+[0.001987] (-) JobUnselected: {'identifier': 'mpu9250driver'}
+[0.002068] (-) JobUnselected: {'identifier': 'voice'}
+[0.002501] (-) EventReactorShutdown: {}

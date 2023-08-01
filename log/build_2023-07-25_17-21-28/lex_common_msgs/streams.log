@@ -1,0 +1,206 @@
+[0.216s] Invoking command in '/home/r1/r1_ws/build/lex_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/lex_common_msgs -- -j4 -l4
+[4.052s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_generator_c[0m
+[4.054s] [  2%] Built target lex_common_msgs__cpp
+[4.055s] [ 12%] Built target lex_common_msgs__rosidl_generator_c
+[4.056s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.056s] [ 12%] Built target ament_cmake_python_copy_lex_common_msgs
+[4.056s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_cpp[0m
+[4.057s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.057s] [ 23%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_cpp
+[4.058s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.058s] [ 33%] Built target lex_common_msgs__rosidl_typesupport_introspection_cpp
+[4.058s] [ 43%] Built target lex_common_msgs__rosidl_typesupport_cpp
+[4.059s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_introspection_c[0m
+[4.059s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_c[0m
+[4.059s] [ 53%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c
+[4.060s] [ 64%] Built target lex_common_msgs__rosidl_typesupport_introspection_c
+[4.060s] [ 74%] Built target lex_common_msgs__rosidl_typesupport_c
+[4.060s] [ 74%] Built target lex_common_msgs
+[4.061s] [ 76%] Built target lex_common_msgs__py
+[4.061s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_generator_py[0m
+[4.061s] [ 84%] Built target lex_common_msgs__rosidl_generator_py
+[4.062s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.062s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.062s] [35m[1mConsolidate compiler generated dependencies of target lex_common_msgs__rosidl_typesupport_c__pyext[0m
+[4.063s] [ 89%] Built target lex_common_msgs__rosidl_typesupport_introspection_c__pyext
+[4.064s] [ 94%] Built target lex_common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.064s] [100%] Built target lex_common_msgs__rosidl_typesupport_c__pyext
+[4.064s] running egg_info
+[4.065s] writing lex_common_msgs.egg-info/PKG-INFO
+[4.065s] writing dependency_links to lex_common_msgs.egg-info/dependency_links.txt
+[4.065s] writing top-level names to lex_common_msgs.egg-info/top_level.txt
+[4.066s] reading manifest file 'lex_common_msgs.egg-info/SOURCES.txt'
+[4.066s] writing manifest file 'lex_common_msgs.egg-info/SOURCES.txt'
+[4.066s] [100%] Built target ament_cmake_python_build_lex_common_msgs_egg
+[4.069s] Invoked command in '/home/r1/r1_ws/build/lex_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/r1/r1_ws/build/lex_common_msgs -- -j4 -l4
+[5.828s] Invoking command in '/home/r1/r1_ws/build/lex_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/lex_common_msgs
+[5.880s] -- Install configuration: ""
+[5.881s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/rosidl_interfaces/lex_common_msgs
+[5.886s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs
+[5.887s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg
+[5.888s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/key_value.h
+[5.889s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail
+[5.890s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__functions.c
+[5.891s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__struct.h
+[5.893s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__type_support.h
+[5.894s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__functions.h
+[5.895s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.897s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv
+[5.898s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail
+[5.899s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__type_support.h
+[5.900s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__functions.c
+[5.902s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__functions.h
+[5.903s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__struct.h
+[5.905s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/audio_text_conversation.h
+[5.908s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/library_path.sh
+[5.910s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/library_path.dsv
+[5.917s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_c.so
+[5.921s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_c.so" to ""
+[5.923s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs
+[5.925s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg
+[5.928s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.931s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail
+[5.933s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[5.935s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv
+[5.937s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail
+[5.939s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_fastrtps_c.h
+[5.942s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_c.so
+[5.946s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.948s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs
+[5.949s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg
+[5.951s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/key_value.hpp
+[5.954s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail
+[5.956s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__traits.hpp
+[5.958s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__builder.hpp
+[5.962s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__struct.hpp
+[5.964s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv
+[5.966s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/audio_text_conversation.hpp
+[5.967s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail
+[5.968s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__traits.hpp
+[5.970s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__builder.hpp
+[5.972s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__struct.hpp
+[5.974s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs
+[5.975s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg
+[5.976s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail
+[5.977s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/dds_fastrtps
+[5.977s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[5.979s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.981s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv
+[5.982s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail
+[5.983s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_fastrtps_cpp.hpp
+[5.985s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/dds_fastrtps
+[5.987s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.993s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.994s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs
+[5.996s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg
+[5.998s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail
+[6.000s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[6.003s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__type_support.c
+[6.006s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.009s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv
+[6.010s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail
+[6.013s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_introspection_c.h
+[6.017s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__type_support.c
+[6.020s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_c.so
+[6.025s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.027s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_c.so
+[6.031s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_c.so" to ""
+[6.032s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs
+[6.034s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg
+[6.036s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail
+[6.038s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[6.042s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/msg/detail/key_value__type_support.cpp
+[6.045s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv
+[6.047s] -- Up-to-date: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail
+[6.049s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__rosidl_typesupport_introspection_cpp.hpp
+[6.052s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/include/lex_common_msgs/lex_common_msgs/srv/detail/audio_text_conversation__type_support.cpp
+[6.056s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_cpp.so
+[6.062s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.064s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_cpp.so
+[6.069s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_typesupport_cpp.so" to ""
+[6.071s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/pythonpath.sh
+[6.075s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/pythonpath.dsv
+[6.079s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info
+[6.081s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/dependency_links.txt
+[6.084s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/top_level.txt
+[6.087s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/SOURCES.txt
+[6.090s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs-3.1.0-py3.10.egg-info/PKG-INFO
+[6.093s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs
+[6.095s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.098s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg
+[6.100s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/_key_value.py
+[6.103s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/__init__.py
+[6.107s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/_key_value_s.c
+[6.111s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.114s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.117s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.120s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/__init__.py
+[6.123s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/_lex_common_msgs_s.ep.rosidl_typesupport_c.c
+[6.126s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/liblex_common_msgs__rosidl_generator_py.so
+[6.129s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.133s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv
+[6.135s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/__init__.py
+[6.138s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/_audio_text_conversation_s.c
+[6.143s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/_audio_text_conversation.py
+[6.418s] Listing '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs'...
+[6.419s] Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/__init__.py'...
+[6.420s] Listing '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg'...
+[6.420s] Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/__init__.py'...
+[6.421s] Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/msg/_key_value.py'...
+[6.421s] Listing '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv'...
+[6.422s] Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/__init__.py'...
+[6.422s] Compiling '/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/srv/_audio_text_conversation.py'...
+[6.463s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.467s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[6.470s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.475s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[6.478s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.482s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/local/lib/python3.10/dist-packages/lex_common_msgs/lex_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[6.484s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_py.so
+[6.488s] -- Set runtime path of "/home/r1/r1_ws/install/lex_common_msgs/lib/liblex_common_msgs__rosidl_generator_py.so" to ""
+[6.490s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/msg/KeyValue.idl
+[6.493s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation.idl
+[6.496s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/msg/KeyValue.msg
+[6.499s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation.srv
+[6.502s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation_Request.msg
+[6.505s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/srv/AudioTextConversation_Response.msg
+[6.509s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/package_run_dependencies/lex_common_msgs
+[6.513s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/parent_prefix_path/lex_common_msgs
+[6.516s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/ament_prefix_path.sh
+[6.520s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/ament_prefix_path.dsv
+[6.523s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/path.sh
+[6.526s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/environment/path.dsv
+[6.529s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.bash
+[6.532s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.sh
+[6.536s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.zsh
+[6.539s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/local_setup.dsv
+[6.542s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/package.dsv
+[6.545s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/ament_index/resource_index/packages/lex_common_msgs
+[6.550s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_cExport.cmake
+[6.553s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.557s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.560s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.565s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_cppExport.cmake
+[6.568s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.572s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.576s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.579s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.583s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cExport.cmake
+[6.586s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.589s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.593s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.596s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cppExport.cmake
+[6.600s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.603s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_pyExport.cmake
+[6.606s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/export_lex_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.610s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/rosidl_cmake-extras.cmake
+[6.613s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.616s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.620s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.623s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.626s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.629s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.632s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgsConfig.cmake
+[6.635s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/cmake/lex_common_msgsConfig-version.cmake
+[6.638s] -- Installing: /home/r1/r1_ws/install/lex_common_msgs/share/lex_common_msgs/package.xml
+[6.652s] Invoked command in '/home/r1/r1_ws/build/lex_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/cv_basics:/home/r1/r1_ws/install/camera:/home/r1/r1_ws/install/control:/opt/ros/humble /usr/bin/cmake --install /home/r1/r1_ws/build/lex_common_msgs

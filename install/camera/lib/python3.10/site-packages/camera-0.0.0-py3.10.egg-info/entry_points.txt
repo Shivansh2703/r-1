@@ -1,0 +1,6 @@
+[console_scripts]
+camera_node = camera.camera_node:main
+frames_sub = camera.frame_subscriber:main
+img_pub = camera.camera_publisher:main
+path_planning_node = camera.path_planning:main
+

@@ -1,0 +1,46 @@
+[0.293s] Invoking command in '/home/r1/r1_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/r1/r1_ws/install/image_transport:/home/r1/r1_ws/install/cv_bridge:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/r1/r1_ws/install/image_transport/lib:/home/r1/r1_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/r1/r1_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/r1/r1_ws/build/theora_image_transport -- -j4 -l4
+[0.966s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_generator_c[0m
+[1.142s] [  2%] Built target theora_image_transport__cpp
+[1.253s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[1.411s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp[0m
+[1.602s] [ 18%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[1.718s] [ 18%] Built target ament_cmake_python_copy_theora_image_transport
+[1.775s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp[0m
+[1.889s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c[0m
+[1.975s] [ 27%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[2.098s] [ 35%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[2.114s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_c[0m
+[2.254s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_c[0m
+[2.312s] [ 43%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[2.453s] [ 51%] Built target theora_image_transport__rosidl_typesupport_c
+[2.626s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_cpp[0m
+[2.838s] [ 59%] Built target theora_image_transport__rosidl_typesupport_cpp
+[8.362s] running egg_info
+[8.368s] writing theora_image_transport.egg-info/PKG-INFO
+[8.379s] writing dependency_links to theora_image_transport.egg-info/dependency_links.txt
+[8.382s] writing top-level names to theora_image_transport.egg-info/top_level.txt
+[8.433s] reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[8.450s] writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[8.735s] [ 59%] Built target ament_cmake_python_build_theora_image_transport_egg
+[8.807s] [35m[1mConsolidate compiler generated dependencies of target ogg_saver[0m
+[9.046s] [ 64%] Built target ogg_saver
+[9.243s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport_component[0m
+[9.504s] [ 67%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+[12.516s] In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:39[m[K,
+[12.517s]                  from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35[m[K:
+[12.519s] [01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[12.521s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[12.523s]       |  [01;35m[K^~~~~~~[m[K
+[32.003s] [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void theora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*, const string&, uint32_t, rmw_qos_profile_t)[m[K’:
+[32.004s] [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:90:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktheora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)[m[K’
+[32.005s]    90 |   [01;31m[KBase::advertiseImpl(node, base_topic, custom_qos)[m[K;
+[32.006s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.007s] In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:38[m[K,
+[32.008s]                  from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35[m[K:
+[32.008s] [01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = theora_image_transport::msg::Packet_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >][m[K’
+[32.009s]   101 |   void [01;36m[KadvertiseImpl[m[K(
+[32.010s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[32.012s] [01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[36.752s] gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:76: CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o] Error 1
+[36.753s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/theora_image_transport_component.dir/all] Error 2
+[36.755s] gmake: *** [Makefile:146: all] Error 2

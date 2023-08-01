@@ -1,0 +1,25 @@
+[6.770s] Invoking command in '/home/r1/r1_ws/build/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/r1/r1_ws/build/voice/build --no-deps install_data
+[8.539s] running develop
+[8.549s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.549s]   warnings.warn(
+[8.555s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.556s]   warnings.warn(
+[8.965s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[8.967s]   warnings.warn(
+[8.968s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[8.969s]   warnings.warn(
+[9.697s] running egg_info
+[9.699s] writing voice.egg-info/PKG-INFO
+[9.702s] writing dependency_links to voice.egg-info/dependency_links.txt
+[9.704s] writing entry points to voice.egg-info/entry_points.txt
+[9.705s] writing requirements to voice.egg-info/requires.txt
+[9.705s] writing top-level names to voice.egg-info/top_level.txt
+[9.713s] reading manifest file 'voice.egg-info/SOURCES.txt'
+[9.716s] writing manifest file 'voice.egg-info/SOURCES.txt'
+[9.723s] running build_ext
+[9.725s] Creating /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice.egg-link (link to .)
+[9.735s] Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice
+[9.738s] 
+[9.740s] Installed /home/r1/r1_ws/build/voice
+[9.740s] running install_data
+[9.934s] Invoked command in '/home/r1/r1_ws/build/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/r1/r1_ws/build/voice/build --no-deps install_data

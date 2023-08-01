@@ -1,0 +1,43 @@
+[9.588s] Invoking command in '/home/r1/r1_ws/build/camera': PYTHONPATH=/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/camera/build
+[11.753s] running develop
+[11.769s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.770s]   warnings.warn(
+[11.781s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.782s]   warnings.warn(
+[12.674s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[12.675s]   warnings.warn(
+[12.676s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[12.685s]   warnings.warn(
+[14.078s] Invoked command in '/home/r1/r1_ws/build/camera' returned '0': PYTHONPATH=/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r1/r1_ws/build/camera/build
+[14.080s] Invoking command in '/home/r1/r1_ws/src/camera': PYTHONPATH=/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera build --build-base /home/r1/r1_ws/build/camera/build install --record /home/r1/r1_ws/build/camera/install.log --single-version-externally-managed
+[16.465s] running egg_info
+[16.468s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[16.470s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[16.472s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[16.473s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[16.475s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[16.499s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[16.507s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[16.509s] running build
+[16.511s] running build_py
+[16.517s] copying camera/camera_node.py -> /home/r1/r1_ws/build/camera/build/lib/camera
+[16.520s] copying camera/path_planning.py -> /home/r1/r1_ws/build/camera/build/lib/camera
+[16.522s] running install
+[16.524s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.525s]   warnings.warn(
+[16.527s] running install_lib
+[16.536s] copying /home/r1/r1_ws/build/camera/build/lib/camera/camera_node.py -> /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera
+[16.539s] copying /home/r1/r1_ws/build/camera/build/lib/camera/path_planning.py -> /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera
+[16.545s] byte-compiling /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera/camera_node.py to camera_node.cpython-310.pyc
+[16.549s] byte-compiling /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera/path_planning.py to path_planning.cpython-310.pyc
+[16.553s] running install_data
+[16.557s] running install_egg_info
+[16.567s] removing '/home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[16.570s] Copying ../../build/camera/camera.egg-info to /home/r1/r1_ws/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[16.579s] running install_scripts
+[16.681s] Installing camera_node script to /home/r1/r1_ws/install/camera/lib/camera
+[16.682s] Installing frames_sub script to /home/r1/r1_ws/install/camera/lib/camera
+[16.684s] Installing img_pub script to /home/r1/r1_ws/install/camera/lib/camera
+[16.686s] Installing path_planning_node script to /home/r1/r1_ws/install/camera/lib/camera
+[16.689s] writing list of installed files to '/home/r1/r1_ws/build/camera/install.log'
+[16.862s] Invoked command in '/home/r1/r1_ws/src/camera' returned '0': PYTHONPATH=/home/r1/r1_ws/build/camera/prefix_override:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera build --build-base /home/r1/r1_ws/build/camera/build install --record /home/r1/r1_ws/build/camera/install.log --single-version-externally-managed

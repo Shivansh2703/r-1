@@ -1,0 +1,16 @@
+Question: what is 2+2 ?
+Answer: 4
+Question: what is the gravity of earth ?
+Answer: The gravity of Earth is 9.81 m/s^2.
+Question: how much should be the velocity of a ball to through it to space from earth ?
+Answer: The velocity of a ball needed to escape Earth's gravity and enter space depends on the altitude from which it is launched. For example, if a ball is launched from the surface of Earth, it would need to be travelling at a velocity of around 11.2 km/s to escape the planet's gravity.
+Question: that's absolutely right answer
+Answer: Thank you for your question!
+Question: 
+Answer: Thank you for your question!
+Question: 
+Answer: Thank you for your question!
+Question: wakeup
+Answer: Thank you for your question!
+Question: who are you ?
+Answer: i am r1 designed by kuldeep

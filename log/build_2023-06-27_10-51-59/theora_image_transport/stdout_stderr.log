@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_generator_c[0m
+[  2%] Built target theora_image_transport__cpp
+[ 10%] Built target theora_image_transport__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp[0m
+[ 18%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[ 18%] Built target ament_cmake_python_copy_theora_image_transport
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c[0m
+[ 27%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[ 35%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_c[0m
+[ 43%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[ 51%] Built target theora_image_transport__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_cpp[0m
+[ 59%] Built target theora_image_transport__rosidl_typesupport_cpp
+running egg_info
+writing theora_image_transport.egg-info/PKG-INFO
+writing dependency_links to theora_image_transport.egg-info/dependency_links.txt
+writing top-level names to theora_image_transport.egg-info/top_level.txt
+reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[ 59%] Built target ament_cmake_python_build_theora_image_transport_egg
+[35m[1mConsolidate compiler generated dependencies of target ogg_saver[0m
+[ 64%] Built target ogg_saver
+[35m[1mConsolidate compiler generated dependencies of target theora_image_transport_component[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:39[m[K,
+                 from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void theora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*, const string&, uint32_t, rmw_qos_profile_t)[m[K’:
+[01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:90:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktheora_image_transport::TheoraPublisher::advertiseImpl(rclcpp::Node*&, const string&, rmw_qos_profile_t&)[m[K’
+   90 |   [01;31m[KBase::advertiseImpl(node, base_topic, custom_qos)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/include/theora_image_transport/theora_publisher.h:38[m[K,
+                 from [01m[K/home/r1/r1_ws/src/image_transport_plugins/theora_image_transport/src/theora_publisher.cpp:35[m[K:
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::SimplePublisherPlugin<M>::advertiseImpl(rclcpp::Node*, const string&, rmw_qos_profile_t, rclcpp::PublisherOptions) [with M = theora_image_transport::msg::Packet_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::PublisherOptions = rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >][m[K’
+  101 |   void [01;36m[KadvertiseImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/r1/r1_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp:101:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:76: CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/theora_image_transport_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

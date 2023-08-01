@@ -1,0 +1,48 @@
+[6.667s] Invoking command in '/home/r1/r1_ws/src/control': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed
+[8.164s] running egg_info
+[8.167s] writing ../../build/control/control.egg-info/PKG-INFO
+[8.171s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[8.172s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[8.174s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[8.175s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[8.189s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[8.194s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[8.195s] running build
+[8.196s] running build_py
+[8.202s] copying control/ultrasonic.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.203s] copying control/sensors.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.206s] copying control/servos_cp.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.211s] copying control/eyes.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.213s] copying control/base.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.217s] copying control/servos.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.217s] copying control/infrared_right.py -> /home/r1/r1_ws/build/control/build/lib/control
+[8.221s] running install
+[8.222s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.223s]   warnings.warn(
+[8.225s] running install_lib
+[8.228s] copying /home/r1/r1_ws/build/control/build/lib/control/ultrasonic.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.232s] copying /home/r1/r1_ws/build/control/build/lib/control/sensors.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.234s] copying /home/r1/r1_ws/build/control/build/lib/control/servos_cp.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.235s] copying /home/r1/r1_ws/build/control/build/lib/control/eyes.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.236s] copying /home/r1/r1_ws/build/control/build/lib/control/base.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.238s] copying /home/r1/r1_ws/build/control/build/lib/control/servos.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.239s] copying /home/r1/r1_ws/build/control/build/lib/control/infrared_right.py -> /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control
+[8.245s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/ultrasonic.py to ultrasonic.cpython-310.pyc
+[8.246s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/sensors.py to sensors.cpython-310.pyc
+[8.249s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/servos_cp.py to servos_cp.cpython-310.pyc
+[8.251s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/eyes.py to eyes.cpython-310.pyc
+[8.253s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/base.py to base.cpython-310.pyc
+[8.257s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/servos.py to servos.cpython-310.pyc
+[8.260s] byte-compiling /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control/infrared_right.py to infrared_right.cpython-310.pyc
+[8.263s] running install_data
+[8.266s] running install_egg_info
+[8.275s] removing '/home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[8.277s] Copying ../../build/control/control.egg-info to /home/r1/r1_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[8.285s] running install_scripts
+[8.408s] Installing base_sub script to /home/r1/r1_ws/install/control/lib/control
+[8.412s] Installing ir_left_pub script to /home/r1/r1_ws/install/control/lib/control
+[8.414s] Installing ir_right_pub script to /home/r1/r1_ws/install/control/lib/control
+[8.418s] Installing sensors_sub script to /home/r1/r1_ws/install/control/lib/control
+[8.420s] Installing us_pub script to /home/r1/r1_ws/install/control/lib/control
+[8.423s] writing list of installed files to '/home/r1/r1_ws/build/control/install.log'
+[8.728s] Invoked command in '/home/r1/r1_ws/src/control' returned '0': PYTHONPATH=/home/r1/r1_ws/build/control/prefix_override:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/r1/r1_ws/build/control/build install --record /home/r1/r1_ws/build/control/install.log --single-version-externally-managed

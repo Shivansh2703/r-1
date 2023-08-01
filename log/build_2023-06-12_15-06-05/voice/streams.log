@@ -1,0 +1,26 @@
+[7.866s] Invoking command in '/home/r1/r1_ws/src/voice': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed
+[10.165s] running egg_info
+[10.168s] writing ../../build/voice/voice.egg-info/PKG-INFO
+[10.172s] writing dependency_links to ../../build/voice/voice.egg-info/dependency_links.txt
+[10.175s] writing entry points to ../../build/voice/voice.egg-info/entry_points.txt
+[10.178s] writing requirements to ../../build/voice/voice.egg-info/requires.txt
+[10.182s] writing top-level names to ../../build/voice/voice.egg-info/top_level.txt
+[10.195s] reading manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[10.203s] writing manifest file '../../build/voice/voice.egg-info/SOURCES.txt'
+[10.205s] running build
+[10.206s] running build_py
+[10.209s] copying voice/detection_subscriber.py -> /home/r1/r1_ws/build/voice/build/lib/voice
+[10.215s] running install
+[10.217s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.218s]   warnings.warn(
+[10.221s] running install_lib
+[10.228s] copying /home/r1/r1_ws/build/voice/build/lib/voice/detection_subscriber.py -> /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice
+[10.237s] byte-compiling /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice/detection_subscriber.py to detection_subscriber.cpython-310.pyc
+[10.253s] running install_data
+[10.258s] running install_egg_info
+[10.273s] removing '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info' (and everything under it)
+[10.284s] Copying ../../build/voice/voice.egg-info to /home/r1/r1_ws/install/voice/lib/python3.10/site-packages/voice-0.0.0-py3.10.egg-info
+[10.324s] running install_scripts
+[10.465s] Installing voice_sub script to /home/r1/r1_ws/install/voice/lib/voice
+[10.476s] writing list of installed files to '/home/r1/r1_ws/build/voice/install.log'
+[10.690s] Invoked command in '/home/r1/r1_ws/src/voice' returned '0': PYTHONPATH=/home/r1/r1_ws/build/voice/prefix_override:/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice build --build-base /home/r1/r1_ws/build/voice/build install --record /home/r1/r1_ws/build/voice/install.log --single-version-externally-managed

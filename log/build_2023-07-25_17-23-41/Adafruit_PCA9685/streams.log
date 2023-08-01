@@ -1,0 +1,21 @@
+[6.639s] Invoking command in '/home/r1/r1_ws/src/Adafruit_Python_PCA9685': PYTHONPATH=/home/r1/r1_ws/build/Adafruit_PCA9685/prefix_override:/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Adafruit_PCA9685 build --build-base /home/r1/r1_ws/build/Adafruit_PCA9685/build install --record /home/r1/r1_ws/build/Adafruit_PCA9685/install.log --single-version-externally-managed
+[8.759s] running egg_info
+[8.763s] writing ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/PKG-INFO
+[8.765s] writing dependency_links to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/dependency_links.txt
+[8.767s] writing requirements to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/requires.txt
+[8.768s] writing top-level names to ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/top_level.txt
+[8.782s] reading manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'
+[8.783s] adding license file 'LICENSE'
+[8.786s] writing manifest file '../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info/SOURCES.txt'
+[8.787s] running build
+[8.788s] running build_py
+[8.789s] running install
+[8.790s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.791s]   warnings.warn(
+[8.792s] running install_lib
+[8.800s] running install_egg_info
+[8.811s] removing '/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685-1.0.1-py3.10.egg-info' (and everything under it)
+[8.814s] Copying ../../build/Adafruit_PCA9685/Adafruit_PCA9685.egg-info to /home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages/Adafruit_PCA9685-1.0.1-py3.10.egg-info
+[8.821s] running install_scripts
+[8.949s] writing list of installed files to '/home/r1/r1_ws/build/Adafruit_PCA9685/install.log'
+[9.135s] Invoked command in '/home/r1/r1_ws/src/Adafruit_Python_PCA9685' returned '0': PYTHONPATH=/home/r1/r1_ws/build/Adafruit_PCA9685/prefix_override:/home/r1/r1_ws/install/Adafruit_PCA9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Adafruit_PCA9685 build --build-base /home/r1/r1_ws/build/Adafruit_PCA9685/build install --record /home/r1/r1_ws/build/Adafruit_PCA9685/install.log --single-version-externally-managed

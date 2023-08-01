@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ai_assistant/ai_assistant.egg-info/PKG-INFO
+../../build/ai_assistant/ai_assistant.egg-info/SOURCES.txt
+../../build/ai_assistant/ai_assistant.egg-info/dependency_links.txt
+../../build/ai_assistant/ai_assistant.egg-info/entry_points.txt
+../../build/ai_assistant/ai_assistant.egg-info/requires.txt
+../../build/ai_assistant/ai_assistant.egg-info/top_level.txt
+../../build/ai_assistant/ai_assistant.egg-info/zip-safe
+ai_assistant/__init__.py
+ai_assistant/main.py
+ai_assistant/r1.py
+resource/ai_assistant
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

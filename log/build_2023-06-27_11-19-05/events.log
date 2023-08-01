@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.002172] (-) JobUnselected: {'identifier': 'camera'}
+[0.006888] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.007387] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.008179] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.008681] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.012414] (-) JobUnselected: {'identifier': 'control'}
+[0.012805] (-) JobUnselected: {'identifier': 'image_common'}
+[0.012926] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.013123] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.013212] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.013300] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.013394] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.013472] (-) JobUnselected: {'identifier': 'voice'}
+[0.016480] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.018397] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.018634] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/r1/r1_ws/install/cv_bridge'), ('image_geometry', '/home/r1/r1_ws/install/image_geometry')])}
+[0.018761] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.073619] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.097227] (-) TimerEvent: {}
+[0.128498] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.132828] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/vision_opencv/cv_bridge', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/cv_bridge'], 'cwd': '/home/r1/r1_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.126 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.126 51470 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.161529] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'cmake'}
+[0.167319] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '/home/r1/r1_ws/src/vision_opencv/image_geometry', '-DCMAKE_INSTALL_PREFIX=/home/r1/r1_ws/install/image_geometry'], 'cwd': '/home/r1/r1_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.126 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.126 51470 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.197501] (-) TimerEvent: {}
+[0.228091] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.266145] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_python: 1.3.4 (/opt/ros/humble/share/ament_cmake_python/cmake)\n'}
+[0.268528] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.297659] (-) TimerEvent: {}
+[0.399224] (-) TimerEvent: {}
+[0.502063] (-) TimerEvent: {}
+[0.604120] (-) TimerEvent: {}
+[0.705804] (-) TimerEvent: {}
+[0.808744] (-) TimerEvent: {}
+[0.911111] (-) TimerEvent: {}
+[1.015379] (-) TimerEvent: {}
+[1.076508] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.115916] (-) TimerEvent: {}
+[1.217583] (-) TimerEvent: {}
+[1.319324] (-) TimerEvent: {}
+[1.420845] (-) TimerEvent: {}
+[1.523189] (-) TimerEvent: {}
+[1.624658] (-) TimerEvent: {}
+[1.683851] (image_geometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.689109] (cv_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.727683] (-) TimerEvent: {}
+[1.829161] (-) TimerEvent: {}
+[1.930692] (-) TimerEvent: {}
+[2.032199] (-) TimerEvent: {}
+[2.134247] (-) TimerEvent: {}
+[2.239898] (-) TimerEvent: {}
+[2.359666] (-) TimerEvent: {}
+[2.420881] (image_geometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.460118] (-) TimerEvent: {}
+[2.563370] (-) TimerEvent: {}
+[2.665279] (-) TimerEvent: {}
+[2.754750] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.765854] (-) TimerEvent: {}
+[2.778407] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.820550] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.865932] (-) TimerEvent: {}
+[2.887404] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.966477] (-) TimerEvent: {}
+[3.005899] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.066847] (-) TimerEvent: {}
+[3.171257] (-) TimerEvent: {}
+[3.273326] (-) TimerEvent: {}
+[3.375158] (-) TimerEvent: {}
+[3.476639] (-) TimerEvent: {}
+[3.578496] (-) TimerEvent: {}
+[3.680695] (-) TimerEvent: {}
+[3.781789] (-) TimerEvent: {}
+[3.884508] (-) TimerEvent: {}
+[3.995802] (-) TimerEvent: {}
+[4.098320] (-) TimerEvent: {}
+[4.199619] (-) TimerEvent: {}
+[4.307374] (-) TimerEvent: {}
+[4.411807] (-) TimerEvent: {}
+[4.513611] (-) TimerEvent: {}
+[4.623264] (-) TimerEvent: {}
+[4.726317] (-) TimerEvent: {}
+[4.810708] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.10 (found version "3.10.6") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[4.819813] (image_geometry) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.826838] (-) TimerEvent: {}
+[4.922462] (cv_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.927281] (-) TimerEvent: {}
+[5.030713] (-) TimerEvent: {}
+[5.132404] (-) TimerEvent: {}
+[5.231551] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.232537] (-) TimerEvent: {}
+[5.253657] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.295746] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.332793] (-) TimerEvent: {}
+[5.370212] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.433085] (-) TimerEvent: {}
+[5.521566] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.533565] (-) TimerEvent: {}
+[5.619320] (image_geometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.633742] (-) TimerEvent: {}
+[5.734656] (-) TimerEvent: {}
+[5.756783] (image_geometry) StdoutLine: {'line': b'-- Generating done\n'}
+[5.784042] (image_geometry) StdoutLine: {'line': b'-- Build files have been written to: /home/r1/r1_ws/build/image_geometry\n'}
+[5.834939] (-) TimerEvent: {}
+[5.845443] (image_geometry) CommandEnded: {'returncode': 0}
+[5.850129] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'build'}
+[5.861542] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r1/r1_ws/build/image_geometry', '--', '-j4', '-l4'], 'cwd': '/home/r1/r1_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r1'), ('SSH_CLIENT', '192.168.0.126 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/r1/r1_ws/install/v4l2_camera/lib:/home/r1/r1_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/r1'), ('OLDPWD', '/home/r1/r1_ws/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/r1/r1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/r1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r1/esp/xtensa-esp32-elf/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r1/r1_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.126 51470 192.168.0.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r1/r1_ws/install/voice/lib/python3.10/site-packages:/home/r1/r1_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/r1/r1_ws/install/control/lib/python3.10/site-packages:/home/r1/r1_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/r1/r1_ws/install/v4l2_camera:/home/r1/r1_ws/install/turtlesim:/home/r1/r1_ws/install/voice:/home/r1/r1_ws/install/control:/home/r1/r1_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[5.935613] (-) TimerEvent: {}
+[6.030655] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.035730] (-) TimerEvent: {}
+[6.043008] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.136515] (-) TimerEvent: {}
+[6.191085] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_geometry\x1b[0m\n'}
+[6.203890] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[6.228111] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[6.237158] (-) TimerEvent: {}
+[6.317841] (image_geometry) StdoutLine: {'line': b'[ 33%] Built target image_geometry\n'}
+[6.337323] (-) TimerEvent: {}
+[6.369468] (image_geometry) StdoutLine: {'line': b'[ 55%] Built target gtest\n'}
+[6.375777] (image_geometry) StderrLine: {'line': b"failed to create symbolic link '/home/r1/r1_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory\n"}
+[6.385127] (image_geometry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1\n'}
+[6.387817] (image_geometry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2\n'}
+[6.389376] (image_geometry) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.397281] (image_geometry) StdoutLine: {'line': b'[ 77%] Built target gtest_main\n'}
+[6.403862] (image_geometry) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.430624] (image_geometry) CommandEnded: {'returncode': 2}
+[6.438548] (-) TimerEvent: {}
+[6.543656] (-) TimerEvent: {}
+[6.648856] (-) TimerEvent: {}
+[6.750886] (-) TimerEvent: {}
+[6.852013] (-) TimerEvent: {}
+[6.917870] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 2}
+[6.952444] (-) TimerEvent: {}
+[7.053809] (-) TimerEvent: {}
+[7.154601] (-) TimerEvent: {}
+[7.255436] (-) TimerEvent: {}
+[7.356212] (-) TimerEvent: {}
+[7.457049] (-) TimerEvent: {}
+[7.466956] (cv_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.557461] (-) TimerEvent: {}
+[7.661157] (-) TimerEvent: {}
+[7.762098] (-) TimerEvent: {}
+[7.862961] (-) TimerEvent: {}
+[7.963905] (-) TimerEvent: {}
+[8.065138] (-) TimerEvent: {}
+[8.167293] (-) TimerEvent: {}
+[8.238693] (cv_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.267679] (-) TimerEvent: {}
+[8.369858] (-) TimerEvent: {}
+[8.471487] (-) TimerEvent: {}
+[8.572672] (-) TimerEvent: {}
+[8.673487] (-) TimerEvent: {}
+[8.774514] (-) TimerEvent: {}
+[8.875911] (-) TimerEvent: {}
+[8.976875] (-) TimerEvent: {}
+[9.080480] (-) TimerEvent: {}
+[9.182579] (-) TimerEvent: {}
+[9.283762] (-) TimerEvent: {}
+[9.337533] (cv_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.383922] (-) TimerEvent: {}
+[9.485169] (-) TimerEvent: {}
+[9.585903] (-) TimerEvent: {}
+[9.686934] (-) TimerEvent: {}
+[9.788098] (-) TimerEvent: {}
+[9.849911] (cv_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[9.888235] (-) TimerEvent: {}
+[9.989168] (-) TimerEvent: {}
+[10.090163] (-) TimerEvent: {}
+[10.191183] (-) TimerEvent: {}
+[10.293323] (-) TimerEvent: {}
+[10.394248] (-) TimerEvent: {}
+[10.495096] (-) TimerEvent: {}
+[10.595972] (-) TimerEvent: {}
+[10.696818] (-) TimerEvent: {}
+[10.797631] (-) TimerEvent: {}
+[10.898860] (-) TimerEvent: {}
+[10.999852] (-) TimerEvent: {}
+[11.101203] (-) TimerEvent: {}
+[11.202625] (-) TimerEvent: {}
+[11.305115] (-) TimerEvent: {}
+[11.408005] (-) TimerEvent: {}
+[11.508942] (-) TimerEvent: {}
+[11.610440] (-) TimerEvent: {}
+[11.711780] (-) TimerEvent: {}
+[11.812567] (-) TimerEvent: {}
+[11.913803] (-) TimerEvent: {}
+[12.014896] (-) TimerEvent: {}
+[12.118895] (-) TimerEvent: {}
+[12.221053] (-) TimerEvent: {}
+[12.324132] (-) TimerEvent: {}
+[12.425421] (-) TimerEvent: {}
+[12.528260] (-) TimerEvent: {}
+[12.629191] (-) TimerEvent: {}
+[12.730251] (-) TimerEvent: {}
+[12.832153] (-) TimerEvent: {}
+[12.934550] (-) TimerEvent: {}
+[13.036342] (-) TimerEvent: {}
+[13.138191] (-) TimerEvent: {}
+[13.239504] (-) TimerEvent: {}
+[13.340728] (-) TimerEvent: {}
+[13.441542] (-) TimerEvent: {}
+[13.543000] (-) TimerEvent: {}
+[13.643725] (-) TimerEvent: {}
+[13.744559] (-) TimerEvent: {}
+[13.845622] (-) TimerEvent: {}
+[13.946293] (-) TimerEvent: {}
+[14.046990] (-) TimerEvent: {}
+[14.147782] (-) TimerEvent: {}
+[14.248569] (-) TimerEvent: {}
+[14.349336] (-) TimerEvent: {}
+[14.450262] (-) TimerEvent: {}
+[14.551724] (-) TimerEvent: {}
+[14.653423] (-) TimerEvent: {}
+[14.755180] (-) TimerEvent: {}
+[14.856645] (-) TimerEvent: {}
+[14.958037] (-) TimerEvent: {}
+[15.058795] (-) TimerEvent: {}
+[15.159636] (-) TimerEvent: {}
+[15.260456] (-) TimerEvent: {}
+[15.361376] (-) TimerEvent: {}
+[15.462349] (-) TimerEvent: {}
+[15.564196] (-) TimerEvent: {}
+[15.666983] (-) TimerEvent: {}
+[15.768840] (-) TimerEvent: {}
+[15.871136] (-) TimerEvent: {}
+[15.972361] (-) TimerEvent: {}
+[16.073551] (-) TimerEvent: {}
+[16.174984] (-) TimerEvent: {}
+[16.276405] (-) TimerEvent: {}
+[16.377536] (-) TimerEvent: {}
+[16.478341] (-) TimerEvent: {}
+[16.579080] (-) TimerEvent: {}
+[16.679832] (-) TimerEvent: {}
+[16.780739] (-) TimerEvent: {}
+[16.881933] (-) TimerEvent: {}
+[16.983865] (-) TimerEvent: {}
+[17.085809] (-) TimerEvent: {}
+[17.187069] (-) TimerEvent: {}
+[17.288651] (-) TimerEvent: {}
+[17.390014] (-) TimerEvent: {}
+[17.491887] (-) TimerEvent: {}
+[17.594163] (-) TimerEvent: {}
+[17.695259] (-) TimerEvent: {}
+[17.762873] (cv_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.795888] (-) TimerEvent: {}
+[17.899192] (-) TimerEvent: {}
+[17.951181] (cv_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[17.978514] (cv_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/r1/r1_ws/build/cv_bridge\n'}
+[17.999373] (-) TimerEvent: {}
+[18.048983] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 'SIGINT'}
+[18.052981] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[18.053166] (-) EventReactorShutdown: {}

@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lex_common_msgs/srv/AudioTextConversation.srv
+// generated code does not contain a copyright notice
+
+#include "lex_common_msgs/msg/KeyValue.idl"
+
+module lex_common_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "type corresponds to https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PostContent.html content_type")
+    struct AudioTextConversation_Request {
+      string content_type;
+
+      string accept_type;
+
+      string text_request;
+
+      @verbatim (language="comment", text=
+        "used audio data for convenience to work with audio_common")
+      sequence<uint8> audio_request;
+    };
+    struct AudioTextConversation_Response {
+      string text_response;
+
+      sequence<uint8> audio_response;
+
+      sequence<lex_common_msgs::msg::KeyValue> slots;
+
+      string intent_name;
+
+      string message_format_type;
+
+      string dialog_state;
+
+      uint8 error_code;
+
+      string error_message;
+    };
+  };
+};

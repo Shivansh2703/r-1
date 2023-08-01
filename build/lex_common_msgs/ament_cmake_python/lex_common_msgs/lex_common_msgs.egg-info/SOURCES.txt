@@ -1,0 +1,10 @@
+setup.py
+lex_common_msgs/__init__.py
+lex_common_msgs.egg-info/PKG-INFO
+lex_common_msgs.egg-info/SOURCES.txt
+lex_common_msgs.egg-info/dependency_links.txt
+lex_common_msgs.egg-info/top_level.txt
+lex_common_msgs/msg/__init__.py
+lex_common_msgs/msg/_key_value.py
+lex_common_msgs/srv/__init__.py
+lex_common_msgs/srv/_audio_text_conversation.py
